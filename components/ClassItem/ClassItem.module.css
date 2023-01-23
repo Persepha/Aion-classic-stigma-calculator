@@ -1,0 +1,11 @@
+.item {
+    opacity: .5;
+}
+
+.item:hover {
+    opacity: 1;
+}
+
+.selected {
+    opacity: 1;
+}

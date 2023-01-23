@@ -1,0 +1,10 @@
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel {
+    background-color: hsl(0 0% 0% / 0.75);
+    border-radius: 25px;
+}
