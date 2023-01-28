@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    left: 1rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+.input {
+    padding: 0.8rem 0.8rem 0.8rem 5rem;
+    width: 10rem;
+    outline: none;
+    border: none;
+    overflow: hidden;
+    margin: 0;
+    border-radius: 25px;
+    transition: all 0.3s ease 0s;
+    background-color: hsl(0 0% 0% / 0.75);
+    color: white;
+    font-size: 2rem;
+}
+
+.input:focus, .input:hover {
+    box-shadow: 0 0 0 3px rebeccapurple;
+}
