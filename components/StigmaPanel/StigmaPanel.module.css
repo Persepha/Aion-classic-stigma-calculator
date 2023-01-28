@@ -1,0 +1,56 @@
+.panel {
+    display: flex;
+    gap: 2rem;
+    width: fit-content;
+
+    background-color: hsl(0 0% 0% / 0.7);
+    border-radius: 25px;
+}
+
+.stigmaContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 80px);
+    grid-template-rows: repeat(3, 80px);
+    grid-gap: 10px;
+
+    padding: 1rem;
+}
+
+.stigmaSlot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.defaultStigmaSlot{
+    background-image: url('/images/stigma_slots/default stigma slot.png');
+}
+
+.disabledDefaultStigmaSlot{
+    background-image: url('/images/stigma_slots/disabled default stigma slot.png');
+}
+
+.activeDefaultStigmaSlot{
+    background-image: url('/images/stigma_slots/active default stigma slot.png');
+}
+
+.advancedStigma{
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.advancedStigma:nth-child(3) {
+    grid-column: 1 / 3;
+}
+
+.advancedStigmaSlot{
+    background-image: url('/images/stigma_slots/advanced stigma slot.png');
+}
+
+.disabledAdvancedStigmaSlot{
+    background-image: url('/images/stigma_slots/disabled advanced stigma slot.png');
+}
+
+.activeAdvancedStigmaSlot{
+    background-image: url('/images/stigma_slots/active advanced stigma slot.png');
+}

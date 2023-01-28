@@ -22,3 +22,11 @@ body {
   background-color: hsl(0 0% 0% / 0.4);
   background-blend-mode: darken;
 }
+
+.ctr {
+  margin-top: 5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
