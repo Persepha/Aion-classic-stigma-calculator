@@ -8,10 +8,15 @@ import {
   MAX_DEFAULT_STIGMA_SLOTS,
 } from "@/utils/consts";
 import styles from "./StigmaPanel.module.css";
+import { SelectedStigma } from "@/components/Stigma/SelectedStigma";
 
 export const StigmaPanel: NextPage<StigmaPanelProps> = ({
   numberDefaultSlotsAllowed,
   numberAdvancedSlotsAllowed,
+  selectedDefaultStigmas,
+  selectedAdvancedStigmas,
+  selectedClass,
+  characterLvl,
 }) => {
   return (
     <section className={styles.panel}>
@@ -22,10 +27,22 @@ export const StigmaPanel: NextPage<StigmaPanelProps> = ({
               styles.stigmaSlot,
               numberDefaultSlotsAllowed > index
                 ? styles.defaultStigmaSlot
-                : styles.disabledDefaultStigmaSlot
+                : styles.disabledDefaultStigmaSlot,
+              {
+                [styles.activeDefaultStigmaSlot]:
+                  !!selectedDefaultStigmas[index],
+              }
             )}
             key={index}
-          ></div>
+          >
+            {selectedDefaultStigmas[index] ? (
+              <SelectedStigma
+                selectedClass={selectedClass}
+                stigma={selectedDefaultStigmas[index]}
+                characterLvl={characterLvl}
+              />
+            ) : null}
+          </div>
         ))}
       </div>
 
@@ -37,10 +54,22 @@ export const StigmaPanel: NextPage<StigmaPanelProps> = ({
               styles.advancedStigma,
               numberAdvancedSlotsAllowed > index
                 ? styles.advancedStigmaSlot
-                : styles.disabledAdvancedStigmaSlot
+                : styles.disabledAdvancedStigmaSlot,
+              {
+                [styles.activeAdvancedStigmaSlot]:
+                  !!selectedAdvancedStigmas[index],
+              }
             )}
             key={index}
-          ></div>
+          >
+            {selectedAdvancedStigmas[index] ? (
+              <SelectedStigma
+                selectedClass={selectedClass}
+                stigma={selectedAdvancedStigmas[index]}
+                characterLvl={characterLvl}
+              />
+            ) : null}
+          </div>
         ))}
       </div>
     </section>

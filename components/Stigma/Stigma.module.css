@@ -1,0 +1,193 @@
+.tooltip {
+    position: relative;
+}
+
+.blockedOverlay {
+    position:absolute;
+    background-color: darkred;
+    opacity:0.7;
+    height:40px;
+    width:40px;
+
+    -webkit-box-shadow:0px 0px 5px 2px darkred;
+    -moz-box-shadow: 0px 0px 5px 2px darkred;
+    box-shadow: 0px 0px 5px 2px darkred;
+}
+
+.selectedOverlay {
+    position: absolute;
+    height:40px;
+    width:40px;
+
+    -webkit-box-shadow:0px 0px 5px 2px #00c9ab;
+    -moz-box-shadow: 0px 0px 5px 2px #00c9ab;
+    box-shadow: 0px 0px 5px 2px #00c9ab;
+}
+
+.notEnoughSlots {
+    position: absolute;
+    background: linear-gradient(90deg, rgba(245,247,250,1) 0%, rgba(184,198,219,1) 100%);
+    opacity:0.7;
+    height:40px;
+    width:40px;
+
+    -webkit-box-shadow:0px 0px 5px 2px #B8C6DB;
+    -moz-box-shadow: 0px 0px 5px 2px #B8C6DB;
+    box-shadow: 0px 0px 5px 2px #B8C6DB;
+}
+
+.stigmaContainer:hover .tooltiptext{
+    visibility: visible;
+}
+
+.stigmaContainer {
+    cursor: pointer;
+
+    height: 40px;
+    width: 45px;
+
+    display: flex;
+
+    position: relative;
+}
+
+.blocked {
+    display: block;
+}
+
+.blockedCursor {
+    cursor: not-allowed;
+}
+
+.blockedText {
+    background-color: #CA3E47;
+    border-radius: 6px;
+    padding: 3px 6px;
+
+}
+
+.selectedStigma {
+    height: 80px;
+    width: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: calc(28rem + .5rem);
+
+
+    position: absolute;
+    z-index: 10;
+    /*top: -5px;*/
+
+    /*left: 110%;*/
+    /*right: 100%;*/
+
+    /*left: 50%;*/
+    /*bottom: 100%;*/
+}
+
+.lvls {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    /*left: calc(110% + 28rem + .3rem);*/
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.tooltip .tooltiptextArrow {
+    content: "";
+    position: absolute;
+    border-width: 5px;
+    border-style: solid;
+
+
+    /*top: 25px;*/
+    /*right: 100%;*/
+    /*margin-top: -5px;*/
+
+    /*border-color: transparent black transparent transparent;*/
+}
+
+.selectedStigma:hover .tooltiptext{
+    visibility: visible;
+}
+
+.selectedStigma:hover .lvls{
+    visibility: visible;
+}
+
+.selectedStigma:hover .tooltip {
+    -webkit-box-shadow:0px 0px 5px 2px #00C9AB;
+    -moz-box-shadow: 0px 0px 5px 2px #00C9AB;
+    box-shadow: 0px 0px 5px 2px #00C9AB;
+}
+
+.tooltip:hover {
+    -webkit-box-shadow:0px 0px 5px 2px #00C9AB;
+    -moz-box-shadow: 0px 0px 5px 2px #00C9AB;
+    box-shadow: 0px 0px 5px 2px #00C9AB;
+}
+
+.divider {
+    border-bottom: 2px solid #545454;
+    padding: 2px 0;
+    height: 0;
+}
+
+.label {
+    color: #bcbcbc;
+}
+
+.lvl {
+    background-color: hsl(0 0% 6% / 0.9);
+    color: #bcbcbc;
+    -webkit-box-shadow:0px 0px 5px 2px #00C9AB;
+    -moz-box-shadow: 0px 0px 5px 2px #00C9AB;
+    box-shadow: 0px 0px 5px 2px #00C9AB;
+    border-radius: 6px;
+    padding: 3px 5px;
+    transition: color 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.lvl:hover {
+    background-color: #00C9AB;
+}
+
+.selectedLvl {
+    color: white;
+    background-color: hsl(171 100% 39% / 0.9);
+
+    -webkit-box-shadow:0px 0px 5px 2px #000;
+    -moz-box-shadow: 0px 0px 5px 2px #000;
+    box-shadow: 0px 0px 5px 2px #000;
+}
+
+.desc {
+    padding: 1rem;
+
+    width: 28rem;
+
+    background-color: hsl(0 0% 6% / 0.9);
+    -webkit-box-shadow:0px 0px 5px 2px #00C9AB;
+    -moz-box-shadow: 0px 0px 5px 2px #00C9AB;
+    box-shadow: 0px 0px 5px 2px #00C9AB;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
