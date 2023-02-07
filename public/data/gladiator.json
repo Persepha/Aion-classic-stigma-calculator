@@ -1,0 +1,1035 @@
+[
+  {
+    "id": "fi_anklegrab",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      28
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": ["Can jumpshot", "Can use while moving"],
+    "28": {
+      "id": 322,
+      "name": "Ankle Snare I",
+      "Usage Cost": "69 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "120",
+      "Description": "Immobilizes a target within 25m for 10s and decreases its Evasion by 1000.",
+      "Shards cost": 84
+    }
+  },
+  {
+    "id": "fi_berserkstance",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      45
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": ["Can jumpshot", "Can use while moving"],
+    "45": {
+      "id": 245,
+      "name": "Berserking I",
+      "Usage Cost": "247 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "180",
+      "Description": "Increases Physical Attack by 80% for 30s while decreasing Accuracy by 200 and Physical Def by 50%.",
+      "Abyss point": 13750,
+      "Shards cost": 225
+    }
+  },
+  {
+    "id": "fi_blademode",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      48
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": ["Can jumpshot", "Can use while moving"],
+    "48": {
+      "id": 385,
+      "name": "Slaughter I",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "1",
+      "Description": "When attacking a PC, inflict an additional 15% damage and Magic Accuracy increases by 300. Active Skill",
+      "Shards cost": 144
+    }
+  },
+  {
+    "id": "fi_burserklance",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      55
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Damage in PVP = 120%"
+    ],
+    "55": {
+      "id": 234,
+      "name": "Sure Strike I",
+      "Usage Cost": "404 MP",
+      "Cast time": "2.1s",
+      "Cooldown": "120",
+      "Description": "High chance of inflicting 2414-2418 Physical Damage on the target.",
+      "Abyss point": 152700,
+      "Shards cost": 275
+    }
+  },
+  {
+    "id": "fi_charginghit",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      45,
+      48,
+      51,
+      54
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Damage in PVP = 130%"
+    ],
+    "45": {
+      "id": 111,
+      "name": "Precision Cut I",
+      "Usage Cost": "247 MP",
+      "Cast time": "1.7s",
+      "Cooldown": "30",
+      "Description": "High chance of inflicting 1429-1433 Physical Damage on the target.",
+      "Abyss point": 13750,
+      "Shards cost": 225
+    },
+    "48": {
+      "id": 2013,
+      "name": "Precision Cut II",
+      "Usage Cost": "289 MP",
+      "Cast time": "1.7s",
+      "Cooldown": "30",
+      "Description": "High chance of inflicting 1479-1483 Physical Damage on the target.",
+      "Abyss point": 26500,
+      "Shards cost": 240
+    },
+    "51": {
+      "id": 2018,
+      "name": "Precision Cut III",
+      "Usage Cost": "331 MP",
+      "Cast time": "1.7s",
+      "Cooldown": "30",
+      "Description": "High chance of inflicting 1603-1607 Physical Damage on the target.",
+      "Abyss point": 34500,
+      "Shards cost": 255
+    },
+    "54": {
+      "id": 2035,
+      "name": "Precision Cut IV",
+      "Usage Cost": "348 MP",
+      "Cast time": "1.7s",
+      "Cooldown": "30",
+      "Description": "High chance of inflicting 1729-1733 Physical Damage on the target.",
+      "Abyss point": 45700,
+      "Shards cost": 270
+    }
+  },
+  {
+    "id": "fi_chargingshock",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      50,
+      53
+    ],
+    "Skill type": "Normal",
+    "Target": "Area within a Radius of Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Damage in PVP = 130%",
+      "Max targets = 6"
+    ],
+    "50": {
+      "id": 248,
+      "name": "Severe Precision Cut I",
+      "Usage Cost": "329 MP",
+      "Cast time": "2s",
+      "Cooldown": "30",
+      "Description": "Swings and inflicts 1652-1656 Physical Damage on up to 6 enemies within a 7m range with a high probability. Has a chance to inflictStumbled.",
+      "Abyss point": 38700,
+      "Shards cost": 250
+    },
+    "53": {
+      "id": 2030,
+      "name": "Severe Precision Cut II",
+      "Usage Cost": "391 MP",
+      "Cast time": "2s",
+      "Cooldown": "30",
+      "Description": "Swings and inflicts 1773-1777 Physical Damage on up to 6 enemies within a 7m range with a high probability. Has a chance to inflictStumbled.",
+      "Abyss point": 85800,
+      "Shards cost": 265
+    }
+  },
+  {
+    "id": "fi_cripplingcut",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      22,
+      28,
+      34,
+      40,
+      46,
+      52
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "22": {
+      "id": 255,
+      "name": "Crippling Cut I",
+      "Usage Cost": "61 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "18",
+      "Description": "Inflicts 289~293 physical damage on a fallen enemy.",
+      "Shards cost": 66
+    },
+    "28": {
+      "id": 256,
+      "name": "Crippling Cut II",
+      "Usage Cost": "69 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "18",
+      "Description": "Inflicts 376~380 physical damage on a fallen enemy.",
+      "Shards cost": 84
+    },
+    "34": {
+      "id": 257,
+      "name": "Crippling Cut III",
+      "Usage Cost": "76 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "18",
+      "Description": "Inflicts 455~459 physical damage on a fallen enemy.",
+      "Shards cost": 102
+    },
+    "40": {
+      "id": 310,
+      "name": "Crippling Cut IV",
+      "Usage Cost": "81 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "18",
+      "Description": "Inflicts 507~511 physical damage on a fallen enemy.",
+      "Shards cost": 120
+    },
+    "46": {
+      "id": 379,
+      "name": "Crippling Cut V",
+      "Usage Cost": "83 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "18",
+      "Description": "Inflicts 624~628 physical damage on a fallen enemy.",
+      "Shards cost": 138
+    },
+    "52": {
+      "id": 2025,
+      "name": "Crippling Cut VI",
+      "Usage Cost": "96 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "18",
+      "Description": "Inflicts 716~720 physical damage on a fallen enemy.",
+      "Shards cost": 156
+    }
+  },
+  {
+    "id": "fi_drainsword",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      55
+    ],
+    "Skill type": "Chain Skills",
+    "Target": "Selected Target",
+    "Additional info": ["Can jumpshot", "Can use while moving"],
+    "55": {
+      "id": 235,
+      "name": "Draining Sword I",
+      "Usage Cost": "152 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "16",
+      "Description": "Inflicts 735~739 damage to the target and has a chance to absorb 50% of the damage as HP. Chain Skill Level 3",
+      "Abyss point": 152700,
+      "Shards cost": 275
+    }
+  },
+  {
+    "id": "fi_enfeeblehit",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      25,
+      31,
+      37,
+      43,
+      49,
+      55
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": ["Can jumpshot", "Can use while moving"],
+    "25": {
+      "id": 236,
+      "name": "Severe Weakening Blow I",
+      "Usage Cost": "81 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "21",
+      "Description": "High chance of inflicting 109-113 Physical Damage to the target, and decreases the target's Physical Def by 200 and Evasion by 200 for 10s.",
+      "Shards cost": 75
+    },
+    "31": {
+      "id": 237,
+      "name": "Severe Weakening Blow II",
+      "Usage Cost": "91 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "21",
+      "Description": "High chance of inflicting 126-130 Physical Damage to the target, and decreases the target's Physical Def by 250 and Evasion by 250 for 10s.",
+      "Shards cost": 93
+    },
+    "37": {
+      "id": 238,
+      "name": "Severe Weakening Blow III",
+      "Usage Cost": "98 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "21",
+      "Description": "High chance of inflicting 145-149 Physical Damage to the target, and decreases the target's Physical Def by 300 and Evasion by 300 for 10s.",
+      "Shards cost": 111
+    },
+    "43": {
+      "id": 239,
+      "name": "Severe Weakening Blow IV",
+      "Usage Cost": "103 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "21",
+      "Description": "High chance of inflicting 155-159 Physical Damage to the target, and decreases the target's Physical Def by 350 and Evasion by 350 for 10s.",
+      "Shards cost": 129
+    },
+    "49": {
+      "id": 240,
+      "name": "Severe Weakening Blow V",
+      "Usage Cost": "103 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "21",
+      "Description": "High chance of inflicting 184-188 Physical Damage to the target, and decreases the target's Physical Def by 400 and Evasion by 400 for 10s.",
+      "Shards cost": 147
+    },
+    "55": {
+      "id": 2039,
+      "name": "Severe Weakening Blow VI",
+      "Usage Cost": "126 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "21",
+      "Description": "High chance of inflicting 205-209 Physical Damage to the target, and decreases the target's Physical Def by 400 and Evasion by 400 for 10s.",
+      "Shards cost": 165
+    }
+  },
+  {
+    "id": "fi_heavyimpact",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      44,
+      50
+    ],
+    "Skill type": "Normal",
+    "Target": "Area within a Radius of Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Max targets = 5"
+    ],
+    "44": {
+      "id": 376,
+      "name": "Earthquake Wave I",
+      "Usage Cost": "83 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "120",
+      "Description": "Deals 258~262 physical damage on the enemies within a 10m radius of you and decreases their Movement Speed for 8s~10s.",
+      "Shards cost": 132
+    },
+    "50": {
+      "id": 389,
+      "name": "Earthquake Wave II",
+      "Usage Cost": "83 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "120",
+      "Description": "Deals 280~284 physical damage on the enemies within a 10m radius of you and decreases their Movement Speed for 8s~10s.",
+      "Shards cost": 150
+    }
+  },
+  {
+    "id": "fi_howling",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      34
+    ],
+    "Skill type": "Normal",
+    "Target": "Area within a Radius of Target",
+    "Additional info": ["Can jumpshot", "Can use while moving", "Max targets = 6"],
+    "34": {
+      "id": 264,
+      "name": "Howl I",
+      "Usage Cost": "114 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "300",
+      "Description": "Lowers Physical Attack of the enemies within a 7m radius of you by 300 for 15s.",
+      "Shards cost": 102
+    }
+  },
+  {
+    "id": "fi_jumpattack",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      52,
+      55
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "52": {
+      "id": 229,
+      "name": "Whirling Strike I",
+      "Usage Cost": "72 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "60",
+      "Description": "Inflicts 692~696 damage by dashing to the target within a 15m radius.",
+      "Abyss point": 78800,
+      "Shards cost": 260
+    },
+    "55": {
+      "id": 230,
+      "name": "Whirling Strike II",
+      "Usage Cost": "76 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "60",
+      "Description": "Inflicts 730~734 damage by dashing to the target within a 15m radius.",
+      "Abyss point": 101800,
+      "Shards cost": 275
+    }
+  },
+  {
+    "id": "fi_kneecrash",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      52,
+      55
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": ["Can jumpshot", "Can use while moving"],
+    "52": {
+      "id": 227,
+      "name": "Tendon Slice I",
+      "Usage Cost": "192 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "120",
+      "Description": "Inflicts 617~621 damage to the target and immobilizes it for 8s.",
+      "Abyss point": 78800,
+      "Shards cost": 260
+    },
+    "55": {
+      "id": 228,
+      "name": "Tendon Slice II",
+      "Usage Cost": "202 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "120",
+      "Description": "Inflicts 650~654 damage to the target and immobilizes it for 8s.",
+      "Abyss point": 101800,
+      "Shards cost": 275
+    }
+  },
+  {
+    "id": "fi_lockdownimpact",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      31,
+      37,
+      43,
+      49,
+      55
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "31": {
+      "id": 267,
+      "name": "Lockdown I",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "12",
+      "Description": "Inflicts 54~58 physical damage on the target. The target is bound for 3s.",
+      "Shards cost": 93
+    },
+    "37": {
+      "id": 296,
+      "name": "Lockdown II",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "12",
+      "Description": "Inflicts 58~62 physical damage on the target. The target is bound for 3s.",
+      "Shards cost": 111
+    },
+    "43": {
+      "id": 375,
+      "name": "Lockdown III",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "12",
+      "Description": "Inflicts 65~69 physical damage on the target. The target is bound for 3s.",
+      "Shards cost": 129
+    },
+    "49": {
+      "id": 386,
+      "name": "Lockdown IV",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "12",
+      "Description": "Inflicts 70~74 physical damage on the target. The target is bound for 3s.",
+      "Shards cost": 147
+    },
+    "55": {
+      "id": 2040,
+      "name": "Lockdown V",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "12",
+      "Description": "Inflicts 78~82 physical damage on the target. The target is bound for 3s.",
+      "Shards cost": 165
+    }
+  },
+  {
+    "id": "fi_potentialhealth",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      20
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": ["Can jumpshot", "Can use while moving"],
+    "20": {
+      "id": 269,
+      "name": "Improved Stamina I",
+      "Usage Cost": "72 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "180",
+      "Description": "Restores your HP by 20% and increases your Maximum HP by 20%, Block by 150, and Parry by 100 for 2m.",
+      "Shards cost": 60
+    }
+  },
+  {
+    "id": "fi_ragespirit",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      34,
+      40,
+      47,
+      53
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": ["Can jumpshot", "Can use while moving"],
+    "34": {
+      "id": 241,
+      "name": "Dauntless Spirit I",
+      "Usage Cost": "95 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "60",
+      "Description": "For 10s, a protective shield absorbs damage with a 10% chance whenever you are hit by attack. The protective shield remains until 342 damage is absorbed.",
+      "Shards cost": 102
+    },
+    "40": {
+      "id": 242,
+      "name": "Dauntless Spirit II",
+      "Usage Cost": "102 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "60",
+      "Description": "For 10s, a protective shield absorbs damage with a 10% chance whenever you are hit by attack. The protective shield remains until 386 damage is absorbed.",
+      "Shards cost": 120
+    },
+    "47": {
+      "id": 243,
+      "name": "Dauntless Spirit III",
+      "Usage Cost": "103 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "60",
+      "Description": "For 10s, a protective shield absorbs damage with a 10% chance whenever you are hit by attack. The protective shield remains until 438 damage is absorbed.",
+      "Shards cost": 141
+    },
+    "53": {
+      "id": 2029,
+      "name": "Dauntless Spirit IV",
+      "Usage Cost": "122 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "60",
+      "Description": "For 10s, a protective shield absorbs damage with a 10% chance whenever you are hit by attack. The protective shield remains until 480 damage is absorbed.",
+      "Shards cost": 159
+    }
+  },
+  {
+    "id": "fi_revengeslash",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      28,
+      34,
+      40,
+      47,
+      53
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": ["Can jumpshot", "Can use while moving"],
+    "28": {
+      "id": 392,
+      "name": "Vengeful Strike I",
+      "Usage Cost": "18 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Upon successful parry, inflicts 385~389 damage to the target.",
+      "Shards cost": 84
+    },
+    "34": {
+      "id": 393,
+      "name": "Vengeful Strike II",
+      "Usage Cost": "19 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Upon successful parry, inflicts 415~419 damage to the target.",
+      "Shards cost": 102
+    },
+    "40": {
+      "id": 394,
+      "name": "Vengeful Strike III",
+      "Usage Cost": "21 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Upon successful parry, inflicts 517~521 damage to the target.",
+      "Shards cost": 120
+    },
+    "47": {
+      "id": 395,
+      "name": "Vengeful Strike IV",
+      "Usage Cost": "21 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Upon successful parry, inflicts 574~578 damage to the target.",
+      "Shards cost": 141
+    },
+    "53": {
+      "id": 2028,
+      "name": "Vengeful Strike V",
+      "Usage Cost": "25 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Upon successful parry, inflicts 725~729 damage to the target.",
+      "Shards cost": 159
+    }
+  },
+  {
+    "id": "fi_seismicdrain",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      34,
+      46
+    ],
+    "Skill type": "Chain Skills",
+    "Target": "Area within a Radius of Target",
+    "Additional info": [
+      "Max targets = 3"
+    ],
+    "34": {
+      "id": 2267,
+      "name": "Absorbing Fury I",
+      "Usage Cost": "151 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "10",
+      "Description": "Inflicts 168 ~ 172 physical damage on enemies with 7m of you and absorbs 50% of the damage as HP. Chain Skill Level 1",
+      "Shards cost": 102
+    },
+    "46": {
+      "id": 2268,
+      "name": "Absorbing Fury II",
+      "Usage Cost": "166 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "10",
+      "Description": "Inflicts 234 ~ 238 physical damage on enemies with 7m of you and absorbs 50% of the damage as HP. Chain Skill Level 1.",
+      "Shards cost": 138
+    }
+  },
+  {
+    "id": "fi_sharpnesshit",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      45,
+      48,
+      51,
+      54
+    ],
+    "Skill type": "Chain Skills",
+    "Target": "Selected Target",
+    "Additional info": ["Can jumpshot", "Can use while moving"],
+    "45": {
+      "id": 247,
+      "name": "Sharp Strike I",
+      "Usage Cost": "124 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "16",
+      "Description": "Inflicts 298~302 damage to the target. Chain Skill Level 1.",
+      "Abyss point": 13750,
+      "Shards cost": 225
+    },
+    "48": {
+      "id": 2016,
+      "name": "Sharp Strike II",
+      "Usage Cost": "124 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "16",
+      "Description": "Inflicts 305~309 damage to the target. Chain Skill Level 1.",
+      "Abyss point": 26500,
+      "Shards cost": 240
+    },
+    "51": {
+      "id": 2021,
+      "name": "Sharp Strike III",
+      "Usage Cost": "142 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "16",
+      "Description": "Inflicts 326~330 damage to the target. Chain Skill Level 1.",
+      "Abyss point": 34500,
+      "Shards cost": 255
+    },
+    "54": {
+      "id": 2038,
+      "name": "Sharp Strike IV",
+      "Usage Cost": "149 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "16",
+      "Description": "Inflicts 347~351 damage to the target. Chain Skill Level 1.",
+      "Abyss point": 45700,
+      "Shards cost": 270
+    }
+  },
+  {
+    "id": "fi_stigma_draincut",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      45,
+      51
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": ["Can jumpshot", "Can use while moving"],
+    "45": {
+      "id": 398,
+      "name": "Draining Blow I",
+      "Usage Cost": "124 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Deals 440~444 physical damage to a stumbled enemy and absorbs 100% of the damage as HP.",
+      "Shards cost": 135
+    },
+    "51": {
+      "id": 2022,
+      "name": "Draining Blow II",
+      "Usage Cost": "139 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Deals 486~490 physical damage to a stumbled enemy and absorbs 100% of the damage as HP.",
+      "Shards cost": 153
+    }
+  },
+  {
+    "id": "fi_stigma_forceblast_light",
+    "faction": "elyos",
+    "type": 0,
+    "lvls": [
+      45
+    ],
+    "Skill type": "Normal",
+    "Target": "Area within a Radius of Target",
+    "Additional info": ["Can jumpshot", "Can use while moving", "Max targets = 5"],
+    "45": {
+      "id": 396,
+      "name": "Ancestral Force Blast I",
+      "Usage Cost": "124 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "60",
+      "Description": "Deals 288~292 physical damage to a target within 15m of you and up to 5 enemies within a 10m radius of the target, and decreases their Physical Def by 500 for 30s.",
+      "Shards cost": 135
+    }
+  },
+  {
+    "id": "fi_stigma_forceburst_light",
+    "faction": "elyos",
+    "type": 0,
+    "lvls": [
+      50
+    ],
+    "Skill type": "Normal",
+    "Target": "Area within a Radius of Target",
+    "Additional info": ["Can jumpshot", "Can use while moving", "Max targets = 18"],
+    "50": {
+      "id": 399,
+      "name": "Shattering Wave I",
+      "Usage Cost": "165 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "60",
+      "Description": "Deals 443~447 physical damage to a target within 15m of you and up to 18 enemies within a 10m radius of the target, and decreases their Physical Def by 600 for 30s.",
+      "Shards cost": 150
+    }
+  },
+  {
+    "id": "fi_stigma_shockburst_dark",
+    "faction": "asmodian",
+    "type": 0,
+    "lvls": [
+      50
+    ],
+    "Skill type": "Normal",
+    "Target": "Area within a Radius of Target",
+    "Additional info": [
+      "Max targets = 18",
+      "Can jumpshot"
+    ],
+    "50": {
+      "id": 400,
+      "name": "Piercing Rupture I",
+      "Usage Cost": "165 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "60",
+      "Description": "Deals 1081~1085 physical damage to up to 18 enemies within a 10m radius, and decreases their Physical Def by 600 for 30s.",
+      "Shards cost": 150
+    }
+  },
+  {
+    "id": "fi_stigma_shockimpulse_dark",
+    "faction": "asmodian",
+    "type": 0,
+    "lvls": [
+      45
+    ],
+    "Skill type": "Normal",
+    "Target": "Area within a Radius of Target",
+    "Additional info": [
+      "Max targets = 12",
+      "Can jumpshot"
+    ],
+    "45": {
+      "id": 397,
+      "name": "Ancestral Piercing Wave I",
+      "Usage Cost": "124 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "60",
+      "Description": "Deals 695~699 physical damage to up to 12 enemies within a 10m radius, and decreases their Physical Def by 500 for 30s.",
+      "Shards cost": 135
+    }
+  },
+  {
+    "id": "fi_survivorstance",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      54
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": ["Can jumpshot", "Can use while moving"],
+    "54": {
+      "id": 232,
+      "name": "Second Wind I",
+      "Usage Cost": "298 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "180",
+      "Description": "Recovers HP by 35% and increases Maximum HP by 35% and Strike Fortitude by 500 for 1m.",
+      "Shards cost": 162
+    }
+  },
+  {
+    "id": "fi_technicalcounter",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      45,
+      48,
+      51,
+      54
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": ["Can jumpshot", "Can use while moving"],
+    "45": {
+      "id": 246,
+      "name": "Spite Strike I",
+      "Usage Cost": "247 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Upon successful parry, inflicts 401~405 damage to the target and puts it in the Stumbled state.",
+      "Abyss point": 13750,
+      "Shards cost": 225
+    },
+    "48": {
+      "id": 2015,
+      "name": "Spite Strike II",
+      "Usage Cost": "248 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Upon successful parry, inflicts 412~416 damage to the target and puts it in the Stumbled state.",
+      "Abyss point": 26500,
+      "Shards cost": 240
+    },
+    "51": {
+      "id": 2020,
+      "name": "Spite Strike III",
+      "Usage Cost": "284 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Upon successful parry, inflicts 442~446 damage to the target and puts it in the Stumbled state.",
+      "Abyss point": 34500,
+      "Shards cost": 255
+    },
+    "54": {
+      "id": 2037,
+      "name": "Spite Strike IV",
+      "Usage Cost": "298 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Upon successful parry, inflicts 473~477 damage to the target and puts it in the Stumbled state.",
+      "Abyss point": 45700,
+      "Shards cost": 270
+    }
+  },
+  {
+    "id": "fi_vorpalhit",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      50,
+      53
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "50": {
+      "id": 249,
+      "name": "Vicious Blow I",
+      "Usage Cost": "165 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "16",
+      "Description": "Inflicts 585~589 damage on the target. Chain Skill Level 2",
+      "Abyss point": 38700,
+      "Shards cost": 250
+    },
+    "53": {
+      "id": 2031,
+      "name": "Vicious Blow II",
+      "Usage Cost": "196 MP",
+      "Cast time": "change",
+      "Cooldown": "16",
+      "Description": "Inflicts 624~628 damage on the target. Chain Skill Level 2",
+      "Abyss point": 85800,
+      "Shards cost": 265
+    }
+  },
+  {
+    "id": "p_equip_dual",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      20,
+      40
+    ],
+    "Skill type": "Passive",
+    "Target": "Self",
+    "20": {
+      "id": 34,
+      "name": "Advanced Dual-Wielding I",
+      "Description": "Allows you to use dual weapons.",
+      "Shards cost": 60
+    },
+    "40": {
+      "id": 40,
+      "name": "Advanced Dual-Wielding II",
+      "Description": "Allows you to use dual weapons.",
+      "Shards cost": 120
+    }
+  },
+  {
+    "id": "wa_gatecrush",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      40,
+      46,
+      52
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": ["Can jumpshot", "Can use while moving"],
+    "40": {
+      "id": 183,
+      "name": "Siegebreaker I",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "12",
+      "Description": "Deals 16~20 physical damage to the target. Deals an extra 4000 physical damage to castle gates.",
+      "Shards cost": 120
+    },
+    "46": {
+      "id": 382,
+      "name": "Siegebreaker II",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "12",
+      "Description": "Deals 16~20 physical damage to the target. Deals an extra 5500 physical damage to castle gates.",
+      "Shards cost": 138
+    },
+    "52": {
+      "id": 2026,
+      "name": "Siegebreaker III",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "12",
+      "Description": "Deals 16~20 physical damage to the target. Deals an extra 6500 physical damage to castle gates.",
+      "Shards cost": 156
+    }
+  },
+  {
+    "id": "wa_steadiness",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      37
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": ["Can jumpshot", "Can use while moving"],
+    "37": {
+      "id": 287,
+      "name": "Unwavering Devotion I",
+      "Usage Cost": "79 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "180",
+      "Description": "Increases your Stun, Knock Back, Stumble, Spin, and Aerial Thrust Resistances by 1000 for 1m30s.",
+      "Shards cost": 111
+    }
+  }
+]

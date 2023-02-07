@@ -10,17 +10,25 @@
 
 html {
   font-size: 62.5%;
+  height: 100%;
 }
 
 body {
   font-size: var(--font-size-sm);
   line-height: 1.5;
 
-  height: 100vh;
+  height: 100%;
+  background-size: cover;
+  background-position: 50%;
+
   background-image: url("/images/bg.jpg");
   background-repeat: no-repeat;
+
+
   background-color: hsl(0 0% 0% / 0.4);
   background-blend-mode: darken;
+
+  overflow: hidden;
 }
 
 .ctr {
@@ -29,4 +37,32 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.t{
+  /*overflow: scroll;*/
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.t::-webkit-scrollbar {
+  width: 0.45rem;
+}
+
+.t::-webkit-scrollbar-track {
+  background: #00C9AB;
+}
+
+.t::-webkit-scrollbar-thumb {
+  background: #00C9AB;
+}
+
+.sp {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+
+  margin-bottom: 2rem;
 }

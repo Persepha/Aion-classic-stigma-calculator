@@ -1,0 +1,11 @@
+.availableDefaultStigmasContainer {
+    display: flex;
+    row-gap: 5px;
+    flex-wrap: wrap;
+    width: 40rem;
+
+
+    padding: 1.5rem;
+    background-color: hsl(0 0% 0% / 0.7);
+    border-radius: 25px;
+}
