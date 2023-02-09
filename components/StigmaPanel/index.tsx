@@ -17,6 +17,7 @@ export const StigmaPanel: NextPage<StigmaPanelProps> = ({
   selectedAdvancedStigmas,
   selectedClass,
   characterLvl,
+  updateSelectedStigmaLvl,
 }) => {
   return (
     <section className={styles.panel}>
@@ -40,6 +41,7 @@ export const StigmaPanel: NextPage<StigmaPanelProps> = ({
                 selectedClass={selectedClass}
                 stigma={selectedDefaultStigmas[index]}
                 characterLvl={characterLvl}
+                updateSelectedStigmaLvl={updateSelectedStigmaLvl}
               />
             ) : null}
           </div>
@@ -67,6 +69,7 @@ export const StigmaPanel: NextPage<StigmaPanelProps> = ({
                 selectedClass={selectedClass}
                 stigma={selectedAdvancedStigmas[index]}
                 characterLvl={characterLvl}
+                updateSelectedStigmaLvl={updateSelectedStigmaLvl}
               />
             ) : null}
           </div>

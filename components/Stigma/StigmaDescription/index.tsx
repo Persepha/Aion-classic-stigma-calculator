@@ -4,6 +4,7 @@ import { NextPage } from "next";
 
 import { StigmaDescriptionProps } from "@/components/Stigma/StigmaDescription/StigmaDescription.props";
 import styles from "../Stigma.module.css";
+import { StigmaCostPanel } from "@/components/StigmaCostPanel";
 
 export const StigmaDescription: NextPage<StigmaDescriptionProps> = ({
   stigma,
@@ -120,6 +121,17 @@ export const StigmaDescription: NextPage<StigmaDescriptionProps> = ({
           stigma.stigma["Additional info"].map((info, index) => (
             <p key={index}>{info}</p>
           ))}
+        <div className={styles.divider}></div>
+        {
+          <StigmaCostPanel
+            stigmaShardCost={stigma.stigma[stigmaLvl]["Shards cost"]}
+            stigmaAPCost={
+              stigma.stigma[stigmaLvl]["Abyss point"]
+                ? stigma.stigma[stigmaLvl]["Abyss point"]
+                : 0
+            }
+          />
+        }
       </div>
     </div>
   );

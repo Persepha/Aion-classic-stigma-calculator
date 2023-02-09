@@ -6,6 +6,7 @@ import cn from "classnames";
 import { AvailableDefaultStigmaProps } from "@/components/Stigma/AvailableDefaultStigma/AvailableDefaultStigma.props";
 import styles from "../Stigma.module.css";
 import { StigmaDescription } from "@/components/Stigma/StigmaDescription";
+import Image from "next/image";
 
 export const AvailableDefaultStigma: NextPage<AvailableDefaultStigmaProps> = ({
   stigma,
@@ -13,6 +14,7 @@ export const AvailableDefaultStigma: NextPage<AvailableDefaultStigmaProps> = ({
   selectStigma,
   isStigmaSelected,
   isStigmaCanBeSelected,
+  triggerSelectStigma,
 }) => {
   const handleClick = (event: React.MouseEvent) => {
     selectStigma(stigma.stigma.id);
@@ -40,10 +42,9 @@ export const AvailableDefaultStigma: NextPage<AvailableDefaultStigmaProps> = ({
     if (tooltipEl.current) {
       const rect = tooltipEl.current.getBoundingClientRect();
 
-      const left = rect.left + document.body.scrollLeft;
       const stigmaOffsetWidth = tooltipEl.current.offsetWidth;
       const availableSpaceOnRight =
-        document.body.clientWidth - (left + stigmaOffsetWidth);
+        document.body.clientWidth - (rect.left + stigmaOffsetWidth);
       setAvailableSpaceOnRight(availableSpaceOnRight);
 
       const bottom = rect.bottom + document.body.scrollTop;
@@ -56,7 +57,7 @@ export const AvailableDefaultStigma: NextPage<AvailableDefaultStigmaProps> = ({
     handleResize();
     window.addEventListener("resize", handleResize, { passive: true });
     return () => window.removeEventListener("resize", handleResize);
-  }, []);
+  }, [triggerSelectStigma]);
 
   return (
     <div
@@ -85,10 +86,12 @@ export const AvailableDefaultStigma: NextPage<AvailableDefaultStigmaProps> = ({
 
           {isStigmaActive && <div className={styles.selectedOverlay}></div>}
 
-          <img
+          <Image
             onClick={handleClick}
             src={`/images/${selectedClass}/${stigma.stigma[stigmaLvl].name}.png`}
             alt={`${stigma.stigma[stigmaLvl].name} icon`}
+            height={40}
+            width={40}
           />
 
           <StigmaDescription

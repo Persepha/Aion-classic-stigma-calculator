@@ -39,21 +39,34 @@ body {
   justify-content: center;
 }
 
-.t{
+.stigmaCalculator{
   /*overflow: scroll;*/
   height: 100vh;
   overflow-y: auto;
+  overflow-x: hidden;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  padding: 2rem;
 }
 
-.t::-webkit-scrollbar {
+.fc {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.stigmaCalculator::-webkit-scrollbar {
   width: 0.45rem;
 }
 
-.t::-webkit-scrollbar-track {
+.stigmaCalculator::-webkit-scrollbar-track {
   background: #00C9AB;
 }
 
-.t::-webkit-scrollbar-thumb {
+.stigmaCalculator::-webkit-scrollbar-thumb {
   background: #00C9AB;
 }
 
@@ -64,5 +77,16 @@ body {
   gap: 2rem;
   flex-wrap: wrap;
 
-  margin-bottom: 2rem;
+  /*margin-bottom: 2rem;*/
+}
+
+.stigmaCostPanel {
+  background-color: hsl(0 0% 0% / 0.6);
+  border-radius: 25px;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem
 }

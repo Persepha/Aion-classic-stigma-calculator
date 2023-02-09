@@ -1,7 +1,5 @@
 .item {
     opacity: .5;
-    height: 64px;
-    width: 64px;
 }
 
 .item:hover {

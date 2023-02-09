@@ -21,6 +21,7 @@ import {
 } from "@/utils/fetchCharacterStigmaTree/types";
 import { AvailableDefaultStigmas } from "@/components/AvailableDefaultStigmas";
 import { AdvancedStigmaTree } from "@/components/AdvancedStigmaTree";
+import { StigmaCostPanel } from "@/components/StigmaCostPanel";
 
 const font = Roboto({
   weight: "500",
@@ -46,6 +47,58 @@ export default function Home() {
   const [selectedAdvancedStigmas, setSelectedAdvancedStigmas] = useState<
     ActiveStigma[]
   >([]);
+
+  const [stigmasShardCost, setStigmasShardCost] = useState<number>(0);
+  const [stigmasAPCost, setStigmasAPCost] = useState<number>(0);
+
+  const updateSelectedStigmaLvl = (stigmaId: string, lvl: number) => {
+    setSelectedDefaultStigmas(
+      selectedDefaultStigmas.map((stigma) =>
+        stigma.stigma.id === stigmaId
+          ? { ...stigma, selectedStigmaLvl: lvl }
+          : stigma
+      )
+    );
+    setSelectedAdvancedStigmas(
+      selectedAdvancedStigmas.map((stigma) =>
+        stigma.stigma.id === stigmaId
+          ? { ...stigma, selectedStigmaLvl: lvl }
+          : stigma
+      )
+    );
+  };
+
+  const updateStigmaCost = () => {
+    const selectedStigmas = [
+      ...selectedDefaultStigmas,
+      ...selectedAdvancedStigmas,
+    ];
+
+    const shardCost = selectedStigmas.reduce((sum, stigma) => {
+      if (stigma.selectedStigmaLvl) {
+        return sum + stigma.stigma[stigma.selectedStigmaLvl]["Shards cost"];
+      }
+      return sum;
+    }, 0);
+
+    setStigmasShardCost(shardCost);
+
+    const apCost = selectedStigmas.reduce((sum, stigma) => {
+      if (stigma.selectedStigmaLvl) {
+        const apCost = stigma.stigma[stigma.selectedStigmaLvl]["Abyss point"]
+          ? stigma.stigma[stigma.selectedStigmaLvl]["Abyss point"]
+          : 0;
+        return sum + apCost;
+      }
+      return sum;
+    }, 0);
+
+    setStigmasAPCost(apCost);
+  };
+
+  useEffect(() => {
+    updateStigmaCost();
+  }, [selectedDefaultStigmas, selectedAdvancedStigmas]);
 
   const [firstAdvancedStigmaTree, setFirstAdvancedStigmaTree] =
     useState<StigmaTree>({ stigmaTree: null });
@@ -90,10 +143,13 @@ export default function Home() {
       (lvl: number) => lvl <= characterLvl
     );
 
+    const maxAvailableStigmaLvl = !!availableStigmaLvls.length
+      ? Math.max(...availableStigmaLvls)
+      : null;
+
     return {
-      maxAvailableStigmaLvl: !!availableStigmaLvls.length
-        ? Math.max(...availableStigmaLvls)
-        : null,
+      maxAvailableStigmaLvl: maxAvailableStigmaLvl,
+      selectedStigmaLvl: maxAvailableStigmaLvl,
       stigma: currentStigma,
     };
   };
@@ -200,29 +256,45 @@ export default function Home() {
   return (
     <>
       <div className={font.className}>
-        <ClassesPanel selectClass={selectClass} selectedClass={currentClass} />
-        <CharLvlPicker
-          characterLvl={characterLvl}
-          setCharacterLvl={setCharacterLvl}
-          selectedClass={currentClass}
-        />
+        <main className="stigmaCalculator">
+          <ClassesPanel
+            selectClass={selectClass}
+            selectedClass={currentClass}
+          />
 
-        <main className="t">
           <section className="sp">
-            <StigmaPanel
-              numberAdvancedSlotsAllowed={numberAdvancedSlots}
-              numberDefaultSlotsAllowed={numberDefaultSlots}
-              selectedDefaultStigmas={selectedDefaultStigmas}
-              selectedAdvancedStigmas={selectedAdvancedStigmas}
-              selectedClass={currentClass}
-              characterLvl={characterLvl}
-            />
+            <div className="flexColumn">
+              <StigmaPanel
+                numberAdvancedSlotsAllowed={numberAdvancedSlots}
+                numberDefaultSlotsAllowed={numberDefaultSlots}
+                selectedDefaultStigmas={selectedDefaultStigmas}
+                selectedAdvancedStigmas={selectedAdvancedStigmas}
+                selectedClass={currentClass}
+                characterLvl={characterLvl}
+                updateSelectedStigmaLvl={updateSelectedStigmaLvl}
+              />
 
-            <AvailableDefaultStigmas
-              selectStigma={selectStigma}
-              stigmas={availableStigmas}
-              selectedClass={currentClass}
-            />
+              <div className="stigmaCostPanel">
+                <StigmaCostPanel
+                  stigmaShardCost={stigmasShardCost}
+                  stigmaAPCost={stigmasAPCost}
+                />
+              </div>
+            </div>
+
+            <div className="flexColumn">
+              <CharLvlPicker
+                characterLvl={characterLvl}
+                setCharacterLvl={setCharacterLvl}
+                selectedClass={currentClass}
+              />
+
+              <AvailableDefaultStigmas
+                selectStigma={selectStigma}
+                stigmas={availableStigmas}
+                selectedClass={currentClass}
+              />
+            </div>
           </section>
 
           <section className="sp">

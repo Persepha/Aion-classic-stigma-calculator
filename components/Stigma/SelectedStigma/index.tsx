@@ -6,15 +6,21 @@ import cn from "classnames";
 import { SelectedStigmaProps } from "@/components/Stigma/SelectedStigma/SelectedStigma.props";
 import styles from "../Stigma.module.css";
 import { StigmaDescription } from "@/components/Stigma/StigmaDescription";
+import Image from "next/image";
 
 export const SelectedStigma: NextPage<SelectedStigmaProps> = ({
   stigma,
   selectedClass,
   characterLvl,
+  updateSelectedStigmaLvl,
 }) => {
   const [stigmaLvl, setStigmaLvl] = useState<number>(
     stigma.maxAvailableStigmaLvl!
   );
+
+  useEffect(() => {
+    updateSelectedStigmaLvl(stigma.stigma.id, stigmaLvl);
+  }, [stigmaLvl]);
 
   const handleClick = (event: React.MouseEvent) => {
     // handlDel(item.stigma.id);
@@ -31,10 +37,9 @@ export const SelectedStigma: NextPage<SelectedStigmaProps> = ({
     if (tooltipEl.current) {
       const rect = tooltipEl.current.getBoundingClientRect();
 
-      const left = rect.left + document.body.scrollLeft;
       const stigmaOffsetWidth = tooltipEl.current.offsetWidth;
       const availableSpaceOnRight =
-        document.body.clientWidth - (left + stigmaOffsetWidth);
+        document.body.clientWidth - (rect.left + stigmaOffsetWidth);
       setAvailableSpaceOnRight(availableSpaceOnRight);
 
       const bottom = rect.bottom + document.body.scrollTop;
@@ -54,7 +59,12 @@ export const SelectedStigma: NextPage<SelectedStigmaProps> = ({
   return (
     <div className={styles.selectedStigma} ref={tooltipEl}>
       <div className={styles.tooltip}>
-        <img src={image_url} alt={stigma.stigma[stigmaLvl].name} />
+        <Image
+          src={image_url}
+          alt={stigma.stigma[stigmaLvl].name}
+          width={40}
+          height={40}
+        />
         <StigmaDescription
           stigma={stigma}
           stigmaLvl={stigmaLvl}

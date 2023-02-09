@@ -7,4 +7,5 @@ export interface StigmaPanelProps {
   selectedAdvancedStigmas: ActiveStigma[];
   selectedClass: string;
   characterLvl: number;
+  updateSelectedStigmaLvl(stigmaId: string, lvl: number): void;
 }

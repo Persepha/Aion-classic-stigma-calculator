@@ -22,6 +22,7 @@ export interface Stigma {
 
 export interface ActiveStigma {
   maxAvailableStigmaLvl: number | null;
+  selectedStigmaLvl: number | null;
   stigma: Stigma;
 }
 

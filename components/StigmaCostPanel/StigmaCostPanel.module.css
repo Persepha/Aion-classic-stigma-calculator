@@ -1,0 +1,20 @@
+.panel {
+
+
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+    padding: .5rem;
+
+}
+
+.costItem {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.text {
+    color: white;
+}

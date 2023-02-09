@@ -1,5 +1,6 @@
 import React from "react";
 import { NextPage } from "next";
+import Image from "next/image";
 
 import cn from "classnames";
 
@@ -17,10 +18,12 @@ export const ClassItem: NextPage<ClassItemProps> = ({
   };
 
   return (
-    <img
+    <Image
       onClick={handleClick}
-      src={`images/classes/${classValue}.png`}
+      src={`/images/classes/${classValue}.png`}
       alt={classValue}
+      width={64}
+      height={64}
       className={cn(styles.item, {
         [styles.selected]: classValue === selectedClass,
       })}
