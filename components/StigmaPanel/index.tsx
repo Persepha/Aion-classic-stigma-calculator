@@ -18,62 +18,75 @@ export const StigmaPanel: NextPage<StigmaPanelProps> = ({
   selectedClass,
   characterLvl,
   updateSelectedStigmaLvl,
+  deleteStigma,
 }) => {
   return (
     <section className={styles.panel}>
-      <div className={styles.stigmaContainer}>
-        {[...Array(MAX_DEFAULT_STIGMA_SLOTS)].map((slot, index) => (
-          <div
-            className={cn(
-              styles.stigmaSlot,
-              numberDefaultSlotsAllowed > index
-                ? styles.defaultStigmaSlot
-                : styles.disabledDefaultStigmaSlot,
-              {
-                [styles.activeDefaultStigmaSlot]:
-                  !!selectedDefaultStigmas[index],
-              }
-            )}
-            key={index}
-          >
-            {selectedDefaultStigmas[index] ? (
-              <SelectedStigma
-                selectedClass={selectedClass}
-                stigma={selectedDefaultStigmas[index]}
-                characterLvl={characterLvl}
-                updateSelectedStigmaLvl={updateSelectedStigmaLvl}
-              />
-            ) : null}
-          </div>
-        ))}
+      <div className={styles.stigmaPanel}>
+        <div className={styles.stigmaContainer}>
+          {[...Array(MAX_DEFAULT_STIGMA_SLOTS)].map((slot, index) => (
+            <div
+              className={cn(
+                styles.stigmaSlot,
+                numberDefaultSlotsAllowed > index
+                  ? styles.defaultStigmaSlot
+                  : styles.disabledDefaultStigmaSlot,
+                {
+                  [styles.activeDefaultStigmaSlot]:
+                    !!selectedDefaultStigmas[index],
+                }
+              )}
+              key={index}
+            ></div>
+          ))}
+        </div>
+        <div className={styles.stigmaContainer}>
+          {selectedDefaultStigmas.map((stigma) => (
+            <SelectedStigma
+              key={stigma.stigma.id}
+              selectedClass={selectedClass}
+              stigma={stigma}
+              characterLvl={characterLvl}
+              updateSelectedStigmaLvl={updateSelectedStigmaLvl}
+              deleteStigma={deleteStigma}
+            />
+          ))}
+        </div>
       </div>
 
-      <div className={styles.stigmaContainer}>
-        {[...Array(MAX_ADVANCED_STIGMA_SLOTS)].map((slot, index) => (
-          <div
-            className={cn(
-              styles.stigmaSlot,
-              styles.advancedStigma,
-              numberAdvancedSlotsAllowed > index
-                ? styles.advancedStigmaSlot
-                : styles.disabledAdvancedStigmaSlot,
-              {
-                [styles.activeAdvancedStigmaSlot]:
-                  !!selectedAdvancedStigmas[index],
-              }
-            )}
-            key={index}
-          >
-            {selectedAdvancedStigmas[index] ? (
+      <div className={styles.stigmaPanel}>
+        <div className={styles.stigmaContainer}>
+          {[...Array(MAX_ADVANCED_STIGMA_SLOTS)].map((slot, index) => (
+            <div
+              className={cn(
+                styles.stigmaSlot,
+                styles.advancedStigma,
+                numberAdvancedSlotsAllowed > index
+                  ? styles.advancedStigmaSlot
+                  : styles.disabledAdvancedStigmaSlot,
+                {
+                  [styles.activeAdvancedStigmaSlot]:
+                    !!selectedAdvancedStigmas[index],
+                }
+              )}
+              key={index}
+            ></div>
+          ))}
+        </div>
+
+        <div className={styles.stigmaContainer}>
+          {selectedAdvancedStigmas.map((stigma) => (
+            <div className={styles.advStigma} key={stigma.stigma.id}>
               <SelectedStigma
                 selectedClass={selectedClass}
-                stigma={selectedAdvancedStigmas[index]}
+                stigma={stigma}
                 characterLvl={characterLvl}
                 updateSelectedStigmaLvl={updateSelectedStigmaLvl}
+                deleteStigma={deleteStigma}
               />
-            ) : null}
-          </div>
-        ))}
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

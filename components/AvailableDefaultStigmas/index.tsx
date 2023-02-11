@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 
 export const AvailableDefaultStigmas: NextPage<
   AvailableDefaultStigmasProps
-> = ({ stigmas, selectedClass, selectStigma }) => {
+> = ({ stigmas, selectedClass, selectStigma, isStigmaCanBeSelected }) => {
   const [triggerSelectStigma, setTriggerSelectStigma] = useState<number>(0);
   useEffect(() => {
     setTriggerSelectStigma((triggerSelectStigma) => triggerSelectStigma + 1);
@@ -21,6 +21,7 @@ export const AvailableDefaultStigmas: NextPage<
           selectStigma={selectStigma}
           key={stigma.stigma.id}
           stigma={stigma}
+          isStigmaCanBeSelected={isStigmaCanBeSelected}
         />
       ))}
     </section>

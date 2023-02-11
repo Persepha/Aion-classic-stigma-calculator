@@ -22,6 +22,11 @@ import {
 import { AvailableDefaultStigmas } from "@/components/AvailableDefaultStigmas";
 import { AdvancedStigmaTree } from "@/components/AdvancedStigmaTree";
 import { StigmaCostPanel } from "@/components/StigmaCostPanel";
+import {
+  MAX_ADVANCED_STIGMA_SLOTS,
+  MAX_CHARARCTER_LVL,
+  MAX_DEFAULT_STIGMA_SLOTS,
+} from "@/utils/consts";
 
 const font = Roboto({
   weight: "500",
@@ -35,10 +40,14 @@ export default function Home() {
     ClassesEnum.FIGHTER
   );
 
-  const [characterLvl, setCharacterLvl] = useState<number>(55);
+  const [characterLvl, setCharacterLvl] = useState<number>(MAX_CHARARCTER_LVL);
 
-  const [numberDefaultSlots, setNumberDefaultSlots] = useState<number>(6);
-  const [numberAdvancedSlots, setNumberAdvancedSlots] = useState<number>(5);
+  const [numberDefaultSlots, setNumberDefaultSlots] = useState<number>(
+    MAX_DEFAULT_STIGMA_SLOTS
+  );
+  const [numberAdvancedSlots, setNumberAdvancedSlots] = useState<number>(
+    MAX_ADVANCED_STIGMA_SLOTS
+  );
 
   const [selectedDefaultStigmas, setSelectedDefaultStigmas] = useState<
     ActiveStigma[]
@@ -178,15 +187,26 @@ export default function Home() {
     );
   };
 
-  const getSelectedStigmaDependencies = (stigmaId: string) => {
+  const getStigmaDependencies = (stigmaId: string) => {
     const stigmaDependencies: ActiveStigma[] = stigmaGraph.current
       .dependenciesOf(stigmaId)
       .map((id: string) => getStigmaById(id));
 
-    const selectedStigmas = [
-      ...stigmaDependencies,
-      getStigmaById(stigmaId),
-    ].filter((stigma) => !isStigmaSelected(stigma.stigma.id));
+    return [...stigmaDependencies, getStigmaById(stigmaId)];
+  };
+
+  const getStigmaDependantsOf = (stigmaId: string) => {
+    const stigmaDependencies: ActiveStigma[] = stigmaGraph.current
+      .dependantsOf(stigmaId)
+      .map((id: string) => getStigmaById(id));
+
+    return [...stigmaDependencies, getStigmaById(stigmaId)];
+  };
+
+  const getSelectedStigmaDependencies = (stigmaId: string) => {
+    const selectedStigmas = getStigmaDependencies(stigmaId).filter(
+      (stigma) => !isStigmaSelected(stigma.stigma.id)
+    );
 
     const defaultStigmas = selectedStigmas.filter(
       (stigma) => stigma.stigma.type === 0
@@ -215,6 +235,47 @@ export default function Home() {
       numberAdvancedSlotsRequired <= numberAdvancedSlots &&
       numberDefaultSlotsRequired <=
         numberDefaultSlots + numberEmptyAdvancedSlots
+    );
+  };
+
+  const deleteStigma = (stigmaId: string) => {
+    const stigmaDependants = getStigmaDependantsOf(stigmaId);
+
+    const removalAdvancedStigmas = selectedAdvancedStigmas.filter(
+      (selectedStigma) =>
+        stigmaDependants.some(
+          (stigma) => stigma.stigma.id === selectedStigma.stigma.id
+        )
+    );
+
+    const removalDefaultStigmas = selectedDefaultStigmas.filter(
+      (selectedStigma) =>
+        stigmaDependants.some(
+          (stigma) => stigma.stigma.id === selectedStigma.stigma.id
+        )
+    );
+
+    const removalStigmas = [
+      ...removalDefaultStigmas,
+      ...removalAdvancedStigmas,
+    ];
+
+    setSelectedDefaultStigmas(
+      selectedDefaultStigmas.filter(
+        (selectedStigma) =>
+          !removalStigmas.some(
+            (stigma) => stigma.stigma.id === selectedStigma.stigma.id
+          )
+      )
+    );
+
+    setSelectedAdvancedStigmas(
+      selectedAdvancedStigmas.filter(
+        (selectedStigma) =>
+          !removalStigmas.some(
+            (stigma) => stigma.stigma.id === selectedStigma.stigma.id
+          )
+      )
     );
   };
 
@@ -272,6 +333,7 @@ export default function Home() {
                 selectedClass={currentClass}
                 characterLvl={characterLvl}
                 updateSelectedStigmaLvl={updateSelectedStigmaLvl}
+                deleteStigma={deleteStigma}
               />
 
               <div className="stigmaCostPanel">
@@ -293,6 +355,7 @@ export default function Home() {
                 selectStigma={selectStigma}
                 stigmas={availableStigmas}
                 selectedClass={currentClass}
+                isStigmaCanBeSelected={isStigmaCanBeActivated}
               />
             </div>
           </section>

@@ -8,4 +8,5 @@ export interface StigmaPanelProps {
   selectedClass: string;
   characterLvl: number;
   updateSelectedStigmaLvl(stigmaId: string, lvl: number): void;
+  deleteStigma(id: string): void;
 }

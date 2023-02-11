@@ -13,6 +13,7 @@ export const SelectedStigma: NextPage<SelectedStigmaProps> = ({
   selectedClass,
   characterLvl,
   updateSelectedStigmaLvl,
+  deleteStigma,
 }) => {
   const [stigmaLvl, setStigmaLvl] = useState<number>(
     stigma.maxAvailableStigmaLvl!
@@ -21,11 +22,6 @@ export const SelectedStigma: NextPage<SelectedStigmaProps> = ({
   useEffect(() => {
     updateSelectedStigmaLvl(stigma.stigma.id, stigmaLvl);
   }, [stigmaLvl]);
-
-  const handleClick = (event: React.MouseEvent) => {
-    // handlDel(item.stigma.id);
-    console.log(`remove ${stigma.stigma.id}`);
-  };
 
   const tooltipEl = useRef<HTMLDivElement>(null);
 
@@ -54,13 +50,32 @@ export const SelectedStigma: NextPage<SelectedStigmaProps> = ({
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const image_url = `/images/${selectedClass}/${stigma.stigma[stigmaLvl].name}.png`;
+  const handleClick = () => {
+    deleteStigma(stigma.stigma.id);
+  };
 
   return (
     <div className={styles.selectedStigma} ref={tooltipEl}>
+      <button className={styles.deleteButton} onClick={handleClick}>
+        <svg
+          className={styles.icon}
+          xmlns="http://www.w3.org/2000/svg"
+          width="48"
+          height="48"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#F4442E"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
       <div className={styles.tooltip}>
         <Image
-          src={image_url}
+          src={`/images/${selectedClass}/${stigma.stigma[stigmaLvl].name}.png`}
           alt={stigma.stigma[stigmaLvl].name}
           width={40}
           height={40}

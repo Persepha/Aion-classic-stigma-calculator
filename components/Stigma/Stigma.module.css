@@ -73,6 +73,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    position: relative;
 }
 
 .tooltip .tooltiptext {
@@ -123,6 +125,10 @@
 }
 
 .selectedStigma:hover .lvls{
+    visibility: visible;
+}
+
+.selectedStigma:hover .deleteButton {
     visibility: visible;
 }
 
@@ -190,4 +196,37 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.deleteButton {
+    visibility: hidden;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+
+    height: 2rem;
+    width: 2rem;
+
+    background: none;
+    color: inherit;
+    border: none;
+    cursor: pointer;
+
+    background-color: hsl(0 0% 0% / 0.85);
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: background-color 0.3s ease 0s;
+}
+
+.deleteButton:hover {
+    box-shadow: 0px 0px 5px 2px #00c9ab;
+}
+
+.icon {
+    height: 2rem;
+    width: 2rem;
 }
