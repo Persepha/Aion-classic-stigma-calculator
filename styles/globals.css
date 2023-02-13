@@ -52,12 +52,6 @@ body {
   padding: 2rem;
 }
 
-.fc {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
 .stigmaCalculator::-webkit-scrollbar {
   width: 0.45rem;
 }
@@ -89,4 +83,9 @@ body {
   display: flex;
   flex-direction: column;
   gap: .5rem
+}
+
+.dataPickerPanel {
+  display: flex;
+  gap: .5rem;
 }

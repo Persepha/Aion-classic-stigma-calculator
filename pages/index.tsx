@@ -27,6 +27,7 @@ import {
   MAX_CHARARCTER_LVL,
   MAX_DEFAULT_STIGMA_SLOTS,
 } from "@/utils/consts";
+import { FactionPicker } from "@/components/FactionPicker";
 
 const font = Roboto({
   weight: "500",
@@ -116,6 +117,8 @@ export default function Home() {
     setCurrentClass(ClassesEnum[selectedClass]);
   }
 
+  const [faction, setFaction] = useState<string>("elyos");
+
   const [availableStigmas, setAvailableStigmas] = useState<ActiveStigma[]>([]);
 
   useEffect(() => {
@@ -131,7 +134,7 @@ export default function Home() {
     };
 
     fetchStigmas();
-  }, [characterLvl]);
+  }, [characterLvl, faction]);
 
   const getAdvancedStigmaTree = (tree: AdvancedStigmaTreeSlots) => {
     let stigmaTree = {};
@@ -168,7 +171,12 @@ export default function Home() {
       stigmaGraph.current
         .overallOrder()
         .map((stigmaId: string) => getStigmaById(stigmaId))
-        .filter((stigma: ActiveStigma) => stigma.stigma.type === 0)
+        .filter(
+          (stigma: ActiveStigma) =>
+            stigma.stigma.type === 0 &&
+            (stigma.stigma.faction === "daeva" ||
+              stigma.stigma.faction === faction)
+        )
     );
   };
 
@@ -345,11 +353,15 @@ export default function Home() {
             </div>
 
             <div className="flexColumn">
-              <CharLvlPicker
-                characterLvl={characterLvl}
-                setCharacterLvl={setCharacterLvl}
-                selectedClass={currentClass}
-              />
+              <div className="dataPickerPanel">
+                <FactionPicker faction={faction} setFaction={setFaction} />
+
+                <CharLvlPicker
+                  characterLvl={characterLvl}
+                  setCharacterLvl={setCharacterLvl}
+                  selectedClass={currentClass}
+                />
+              </div>
 
               <AvailableDefaultStigmas
                 selectStigma={selectStigma}
