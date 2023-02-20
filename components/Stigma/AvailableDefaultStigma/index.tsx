@@ -49,7 +49,7 @@ export const AvailableDefaultStigma: NextPage<AvailableDefaultStigmaProps> = ({
 
       const bottom = rect.bottom + document.body.scrollTop;
       const availableSpaceOnBottom = document.body.clientHeight - bottom;
-      setAvailableSpaceOnBottom(availableSpaceOnBottom);
+      setAvailableSpaceOnBottom(availableSpaceOnBottom - 100);
     }
   };
 
