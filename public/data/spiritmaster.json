@@ -820,7 +820,7 @@
       "Usage Cost": "200 MP",
       "Cast time": "0.8 sec",
       "Cooldown": "60",
-      "Description": "Commands the spirit to attack. Each spirit has an element-specific strike skill.\n\nWater Spirit: Magical Water Strike\nWind Spirit: Sustainable Magical Wind Strike\nEarth Spirit: Magical Earth Strike, Reduced Movement Speed\nFire Spirit: Magical Fire Strike\nMagma Spirit: Magical Fire Strike\nTempest Spirit: Sustainable Magical Wind Strike.",
+      "Description": "Commands the spirit to attack. Each spirit has an element-specific strike skill.",
       "Abyss point": 38700,
       "Shards cost": 250
     }
