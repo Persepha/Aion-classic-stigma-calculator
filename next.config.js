@@ -1,21 +1,19 @@
 /** @type {import('next').NextConfig} */
 
-const withPlugins = require("next-compose-plugins");
-const withImages = require("next-images");
+const isGithubActions = process.env.GITHUB_ACTIONS || false;
 
-const nextConfig = withPlugins([
-  [
-    withImages,
-    {
-      assetPrefix: "/Aion-classic-stigma-calculator/",
-    },
-  ],
-  {
-    reactStrictMode: true,
-    trailingSlash: true,
-    basePath: "/Aion-classic-stigma-calculator",
-    assetPrefix: "/Aion-classic-stigma-calculator/",
-  },
-]);
+let assetPrefix = "";
+let basePath = "";
 
-module.exports = nextConfig;
+if (isGithubActions) {
+  // trim off `<owner>/`
+  const repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, "");
+
+  assetPrefix = `/${repo}/`;
+  basePath = `/${repo}`;
+}
+
+module.exports = {
+  assetPrefix: assetPrefix,
+  basePath: basePath,
+};
