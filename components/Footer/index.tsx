@@ -15,7 +15,7 @@ export const Footer = () => {
       <section className={styles.container}>
         <p className={styles.logoText}>
           <span>Ai</span>
-          <img src={"/images/aion.svg"} className={styles.logo} alt="o" />
+          <img src={"images/aion.svg"} className={styles.logo} alt="o" />
           <span>n </span>
           <span> classic 2.4</span>
         </p>

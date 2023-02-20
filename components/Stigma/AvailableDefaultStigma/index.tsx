@@ -88,7 +88,7 @@ export const AvailableDefaultStigma: NextPage<AvailableDefaultStigmaProps> = ({
 
           <Image
             onClick={handleClick}
-            src={`/images/${selectedClass}/${stigma.stigma[stigmaLvl].name}.png`}
+            src={`images/${selectedClass}/${stigma.stigma[stigmaLvl].name}.png`}
             alt={`${stigma.stigma[stigmaLvl].name} icon`}
             height={40}
             width={40}

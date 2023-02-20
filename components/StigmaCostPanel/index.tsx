@@ -12,7 +12,7 @@ export const StigmaCostPanel: NextPage<StigmaCostPanelProps> = ({
     <div className={styles.panel}>
       <div className={styles.costItem}>
         <Image
-          src={"/images/stigma-shards.png"}
+          src={"images/stigma-shards.png"}
           alt={"stigma-shards"}
           width={16}
           height={16}
@@ -22,7 +22,7 @@ export const StigmaCostPanel: NextPage<StigmaCostPanelProps> = ({
 
       <div className={styles.costItem}>
         <Image
-          src={"/images/ap.png"}
+          src={"images/ap.png"}
           alt={"stigma-shards"}
           width={16}
           height={16}

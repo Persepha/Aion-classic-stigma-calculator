@@ -75,7 +75,7 @@ export const SelectedStigma: NextPage<SelectedStigmaProps> = ({
       </button>
       <div className={styles.tooltip}>
         <Image
-          src={`/images/${selectedClass}/${stigma.stigma[stigmaLvl].name}.png`}
+          src={`images/${selectedClass}/${stigma.stigma[stigmaLvl].name}.png`}
           alt={stigma.stigma[stigmaLvl].name}
           width={40}
           height={40}

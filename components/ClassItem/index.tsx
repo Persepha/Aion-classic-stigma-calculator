@@ -20,7 +20,7 @@ export const ClassItem: NextPage<ClassItemProps> = ({
   return (
     <Image
       onClick={handleClick}
-      src={`/images/classes/${classValue}.png`}
+      src={`images/classes/${classValue}.png`}
       alt={classValue}
       width={64}
       height={64}

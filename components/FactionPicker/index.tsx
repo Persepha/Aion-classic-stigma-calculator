@@ -13,7 +13,7 @@ export const FactionPicker: NextPage<FactionPickerProps> = ({
   return (
     <div className={styles.container}>
       <Image
-        src={"/images/elyos.png"}
+        src={"images/elyos.png"}
         alt={"elyos"}
         height={30}
         width={30}
@@ -23,7 +23,7 @@ export const FactionPicker: NextPage<FactionPickerProps> = ({
         onClick={() => setFaction("elyos")}
       />
       <Image
-        src={"/images/asmodian.png"}
+        src={"images/asmodian.png"}
         alt={"asmodian"}
         height={30}
         width={30}
