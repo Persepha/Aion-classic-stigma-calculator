@@ -18,7 +18,4 @@ const nextConfig = withPlugins([
   },
 ]);
 
-{
-}
-
 module.exports = nextConfig;
