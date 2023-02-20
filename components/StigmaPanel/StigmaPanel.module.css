@@ -32,15 +32,15 @@
 }
 
 .defaultStigmaSlot{
-    background-image: url('/images/stigma_slots/default stigma slot.png');
+    background-image: url('/Aion-classic-stigma-calculator/images/stigma_slots/default stigma slot.png');
 }
 
 .disabledDefaultStigmaSlot{
-    background-image: url('/images/stigma_slots/disabled default stigma slot.png');
+    background-image: url('/Aion-classic-stigma-calculator/images/stigma_slots/disabled default stigma slot.png');
 }
 
 .activeDefaultStigmaSlot{
-    background-image: url('/images/stigma_slots/active default stigma slot.png');
+    background-image: url('/Aion-classic-stigma-calculator/images/stigma_slots/active default stigma slot.png');
 }
 
 .advancedStigma{
@@ -63,13 +63,13 @@
 }
 
 .advancedStigmaSlot{
-    background-image: url('/images/stigma_slots/advanced stigma slot.png');
+    background-image: url('/Aion-classic-stigma-calculator/images/stigma_slots/advanced stigma slot.png');
 }
 
 .disabledAdvancedStigmaSlot{
-    background-image: url('/images/stigma_slots/disabled advanced stigma slot.png');
+    background-image: url('/Aion-classic-stigma-calculator/images/stigma_slots/disabled advanced stigma slot.png');
 }
 
 .activeAdvancedStigmaSlot{
-    background-image: url('/images/stigma_slots/active advanced stigma slot.png');
+    background-image: url('/Aion-classic-stigma-calculator/images/stigma_slots/active advanced stigma slot.png');
 }
