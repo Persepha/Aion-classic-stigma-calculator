@@ -10,10 +10,6 @@ import {
 } from "@/utils/slots_calc";
 import { CharLvlPicker } from "@/components/CharLvlPicker";
 import {
-  getGladiatorStigmaTree,
-  gladiatorFirstAdvancedStigmaTree,
-} from "@/utils/fetchCharacterStigmaTree/getGladiatorStigmaTree";
-import {
   ActiveAdvancedStigmaTree,
   AdvancedStigmaTreeSlots,
   ActiveStigma,
@@ -28,6 +24,9 @@ import {
   MAX_DEFAULT_STIGMA_SLOTS,
 } from "@/utils/consts";
 import { FactionPicker } from "@/components/FactionPicker";
+import { getCharacterStigmas } from "@/utils/fetchCharacterStigmaTree/getCharacterStigmas";
+import { Footer } from "@/components/Footer";
+import { IndexPage } from "@/components/IndexPage";
 
 const font = Roboto({
   weight: "500",
@@ -113,6 +112,9 @@ export default function Home() {
   const [firstAdvancedStigmaTree, setFirstAdvancedStigmaTree] =
     useState<StigmaTree>({ stigmaTree: null });
 
+  const [secondAdvancedStigmaTree, setSecondAdvancedStigmaTree] =
+    useState<StigmaTree>({ stigmaTree: null });
+
   function selectClass(selectedClass: ClassesEnumType) {
     setCurrentClass(ClassesEnum[selectedClass]);
   }
@@ -123,18 +125,23 @@ export default function Home() {
 
   useEffect(() => {
     const fetchStigmas = async () => {
-      const data = await getGladiatorStigmaTree(currentClass);
-      stigmaGraph.current = data;
+      const { stigmas, firstStigmaTree, secondStigmaTree } =
+        await getCharacterStigmas(currentClass, faction);
+      stigmaGraph.current = stigmas;
 
       getAvailableStigmas();
 
       setFirstAdvancedStigmaTree({
-        stigmaTree: getAdvancedStigmaTree(gladiatorFirstAdvancedStigmaTree),
+        stigmaTree: getAdvancedStigmaTree(firstStigmaTree!),
+      });
+
+      setSecondAdvancedStigmaTree({
+        stigmaTree: getAdvancedStigmaTree(secondStigmaTree!),
       });
     };
 
     fetchStigmas();
-  }, [characterLvl, faction]);
+  }, [characterLvl, faction, currentClass]);
 
   const getAdvancedStigmaTree = (tree: AdvancedStigmaTreeSlots) => {
     let stigmaTree = {};
@@ -186,7 +193,7 @@ export default function Home() {
 
     setSelectedAdvancedStigmas([]);
     setSelectedDefaultStigmas([]);
-  }, [characterLvl]);
+  }, [characterLvl, currentClass, faction]);
 
   const isStigmaSelected = (stigmaId: string) => {
     return (
@@ -285,6 +292,11 @@ export default function Home() {
           )
       )
     );
+
+    setAvailableStigmas([
+      ...availableStigmas,
+      ...removalStigmas.filter((stigma) => stigma.stigma.type === 0),
+    ]);
   };
 
   const selectStigma = (stigmaId: string) => {
@@ -324,6 +336,7 @@ export default function Home() {
 
   return (
     <>
+      <IndexPage />
       <div className={font.className}>
         <main className="stigmaCalculator">
           <ClassesPanel
@@ -383,9 +396,9 @@ export default function Home() {
               />
             )}
 
-            {firstAdvancedStigmaTree.stigmaTree && (
+            {secondAdvancedStigmaTree.stigmaTree && (
               <AdvancedStigmaTree
-                advancedStigmaTree={firstAdvancedStigmaTree.stigmaTree}
+                advancedStigmaTree={secondAdvancedStigmaTree.stigmaTree}
                 selectedClass={currentClass}
                 selectStigma={selectStigma}
                 isStigmaSelected={isStigmaSelected}
@@ -393,6 +406,7 @@ export default function Home() {
               />
             )}
           </section>
+          <Footer />
         </main>
       </div>
     </>

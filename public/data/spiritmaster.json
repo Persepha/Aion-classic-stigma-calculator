@@ -1,0 +1,995 @@
+[
+  {
+    "id": "el_bind",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      20
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "20": {
+      "id": 1746,
+      "name": "Body Root I",
+      "Usage Cost": "108 MP",
+      "Cast time": "0.5 sec",
+      "Cooldown": "20",
+      "Description": "Binds a target within 25m for 6s~8s.",
+      "Shards cost": 60
+    }
+  },
+  {
+    "id": "el_dimisspolymorph",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      34,
+      40,
+      46,
+      52
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "34": {
+      "id": 1625,
+      "name": "Weaken Spirit I",
+      "Usage Cost": "190 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "12",
+      "Description": "Inflicts 861 magical wind damage on a target within 25m, and deals additional 374 damage if the target is a spirit.",
+      "Shards cost": 102
+    },
+    "40": {
+      "id": 1626,
+      "name": "Weaken Spirit II",
+      "Usage Cost": "216 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "12",
+      "Description": "Inflicts 946 magical wind damage on a target within 25m, and deals additional 411 damage if the target is a spirit.",
+      "Shards cost": 120
+    },
+    "46": {
+      "id": 1693,
+      "name": "Weaken Spirit III",
+      "Usage Cost": "242 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "12",
+      "Description": "Inflicts 1061 magical wind damage on a target within 25m, and deals additional 461 damage if the target is a spirit.",
+      "Shards cost": 138
+    },
+    "52": {
+      "id": 2226,
+      "name": "Weaken Spirit IV",
+      "Usage Cost": "278 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "12",
+      "Description": "Inflicts 1190 magical wind damage on a target within 25m, and deals additional 518 damage if the target is a spirit.",
+      "Shards cost": 156
+    }
+  },
+  {
+    "id": "el_drainenergy",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      20,
+      25,
+      31,
+      37,
+      41,
+      47,
+      53
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "20": {
+      "id": 1755,
+      "name": "Absorb Vitality I",
+      "Usage Cost": "109 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "12",
+      "Description": "Deals 279 Magical Fire Damage to a target within 25m of you, and absorbs 50% of the damage as HP.",
+      "Shards cost": 60
+    },
+    "25": {
+      "id": 1756,
+      "name": "Absorb Vitality II",
+      "Usage Cost": "143 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "12",
+      "Description": "Deals 332 Magical Fire Damage to a target within 25m of you, and absorbs 55% of the damage as HP.",
+      "Shards cost": 75
+    },
+    "31": {
+      "id": 1757,
+      "name": "Absorb Vitality III",
+      "Usage Cost": "176 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "12",
+      "Description": "Deals 388 Magical Fire Damage to a target within 25m of you, and absorbs 60% of the damage as HP.",
+      "Shards cost": 93
+    },
+    "37": {
+      "id": 1758,
+      "name": "Absorb Vitality IV",
+      "Usage Cost": "190 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "12",
+      "Description": "Deals 431 Magical Fire Damage to a target within 25m of you, and absorbs 65% of the damage as HP.",
+      "Shards cost": 111
+    },
+    "41": {
+      "id": 1779,
+      "name": "Absorb Vitality V",
+      "Usage Cost": "221 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "12",
+      "Description": "Deals 464 Magical Fire Damage to a target within 25m of you, and absorbs 70% of the damage as HP.",
+      "Shards cost": 123
+    },
+    "47": {
+      "id": 1790,
+      "name": "Absorb Vitality VI",
+      "Usage Cost": "250 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "12",
+      "Description": "Deals 514 Magical Fire Damage to a target within 25m of you, and absorbs 75% of the damage as HP.",
+      "Shards cost": 141
+    },
+    "53": {
+      "id": 2229,
+      "name": "Absorb Vitality VII",
+      "Usage Cost": "284 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "12",
+      "Description": "Deals 584 Magical Fire Damage to a target within 25m of you, and absorbs 75% of the damage as HP.",
+      "Shards cost": 159
+    }
+  },
+  {
+    "id": "el_elementalcharge",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      52
+    ],
+    "Skill type": "Normal",
+    "Target": "Pet",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "52": {
+      "id": 2004,
+      "name": "Healing Spirit I",
+      "Usage Cost": "335 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "120",
+      "Description": "Recovers the HP of a spirit within a 15m radius by 100% and removes all magical debuffs from it.",
+      "Abyss point": 78800,
+      "Shards cost": 260
+    }
+  },
+  {
+    "id": "el_elementtransfer",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      40,
+      52
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Max targets = 1"
+    ],
+    "40": {
+      "id": 2298,
+      "name": "Transference I",
+      "Usage Cost": "10% HP",
+      "Cast time": "1 sec",
+      "Cooldown": "300",
+      "Description": "Spends 10% of own HP to restore the MP of a targeted ally within 25m by 3500.",
+      "Shards cost": 120
+    },
+    "52": {
+      "id": 2299,
+      "name": "Transference II",
+      "Usage Cost": "10% HP",
+      "Cast time": "1 sec",
+      "Cooldown": "300",
+      "Description": "Spends 10% of own HP to restore the MP of a targeted ally within 25m by 4000.",
+      "Shards cost": 156
+    }
+  },
+  {
+    "id": "el_enchantarmor",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      45
+    ],
+    "Skill type": "Normal",
+    "Target": "Pet",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "45": {
+      "id": 1662,
+      "name": "Armor Spirit I",
+      "Usage Cost": "400 MP",
+      "Cast time": "1 sec",
+      "Cooldown": "60",
+      "Description": "Increases your spirit's Physical Attack and Magic Attack by 40%, Physical, All Elemental Defenses by 10%, Magic Boost by 400, Speed by 30%, Magic Accuracy by 1000, and Accuracy by 1000 if it is within a 25m radius for 5m.",
+      "Abyss point": 13750,
+      "Shards cost": 225
+    }
+  },
+  {
+    "id": "el_enchantmentburst",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      25,
+      31,
+      37,
+      42,
+      48,
+      54
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "25": {
+      "id": 1634,
+      "name": "Ignite Aether I",
+      "Usage Cost": "114 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Removes up to 3 buffs from the target, inflicting 189 damage for the first buff removed and a further 189 damage per each additional buff.",
+      "Shards cost": 75
+    },
+    "31": {
+      "id": 1635,
+      "name": "Ignite Aether II",
+      "Usage Cost": "141 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Removes up to 3 buffs from the target, inflicting 225 damage for the first buff removed and a further 255 damage per each additional buff.",
+      "Shards cost": 93
+    },
+    "37": {
+      "id": 1759,
+      "name": "Ignite Aether III",
+      "Usage Cost": "157 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Removes up to 3 buffs from the target, inflicting 250 damage for the first buff removed and a further 250 damage per each additional buff.",
+      "Shards cost": 111
+    },
+    "42": {
+      "id": 1780,
+      "name": "Ignite Aether IV",
+      "Usage Cost": "181 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Removes up to 3 buffs from the target, inflicting 274 damage for the first buff removed and a further 274 damage per each additional buff.",
+      "Shards cost": 126
+    },
+    "48": {
+      "id": 1793,
+      "name": "Ignite Aether V",
+      "Usage Cost": "202 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Removes up to 3 buffs from the target, inflicting 304 damage for the first buff removed and a further 304 damage per each additional buff.",
+      "Shards cost": 144
+    },
+    "54": {
+      "id": 2233,
+      "name": "Ignite Aether VI",
+      "Usage Cost": "234 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Removes up to 3 buffs from the target, inflicting 360 damage for the first buff removed and a further 360 damage per each additional buff.",
+      "Shards cost": 162
+    }
+  },
+  {
+    "id": "el_enervationcurse",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      54
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "54": {
+      "id": 2009,
+      "name": "Withering Gloom I",
+      "Usage Cost": "293 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "120",
+      "Description": "Reduces the maximum HP and maximum MP of a target within a 25m radius by 1500 each for 1 min.\nIt can be removed with a Dispel Magical Debuff skill.",
+      "Shards cost": 162
+    }
+  },
+  {
+    "id": "el_enfeeblement",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      45
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "45": {
+      "id": 1663,
+      "name": "Shackle of Vulnerability I",
+      "Usage Cost": "100 MP",
+      "Cast time": "1 sec",
+      "Cooldown": "30",
+      "Description": "Reduces the Attack Speed of target within 25m radius for 30s. Increases targets casting time for magical skills and decreases All Elemental Defense by 150 and Magic Resistance by 100. This effect can be removed with Dispel Magical Buff or Dispel Magical Debuff skills.",
+      "Abyss point": 13750,
+      "Shards cost": 225
+    }
+  },
+  {
+    "id": "el_escape",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      40
+    ],
+    "Skill type": "Normal",
+    "Target": "Pet",
+    "Additional info": [
+      "Can jumpshot",
+      "Max targets = 12"
+    ],
+    "40": {
+      "id": 1607,
+      "name": "Cloaking Word I",
+      "Usage Cost": "420 MP",
+      "Cast time": "0.5 sec",
+      "Cooldown": "600",
+      "Description": "Puts group members within 20m of you into basic stealth for 30s, during which they cannot move.\nUnable to use during battle.",
+      "Shards cost": 120
+    }
+  },
+  {
+    "id": "el_ethercharge",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      44
+    ],
+    "Skill type": "Normal",
+    "Target": "Pet",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "44": {
+      "id": 1785,
+      "name": "Spirit Recovery I",
+      "Usage Cost": "169 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "180",
+      "Description": "Recovers your spirit's HP by 100%.",
+      "Shards cost": 132
+    }
+  },
+  {
+    "id": "el_fireaid",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      31,
+      37,
+      43,
+      49,
+      55
+    ],
+    "Skill type": "Normal",
+    "Target": "Group Member",
+    "Additional info": [
+      "Can jumpshot",
+      "Max targets =  6"
+    ],
+    "31": {
+      "id": 1608,
+      "name": "Blessing of Fire I",
+      "Usage Cost": "175 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "150",
+      "Description": "For 1m, there is a 10% chance of the caster and the group members within a 20m radius inflicting additional 35 damage on enemies with every attack.",
+      "Shards cost": 93
+    },
+    "37": {
+      "id": 1638,
+      "name": "Blessing of Fire II",
+      "Usage Cost": "195 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "150",
+      "Description": "For 1m, there is a 10% chance of the caster and the group members within a 20m radius inflicting additional 40 damage on enemies with every attack.",
+      "Shards cost": 111
+    },
+    "43": {
+      "id": 1639,
+      "name": "Blessing of Fire III",
+      "Usage Cost": "230 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "150",
+      "Description": "For 1m, there is a 10% chance of the caster and the group members within a 20m radius inflicting additional 46 damage on enemies with every attack.",
+      "Shards cost": 129
+    },
+    "49": {
+      "id": 1640,
+      "name": "Blessing of Fire IV",
+      "Usage Cost": "256 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "150",
+      "Description": "For 1m, there is a 10% chance of the caster and the group members within a 20m radius inflicting additional 52 damage on enemies with every attack.",
+      "Shards cost": 147
+    },
+    "55": {
+      "id": 2241,
+      "name": "Blessing of Fire V",
+      "Usage Cost": "299 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "150",
+      "Description": "For 1m, there is a 10% chance of the caster and the group members within a 20m radius inflicting additional 58 damage on enemies with every attack.",
+      "Shards cost": 165
+    }
+  },
+  {
+    "id": "el_hellcurse",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      55
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "55": {
+      "id": 2012,
+      "name": "Infernal Blight I",
+      "Usage Cost": "588 MP",
+      "Cast time": "1 sec",
+      "Cooldown": "180",
+      "Description": "Decreases Physical Def by 1000, All Elemental Defense by 200, and Magic Resistance by 200 for a target within a 25m radius for 30s.",
+      "Abyss point": 152700,
+      "Shards cost": 275
+    }
+  },
+  {
+    "id": "el_hellpain",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      50,
+      53
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Damage in PVP = 80%"
+    ],
+    "50": {
+      "id": 1666,
+      "name": "Infernal Pain I",
+      "Usage Cost": "482 MP",
+      "Cast time": "1.5 sec",
+      "Cooldown": "30",
+      "Description": "Inflicts 511 earth damage to a target within a 25m radius, and deals periodic 445 damage every 3s for 12s.",
+      "Abyss point": 38700,
+      "Shards cost": 250
+    },
+    "53": {
+      "id": 2230,
+      "name": "Infernal Pain II",
+      "Usage Cost": "512 MP",
+      "Cast time": "1.5 sec",
+      "Cooldown": "30",
+      "Description": "Inflicts 554 earth damage to a target within a 25m radius, and deals periodic 482 damage every 3s for 12s.",
+      "Abyss point": 85800,
+      "Shards cost": 265
+    }
+  },
+  {
+    "id": "el_manareverse",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      45,
+      48,
+      51,
+      54
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "45": {
+      "id": 1664,
+      "name": "Magic Implosion I",
+      "Usage Cost": "257 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Removes up to 3 buffs from the target, inflicts 400 damage for the first buff removed, and inflicts a further 400 damage per each additional buff removed. The target also receives 100 damage every 3 sec for 30 sec. It can be removed with Dispel Magical Buff or Dispel Magical Debuff skills.",
+      "Abyss point": 13750,
+      "Shards cost": 225
+    },
+    "48": {
+      "id": 2218,
+      "name": "Magic Implosion II",
+      "Usage Cost": "270 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Removes up to 3 buffs from the target, inflicts 427 damage for the first buff removed, and inflicts a further 427 damage per each additional buff removed. The target also receives 104 damage every 3 sec for 30 sec. It can be removed with Dispel Magical Buff or Dispel Magical Debuff skills.",
+      "Abyss point": 26500,
+      "Shards cost": 240
+    },
+    "51": {
+      "id": 2224,
+      "name": "Magic Implosion III",
+      "Usage Cost": "288 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Removes up to 3 buffs from the target, inflicts 452 damage for the first buff removed, and inflicts a further 452 damage per each additional buff removed. The target also receives 110 damage every 3 sec for 30 sec. It can be removed with Dispel Magical Buff or Dispel Magical Debuff skills.",
+      "Abyss point": 34500,
+      "Shards cost": 255
+    },
+    "54": {
+      "id": 2238,
+      "name": "Magic Implosion IV",
+      "Usage Cost": "313 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Removes up to 3 buffs from the target, inflicts 491 damage for the first buff removed, and inflicts a further 491 damage per each additional buff removed. The target also receives 120 damage every 3 sec for 30 sec. It can be removed with Dispel Magical Buff or Dispel Magical Debuff skills.",
+      "Abyss point": 45700,
+      "Shards cost": 270
+    }
+  },
+  {
+    "id": "el_order_elementalfield",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      34
+    ],
+    "Skill type": "Normal",
+    "Target": "Pet",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "34": {
+      "id": 1661,
+      "name": "Spirit Wall of Protection I",
+      "Usage Cost": "220 MP",
+      "Cast time": "0.8 sec",
+      "Cooldown": "120",
+      "Description": "Commands spirits to use their respective magical buffs on allies within a 15m radius of themselves.\n\nWater Spirit: Increases Magical Accuracy and Magical Resistance\nWind Spirit: Increases Accuracy and Evasion Rate\nEarth Spirit: Recovers HP. Removes Physical and Mental Debuffs\nFire Spirit: Increases Physical Attack and reflects damage\nMagma Spirit: Recovers HP and increases Physical Attack\nTempest Spirit: Increases Magical Accuracy, Magical Resistance, Accuracy, and Evasion Rate.",
+      "Shards cost": 102
+    }
+  },
+  {
+    "id": "el_order_omen",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      55
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "55": {
+      "id": 2011,
+      "name": "Spirit Hypnosis I",
+      "Cast time": "1 sec",
+      "Cooldown": "30",
+      "Description": "Commands the spirit to use its debuff skills. The spirit possesses the target and puts it to sleep, reducing Attack Speed and increasing all elemental defense of the target before disappearing.",
+      "Abyss point": 152700,
+      "Shards cost": 275
+    }
+  },
+  {
+    "id": "el_order_sacrifice",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      48
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "48": {
+      "id": 1794,
+      "name": "Spirit Substitution I",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "600",
+      "Description": "Commands the spirit to use its protection magic. The spirit receives all the damage in place of the caster.",
+      "Shards cost": 144
+    }
+  },
+  {
+    "id": "el_silence",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      28
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Max targets = 1"
+    ],
+    "28": {
+      "id": 1769,
+      "name": "Sigil of Silence I",
+      "Usage Cost": "131 MP",
+      "Cast time": "1 sec",
+      "Cooldown": "20",
+      "Description": "Silences a target within 25m for 6s~8s.",
+      "Shards cost": 84
+    }
+  },
+  {
+    "id": "el_slave_stormservent_dark",
+    "faction": "asmodian",
+    "type": 1,
+    "lvls": [
+      45,
+      48,
+      51,
+      54
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "45": {
+      "id": 1642,
+      "name": "Summon Cyclone Servant I (A)",
+      "Usage Cost": "295 MP",
+      "Cast time": "1.5 sec",
+      "Cooldown": "30",
+      "Description": "Summons 4 Energies of Wind to inflict wind damage to a target within a 25m radius.",
+      "Abyss point": 13750,
+      "Shards cost": 225
+    },
+    "48": {
+      "id": 2215,
+      "name": "Summon Cyclone Servant II (A)",
+      "Usage Cost": "312 MP",
+      "Cast time": "1.5 sec",
+      "Cooldown": "30",
+      "Description": "Summons 4 Energies of Wind to inflict wind damage to a target within a 25m radius.",
+      "Abyss point": 26500,
+      "Shards cost": 240
+    },
+    "51": {
+      "id": 2221,
+      "name": "Summon Cyclone Servant III (A)",
+      "Usage Cost": "333 MP",
+      "Cast time": "1.5 sec",
+      "Cooldown": "30",
+      "Description": "Summons 4 Energies of Wind to inflict wind damage to a target within a 25m radius.",
+      "Abyss point": 34500,
+      "Shards cost": 255
+    },
+    "54": {
+      "id": 2235,
+      "name": "Summon Cyclone Servant IV (A)",
+      "Usage Cost": "362 MP",
+      "Cast time": "1.5 sec",
+      "Cooldown": "30",
+      "Description": "Summons 4 Energies of Wind to inflict wind damage to a target within a 25m radius.",
+      "Abyss point": 45700,
+      "Shards cost": 270
+    }
+  },
+  {
+    "id": "el_slave_stormservent_light",
+    "faction": "elyos",
+    "type": 1,
+    "lvls": [
+      45,
+      48,
+      51,
+      54
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "45": {
+      "id": 1641,
+      "name": "Summon Cyclone Servant I (E)",
+      "Usage Cost": "295 MP",
+      "Cast time": "1.5 sec",
+      "Cooldown": "30",
+      "Description": "Summons 4 Energies of Wind to inflict wind damage to a target within a 25m radius.",
+      "Abyss point": 13750,
+      "Shards cost": 225
+    },
+    "48": {
+      "id": 2214,
+      "name": "Summon Cyclone Servant II (E)",
+      "Usage Cost": "312 MP",
+      "Cast time": "1.5 sec",
+      "Cooldown": "30",
+      "Description": "Summons 4 Energies of Wind to inflict wind damage to a target within a 25m radius.",
+      "Abyss point": 26500,
+      "Shards cost": 240
+    },
+    "51": {
+      "id": 2220,
+      "name": "Summon Cyclone Servant III (E)",
+      "Usage Cost": "333 MP",
+      "Cast time": "1.5 sec",
+      "Cooldown": "30",
+      "Description": "Summons 4 Energies of Wind to inflict wind damage to a target within a 25m radius.",
+      "Abyss point": 34500,
+      "Shards cost": 255
+    },
+    "54": {
+      "id": 2234,
+      "name": "Summon Cyclone Servant IV (E)",
+      "Usage Cost": "362 MP",
+      "Cast time": "1.5 sec",
+      "Cooldown": "30",
+      "Description": "Summons 4 Energies of Wind to inflict wind damage to a target within a 25m radius.",
+      "Abyss point": 45700,
+      "Shards cost": 270
+    }
+  },
+  {
+    "id": "el_sleepingspirit",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      52
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Duration in PVP = 25%"
+    ],
+    "52": {
+      "id": 2006,
+      "name": "Hand of Torpor I",
+      "Usage Cost": "335 MP",
+      "Cast time": "2.5 sec",
+      "Cooldown": "60",
+      "Description": "Forces a target within 25m to fall asleep for 20s and increases All Elemental Defense. The duration decreases if the target is a player.",
+      "Abyss point": 78800,
+      "Shards cost": 260
+    }
+  },
+  {
+    "id": "el_stigma_order_destructimpact",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      50
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "50": {
+      "id": 1665,
+      "name": "Spirit Ruinous Offensive I",
+      "Usage Cost": "200 MP",
+      "Cast time": "0.8 sec",
+      "Cooldown": "60",
+      "Description": "Commands the spirit to attack. Each spirit has an element-specific strike skill.\n\nWater Spirit: Magical Water Strike\nWind Spirit: Sustainable Magical Wind Strike\nEarth Spirit: Magical Earth Strike, Reduced Movement Speed\nFire Spirit: Magical Fire Strike\nMagma Spirit: Magical Fire Strike\nTempest Spirit: Sustainable Magical Wind Strike.",
+      "Abyss point": 38700,
+      "Shards cost": 250
+    }
+  },
+  {
+    "id": "el_stigma_order_etheremission_light",
+    "faction": "elyos",
+    "type": 0,
+    "lvls": [
+      45
+    ],
+    "Skill type": "Normal",
+    "Target": "Pet",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "45": {
+      "id": 1601,
+      "name": "Ancestral Spirit Flow I",
+      "Usage Cost": "440 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "180",
+      "Description": "Commands the spirit to channel its HP into an attack spell. Each spirit has an element-specific skill that deals damage in an area of affect. It deals an additional damage if the target is an Asmodian or a Balaur",
+      "Shards cost": 135
+    }
+  },
+  {
+    "id": "el_stigma_order_ethereruption_light",
+    "faction": "elyos",
+    "type": 0,
+    "lvls": [
+      50
+    ],
+    "Skill type": "Normal",
+    "Target": "Pet",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "50": {
+      "id": 1604,
+      "name": "Spirit Burn-to-Ashes I",
+      "Usage Cost": "500 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "180",
+      "Description": "Commands the spirit to consume its HP in a magical elemental attack dealing area effect damage. It deals additional damage if the target is an Asmodian or a Balaur.",
+      "Shards cost": 150
+    }
+  },
+  {
+    "id": "el_stigma_order_etherimpact_dark",
+    "faction": "asmodian",
+    "type": 0,
+    "lvls": [
+      45
+    ],
+    "Skill type": "Normal",
+    "Target": "Pet",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "45": {
+      "id": 1602,
+      "name": "Ancestral Spirit Self Destruct I",
+      "Usage Cost": "440 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "180",
+      "Description": "Commands the spirit to channel its HP into an attack spell. Each spirit has an element-specific skill that deals damage in an area of affect. It deals an additional damage if the target is an Elyos or a Balaur.",
+      "Shards cost": 135
+    }
+  },
+  {
+    "id": "el_stigma_order_shadoweruption_dark",
+    "faction": "asmodian",
+    "type": 0,
+    "lvls": [
+      50
+    ],
+    "Skill type": "Normal",
+    "Target": "Pet",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "50": {
+      "id": 1605,
+      "name": "Spirit Explosion I",
+      "Usage Cost": "500 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "180",
+      "Description": "Commands the spirit to consume its HP in a magical elemental attack dealing area effect damage. It deals additional damage if the target is an Elyos or a Balaur.",
+      "Shards cost": 150
+    }
+  },
+  {
+    "id": "el_stigma_stormblade",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      45,
+      51
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "45": {
+      "id": 1603,
+      "name": "Cyclone of Wrath I",
+      "Usage Cost": "246 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "12",
+      "Description": "Deals 357 magical wind damage to a target within 25m of you, and deals a further 311 damage every 2s for 8s.",
+      "Shards cost": 135
+    },
+    "51": {
+      "id": 2219,
+      "name": "Cyclone of Wrath II",
+      "Usage Cost": "278 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "12",
+      "Description": "Deals 395 magical wind damage to a target within 25m of you, and deals a further 344 damage every 2s for 8s.",
+      "Shards cost": 153
+    }
+  },
+  {
+    "id": "el_sympatheticswitch",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      22
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "22": {
+      "id": 1683,
+      "name": "Enmity Swap I",
+      "Usage Cost": "37 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "60",
+      "Description": "You draw the Enmity of a target within 15m that is currently focused on your spirit.",
+      "Shards cost": 66
+    }
+  },
+  {
+    "id": "el_terrorspirit",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      37
+    ],
+    "Skill type": "Normal",
+    "Target": "Area within a Radius of Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Duration in PVP = 50%",
+      "Max targets = 6"
+    ],
+    "37": {
+      "id": 1685,
+      "name": "Fear Shriek I",
+      "Usage Cost": "520 MP",
+      "Cast time": "1.5 sec",
+      "Cooldown": "60",
+      "Description": "Transforms a target within a 15m radius of you into Fire Spirits for 15s-18s, and strikes them with fear and reduces their Movement Speed. The duration decreases if the target is a player.",
+      "Shards cost": 111
+    }
+  }
+]

@@ -1,0 +1,1062 @@
+[
+  {
+    "id": "kn_absolutescare",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      48
+    ],
+    "Skill type": "Normal",
+    "Target": "Area within a Radius of Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving",
+      "Max targets = 4"
+    ],
+    "48": {
+      "id": 540,
+      "name": "Terrible Howl I",
+      "Usage Cost": "124 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "300",
+      "Description": "Taunts up to 4 enemies within a 10m radius of you, increasing their Enmity towards you, reducing their Movement Speed, and fearing them for 4s.",
+      "Shards cost": 144
+    }
+  },
+  {
+    "id": "kn_brainstorm",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      45,
+      48,
+      51,
+      54
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "45": {
+      "id": 411,
+      "name": "Divine Justice I",
+      "Usage Cost": "165 MP",
+      "Cast time": "0.5 sec",
+      "Cooldown": "120",
+      "Description": "Inflicts 760 earth damage to a target within a 25m radius and stuns the target for 2s.",
+      "Abyss point": 13750,
+      "Shards cost": 225
+    },
+    "48": {
+      "id": 2042,
+      "name": "Divine Justice II",
+      "Usage Cost": "165 MP",
+      "Cast time": "0.5 sec",
+      "Cooldown": "120",
+      "Description": "Inflicts 783 earth damage to a target within a 25m radius and stuns the target for 2s.",
+      "Abyss point": 26500,
+      "Shards cost": 240
+    },
+    "51": {
+      "id": 2049,
+      "name": "Divine Justice III",
+      "Usage Cost": "189 MP",
+      "Cast time": "0.5 sec",
+      "Cooldown": "120",
+      "Description": "Inflicts 810 earth damage to a target within a 25m radius and stuns the target for 2s.",
+      "Abyss point": 34500,
+      "Shards cost": 255
+    },
+    "54": {
+      "id": 2064,
+      "name": "Divine Justice IV",
+      "Usage Cost": "199 MP",
+      "Cast time": "0.5 sec",
+      "Cooldown": "120",
+      "Description": "Inflicts 837 earth damage to a target within a 25m radius and stuns the target for 2s.",
+      "Abyss point": 45700,
+      "Shards cost": 270
+    }
+  },
+  {
+    "id": "kn_breakpower",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      34,
+      40,
+      46,
+      52
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "34": {
+      "id": 410,
+      "name": "Break Power I",
+      "Usage Cost": "57 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "16",
+      "Description": "Inflicts 16~20 physical damage on a stumbled target, and decreases its Physical Attack by 20 for 30s. While the skill is in effect, your Attack increases by 20.",
+      "Shards cost": 102
+    },
+    "40": {
+      "id": 457,
+      "name": "Break Power II",
+      "Usage Cost": "61 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "16",
+      "Description": "Inflicts 16~20 physical damage on a stumbled target, and decreases its Physical Attack by 25 for 30s. While the skill is in effect, your Attack increases by 25.",
+      "Shards cost": 120
+    },
+    "46": {
+      "id": 536,
+      "name": "Break Power III",
+      "Usage Cost": "63 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "16",
+      "Description": "Deals 16~20 physical damage to a stumbled target, and decreases its Physical Attack by 25 for 30s. While the skill is in effect, your Attack increases by 25.",
+      "Shards cost": 138
+    },
+    "52": {
+      "id": 111,
+      "name": "Break Power IV",
+      "Usage Cost": "72 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "16",
+      "Description": "Deals 16~20 physical damage to a stumbled target, and decreases its Physical Attack by 25 for 30s. While the skill is in effect, your Attack increases by 25.",
+      "Shards cost": 156
+    }
+  },
+  {
+    "id": "kn_conquestmind",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      44,
+      50
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "44": {
+      "id": 531,
+      "name": "Power of Restoration I",
+      "Usage Cost": "87 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "300",
+      "Description": "Recovers your HP by 80 every 6s for 1m.",
+      "Shards cost": 132
+    },
+    "50": {
+      "id": 543,
+      "name": "Power of Restoration II",
+      "Usage Cost": "93 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "300",
+      "Description": "Recovers your HP by 89 every 6s for 1m.",
+      "Shards cost": 150
+    }
+  },
+  {
+    "id": "kn_destructshield",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      55
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Damage in PVP = 120%"
+    ],
+    "55": {
+      "id": 1979,
+      "name": "Shieldburst I",
+      "Usage Cost": "252 MP",
+      "Cast time": "1 sec",
+      "Cooldown": "30",
+      "Description": "High chance of inflicting 1175-1179 Physical Damage on the target, and causes the enemy to stumble. Shield required.",
+      "Abyss point": 152700,
+      "Shards cost": 275
+    }
+  },
+  {
+    "id": "kn_destructwish",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      50
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "50": {
+      "id": 416,
+      "name": "Empyrean Fury I",
+      "Usage Cost": "165 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "90",
+      "Description": "Increases Physical Attack by 50%, Magic Accuracy by 200 and Magic Boost by 200 for 30s.",
+      "Abyss point": 38700,
+      "Shards cost": 250
+    }
+  },
+  {
+    "id": "kn_divinepower",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      20
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "20": {
+      "id": 513,
+      "name": "Divine Fury I",
+      "Usage Cost": "86 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "180",
+      "Description": "Increases your Physical Attack by 30% for 30s.",
+      "Shards cost": 60
+    }
+  },
+  {
+    "id": "kn_divineslash",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      28,
+      34,
+      40,
+      46,
+      52
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "28": {
+      "id": 414,
+      "name": "Punishment I",
+      "Usage Cost": "86 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Inflicts 377~381 random physical damage on the target by wielding a Greatsword.",
+      "Shards cost": 84
+    },
+    "34": {
+      "id": 415,
+      "name": "Punishment II",
+      "Usage Cost": "95 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Inflicts 418~422 random physical damage on the target by wielding a Greatswor",
+      "Shards cost": 102
+    },
+    "40": {
+      "id": 461,
+      "name": "Punishment III",
+      "Usage Cost": "102 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Inflicts 536~540 random physical damage on the target by wielding a Greatsword.",
+      "Shards cost": 120
+    },
+    "46": {
+      "id": 534,
+      "name": "Punishment IV",
+      "Usage Cost": "104 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Inflicts 638~642 random physical damage on the target by wielding a Greatsword.",
+      "Shards cost": 138
+    },
+    "52": {
+      "id": 2053,
+      "name": "Punishment V",
+      "Usage Cost": "120 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Inflicts 822~826 random physical damage on the target by wielding a Greatsword.",
+      "Shards cost": 156
+    }
+  },
+  {
+    "id": "kn_fortitudewave",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      52,
+      55
+    ],
+    "Skill type": "Normal",
+    "Target": "Area within a Radius of Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Max targets = 6"
+    ],
+    "52": {
+      "id": 1973,
+      "name": "Punishing Wave I",
+      "Usage Cost": "240 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "180",
+      "Description": "Inflicts 489~493 damage on up to 6 enemies within a 7m radius, and immobilizes them for 10s.",
+      "Abyss point": 78800,
+      "Shards cost": 260
+    },
+    "55": {
+      "id": 1974,
+      "name": "Punishing Wave II",
+      "Usage Cost": "252 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "180",
+      "Description": "Inflicts 523~527 damage on up to 6 enemies within a 7m radius, and immobilizes them for 10s.",
+      "Abyss point": 101800,
+      "Shards cost": 275
+    }
+  },
+  {
+    "id": "kn_grandprotection",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      37
+    ],
+    "Skill type": "Normal",
+    "Target": "Group Member",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving",
+      "Max targets = 1"
+    ],
+    "37": {
+      "id": 417,
+      "name": "Bodyguard I",
+      "Usage Cost": "79 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "120",
+      "Description": "For 30 sec, you suffer 100 damage instead of an ally within 25m radius whenever ally receives attack.",
+      "Shards cost": 111
+    }
+  },
+  {
+    "id": "kn_highprovoke",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      28,
+      34,
+      40,
+      46,
+      52
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "28": {
+      "id": 402,
+      "name": "Incite Rage I",
+      "Usage Cost": "86 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "60",
+      "Description": "Provokes a target within a 15m radius to increase its Enmity towards you.",
+      "Shards cost": 84
+    },
+    "34": {
+      "id": 406,
+      "name": "Incite Rage II",
+      "Usage Cost": "95 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "60",
+      "Description": "Provokes a target within a 15m radius to increase its Enmity towards you.",
+      "Shards cost": 102
+    },
+    "40": {
+      "id": 403,
+      "name": "Incite Rage III",
+      "Usage Cost": "102 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "60",
+      "Description": "Provokes a target within a 15m radius to increase its Enmity towards you.",
+      "Shards cost": 120
+    },
+    "46": {
+      "id": 408,
+      "name": "Incite Rage IV",
+      "Usage Cost": "104 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "60",
+      "Description": "Provokes a target within a 15m radius to increase its Enmity towards you.",
+      "Shards cost": 138
+    },
+    "52": {
+      "id": 2054,
+      "name": "Incite Rage V",
+      "Usage Cost": "120 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "60",
+      "Description": "Provokes a target within a 15m radius to increase its Enmity towards you.",
+      "Shards cost": 156
+    }
+  },
+  {
+    "id": "kn_holywrath",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      20,
+      31,
+      42,
+      54
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "20": {
+      "id": 424,
+      "name": "Holy Shield I",
+      "Usage Cost": "58 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "60",
+      "Description": "For 30s, you reflect 46 damage back to enemies within 5m radius when they successfully land an attack on you.",
+      "Shards cost": 60
+    },
+    "31": {
+      "id": 425,
+      "name": "Holy Shield II",
+      "Usage Cost": "73 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "60",
+      "Description": "For 30s, you reflect 83 damage back to enemies within 5m radius when they successfully land an attack on you.",
+      "Shards cost": 93
+    },
+    "42": {
+      "id": 527,
+      "name": "Holy Shield III",
+      "Usage Cost": "83 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "60",
+      "Description": "For 30s, you reflect 115 damage back to enemies within 5m radius when they successfully land an attack on you.",
+      "Shards cost": 126
+    },
+    "54": {
+      "id": 2058,
+      "name": "Holy Shield IV",
+      "Usage Cost": "100 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "60",
+      "Description": "For 30s, you reflect 168 damage back to enemies within 5m radius when they successfully land an attack on you.",
+      "Shards cost": 162
+    }
+  },
+  {
+    "id": "kn_intimidation",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      52,
+      55
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "52": {
+      "id": 1971,
+      "name": "Threatening Taunt I",
+      "Usage Cost": "48 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "60",
+      "Description": "Provokes a target within a 15 m radius of you to increase its Enmity towards you and temporarily decrease its Attack Speed.",
+      "Abyss point": 78800,
+      "Shards cost": 260
+    },
+    "55": {
+      "id": 1972,
+      "name": "Threatening Taunt II",
+      "Usage Cost": "51 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "60",
+      "Description": "Provokes a target within a 15 m radius of you to increase its Enmity towards you and temporarily decrease its Attack Speed.",
+      "Abyss point": 101800,
+      "Shards cost": 275
+    }
+  },
+  {
+    "id": "kn_invinsibleprotect",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      55
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving",
+      "Max targets = 6"
+    ],
+    "55": {
+      "id": 1978,
+      "name": "Empyrean Providence I",
+      "Usage Cost": "404 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "600",
+      "Description": "Creates a protective shield for 15s that has a 10% chance of blocking damage each time the caster and up to 6 allies within a 30m radius receive attack. In addition, increases Stun, Knock Back, Stumble, Spin, and Aerial Thrust Resistances by 1000 (The protective shield blocks 50% of the damage received per attack).",
+      "Abyss point": 152700,
+      "Shards cost": 275
+    }
+  },
+  {
+    "id": "kn_invinsibleshield",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      50
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "50": {
+      "id": 413,
+      "name": "Shield of Faith I",
+      "Usage Cost": "165 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "180",
+      "Description": "Blocks 1 attacks for 30 sec with shield defense. A shield required",
+      "Abyss point": 38700,
+      "Shards cost": 250
+    }
+  },
+  {
+    "id": "kn_massiveprovoke",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      25,
+      31,
+      37,
+      43,
+      49,
+      55
+    ],
+    "Skill type": "Normal",
+    "Target": "Area within a Radius of Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving",
+      "Max targets = 5"
+    ],
+    "25": {
+      "id": 431,
+      "name": "Provoking Roar I",
+      "Usage Cost": "81 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Taunts up to 5 enemies within a 10m radius of you to increase their Enmity.",
+      "Shards cost": 75
+    },
+    "31": {
+      "id": 432,
+      "name": "Provoking Roar II",
+      "Usage Cost": "91 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Taunts up to 5 enemies within a 10m radius of you to increase their Enmity.",
+      "Shards cost": 93
+    },
+    "37": {
+      "id": 451,
+      "name": "Provoking Roar III",
+      "Usage Cost": "98 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Taunts up to 5 enemies within a 10m radius of you to increase their Enmity.",
+      "Shards cost": 111
+    },
+    "43": {
+      "id": 530,
+      "name": "Provoking Roar IV",
+      "Usage Cost": "103 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Taunts up to 5 enemies within a 10m radius of you to increase their Enmity.",
+      "Shards cost": 129
+    },
+    "49": {
+      "id": 541,
+      "name": "Provoking Roar V",
+      "Usage Cost": "103 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Taunts up to 5 enemies within a 10m radius of you to increase their Enmity.",
+      "Shards cost": 147
+    },
+    "55": {
+      "id": 2067,
+      "name": "Provoking Roar VI",
+      "Usage Cost": "126 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Taunts up to 5 enemies within a 10m radius of you to increase their Enmity.",
+      "Shards cost": 165
+    }
+  },
+  {
+    "id": "kn_powersink",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      45,
+      48,
+      51,
+      54
+    ],
+    "Skill type": "Chain Skills",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "45": {
+      "id": 412,
+      "name": "Magic Smash I",
+      "Usage Cost": "165 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Inflicts 1087 earth damage to a target within a 25m radius. Chain Skill Level 3",
+      "Abyss point": 13750,
+      "Shards cost": 225
+    },
+    "48": {
+      "id": 2043,
+      "name": "Magic Smash II",
+      "Usage Cost": "165 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Inflicts 1134 earth damage to a target within a 25m radius. Chain Skill Level 3",
+      "Abyss point": 26500,
+      "Shards cost": 240
+    },
+    "51": {
+      "id": 2050,
+      "name": "Magic Smash III",
+      "Usage Cost": "189 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Inflicts 1243 earth damage to a target within a 25m radius. Chain Skill Level 3",
+      "Abyss point": 34500,
+      "Shards cost": 255
+    },
+    "54": {
+      "id": 2065,
+      "name": "Magic Smash IV",
+      "Usage Cost": "199 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Inflicts 1356 earth damage to a target within a 25m radius. Chain Skill Level 3",
+      "Abyss point": 45700,
+      "Shards cost": 270
+    }
+  },
+  {
+    "id": "kn_recover",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      45,
+      48,
+      51,
+      54
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "45": {
+      "id": 409,
+      "name": "Prayer of Resilience I",
+      "Usage Cost": "206 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "180",
+      "Description": "Restores HP by 2181.",
+      "Abyss point": 13750,
+      "Shards cost": 225
+    },
+    "48": {
+      "id": 2041,
+      "name": "Prayer of Resilience II",
+      "Usage Cost": "207 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "180",
+      "Description": "Restores HP by 2342.",
+      "Abyss point": 26500,
+      "Shards cost": 240
+    },
+    "51": {
+      "id": 2048,
+      "name": "Prayer of Resilience III",
+      "Usage Cost": "236 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "180",
+      "Description": "Restores HP by 3027.",
+      "Abyss point": 34500,
+      "Shards cost": 255
+    },
+    "54": {
+      "id": 2063,
+      "name": "Prayer of Resilience IV",
+      "Usage Cost": "248 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "180",
+      "Description": "Restores HP by 3167.",
+      "Abyss point": 45700,
+      "Shards cost": 270
+    }
+  },
+  {
+    "id": "kn_reflectshield",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      54
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "54": {
+      "id": 1976,
+      "name": "Barricade of Steel I",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "6",
+      "Description": "Increases Block by 1000, Physical Def by 15%, Stun, Knock Back, Stumble, Spin, and Aerial Thrust Resistances by 1000, and reflects 210 damage to the enemy that s you within a 20m radius. This skill is disabled if another skill is used. You cannot jump while the skill is in effect. A shield required",
+      "Shards cost": 162
+    }
+  },
+  {
+    "id": "kn_sentinel",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      45,
+      48,
+      51,
+      54
+    ],
+    "Skill type": "Normal",
+    "Target": "Area within a Radius of Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving",
+      "Max targets = 6"
+    ],
+    "45": {
+      "id": 438,
+      "name": "Prayer of Victory I",
+      "Usage Cost": "206 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "300",
+      "Description": "Increases the Maximum HP of you and up to 6 allies within a 30m radius by 1000 for 2m.",
+      "Abyss point": 13750,
+      "Shards cost": 225
+    },
+    "48": {
+      "id": 439,
+      "name": "Prayer of Victory II",
+      "Usage Cost": "207 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "300",
+      "Description": "Increases the Maximum HP of you and up to 6 allies within a 30m radius by 1100 for 2m.",
+      "Abyss point": 26500,
+      "Shards cost": 240
+    },
+    "51": {
+      "id": 440,
+      "name": "Prayer of Victory III",
+      "Usage Cost": "236 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "300",
+      "Description": "Increases the Maximum HP of you and up to 6 allies within a 30m radius by 1200 for 2m.",
+      "Abyss point": 34500,
+      "Shards cost": 255
+    },
+    "54": {
+      "id": 466,
+      "name": "Prayer of Victory IV",
+      "Usage Cost": "248 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "300",
+      "Description": "Increases the Maximum HP of you and up to 6 allies within a 30m radius by 1300 for 2m.",
+      "Abyss point": 45700,
+      "Shards cost": 270
+    }
+  },
+  {
+    "id": "kn_stigma_demonpunishment_dark",
+    "faction": "asmodian",
+    "type": 0,
+    "lvls": [
+      50
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "50": {
+      "id": 550,
+      "name": "Punishment of Darkness I",
+      "Usage Cost": "165 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "60",
+      "Description": "Deals 907~911 physical damage to the target and absorbs 50% of the damage as HP.",
+      "Shards cost": 150
+    }
+  },
+  {
+    "id": "kn_stigma_drainsword_dark",
+    "faction": "asmodian",
+    "type": 0,
+    "lvls": [
+      45
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "45": {
+      "id": 547,
+      "name": "Ancestral Righteous Punishment I",
+      "Usage Cost": "124 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "60",
+      "Description": "Deals 743~747 physical damage to the target and absorbs 50% of the damage as HP.",
+      "Shards cost": 135
+    }
+  },
+  {
+    "id": "kn_stigma_godjudgement_light",
+    "faction": "elyos",
+    "type": 0,
+    "lvls": [
+      45
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "45": {
+      "id": 546,
+      "name": "Ancestral Holy Punishment I",
+      "Usage Cost": "124 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "120",
+      "Description": "Deals 743~747 physical damage to the target and stuns it for 2s.",
+      "Shards cost": 135
+    }
+  },
+  {
+    "id": "kn_stigma_godpunishment_light",
+    "faction": "elyos",
+    "type": 0,
+    "lvls": [
+      50
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "50": {
+      "id": 549,
+      "name": "Punishment of Light I",
+      "Usage Cost": "165 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "120",
+      "Description": "Deals 907~911 physical damage to the target and stuns it for 2s.",
+      "Shards cost": 150
+    }
+  },
+  {
+    "id": "kn_stigma_resistarmor",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      45
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "45": {
+      "id": 401,
+      "name": "Aether Armor I",
+      "Usage Cost": "103 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "300",
+      "Description": "Increases your Magic Resistance by 800 for 30s.",
+      "Shards cost": 135
+    }
+  },
+  {
+    "id": "kn_stunningsnacher",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      22
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "22": {
+      "id": 523,
+      "name": "Doom Lure I",
+      "Usage Cost": "76 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Grabs an enemy within 16m of you, pulling it to you, increasing its Enmity towards you, and decreasing its Movement Speed for 10s.",
+      "Shards cost": 66
+    }
+  },
+  {
+    "id": "kn_thunderblade",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      40,
+      52
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "40": {
+      "id": 2271,
+      "name": "Inquisitor's Blow I",
+      "Usage Cost": "81 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Inflicts 443 ~ 447 physical damage on a target within a 15m radius of you.",
+      "Shards cost": 120
+    },
+    "52": {
+      "id": 2272,
+      "name": "Inquisitor's Blow II",
+      "Usage Cost": "96 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Inflicts 682 ~ 686 physical damage on a target within a 15m radius of you.",
+      "Shards cost": 156
+    }
+  },
+  {
+    "id": "wa_gatecrush",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      40,
+      46,
+      52
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "40": {
+      "id": 183,
+      "name": "Siegebreaker I",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "12",
+      "Description": "Deals 16~20 physical damage to the target. Deals an extra 4000 physical damage to castle gates.",
+      "Shards cost": 120
+    },
+    "46": {
+      "id": 382,
+      "name": "Siegebreaker II",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "12",
+      "Description": "Deals 16~20 physical damage to the target. Deals an extra 5500 physical damage to castle gates.",
+      "Shards cost": 138
+    },
+    "52": {
+      "id": 2026,
+      "name": "Siegebreaker III",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "12",
+      "Description": "Deals 16~20 physical damage to the target. Deals an extra 6500 physical damage to castle gates.",
+      "Shards cost": 156
+    }
+  },
+  {
+    "id": "wa_steadiness",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      34
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "34": {
+      "id": 287,
+      "name": "Unwavering Devotion I",
+      "Usage Cost": "79 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "180",
+      "Description": "Increases your Stun, Knock Back, Stumble, Spin, and Aerial Thrust Resistances by 1000 for 1m30s.",
+      "Shards cost": 111
+    }
+  }
+]

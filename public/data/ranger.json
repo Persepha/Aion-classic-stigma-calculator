@@ -1,0 +1,1132 @@
+[
+  {
+    "id": "ra_backdashstab",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      22
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can use while moving"
+    ],
+    "22": {
+      "id": 655,
+      "name": "Retreating Slash I",
+      "Usage Cost": "41 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "60",
+      "Description": "Inflicts 16~20 physical damage on the target, and you are pushed back 25m. The target is sometimes stunned for 3s.",
+      "Shards cost": 66
+    }
+  },
+  {
+    "id": "ra_blazingtrap_dark",
+    "faction": "asmodian",
+    "type": 1,
+    "lvls": [
+      52,
+      55
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "52": {
+      "id": 622,
+      "name": "Blazing Trap I (A)",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "20",
+      "Description": "Uses 20 Tripeed Seeds to set a trap. The trap lasts for 1m and when an enemy approaches, it explodes, inflicting damage on one enemy who wanders within 5m of it.",
+      "Abyss point": 78800,
+      "Shards cost": 260
+    },
+    "55": {
+      "id": 624,
+      "name": "Blazing Trap II (A)",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "20",
+      "Description": "Uses 20 Tripeed Seeds to set a trap. The trap lasts for 1m and when an enemy approaches, it explodes, inflicting damage on to one enemy who wanders within 5m of it.",
+      "Abyss point": 101800,
+      "Shards cost": 275
+    }
+  },
+  {
+    "id": "ra_blazingtrap_light",
+    "faction": "elyos",
+    "type": 1,
+    "lvls": [
+      52,
+      55
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "52": {
+      "id": 621,
+      "name": "Blazing Trap I (E)",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "20",
+      "Description": "Uses 20 Tripeed Seeds to set a trap. The trap lasts for 1m and when an enemy approaches, it explodes, inflicting damage on one enemy who wanders within 5m of it.",
+      "Abyss point": 78800,
+      "Shards cost": 260
+    },
+    "55": {
+      "id": 623,
+      "name": "Blazing Trap II (E)",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "20",
+      "Description": "Uses 20 Tripeed Seeds to set a trap. The trap lasts for 1m and when an enemy approaches, it explodes, inflicting damage on to one enemy who wanders within 5m of it.",
+      "Abyss point": 101800,
+      "Shards cost": 275
+    }
+  },
+  {
+    "id": "ra_breathofnature",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      34,
+      40,
+      46,
+      52
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "34": {
+      "id": 657,
+      "name": "Breath of Nature I",
+      "Usage Cost": "114 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "300",
+      "Description": "Increases your Natural Healing and Natural Mana Treatment by 50 and 20 respectively for 5m.",
+      "Shards cost": 102
+    },
+    "40": {
+      "id": 658,
+      "name": "Breath of Nature II",
+      "Usage Cost": "122 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "300",
+      "Description": "Increases your Natural Healing and Natural Mana Treatment by 65 and 30 respectively for 5m.",
+      "Shards cost": 120
+    },
+    "46": {
+      "id": 729,
+      "name": "Breath of Nature III",
+      "Usage Cost": "125 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "300",
+      "Description": "Increases your Natural Healing by 80 and your Natural Mana Treatment by 35 for 5m.",
+      "Shards cost": 138
+    },
+    "52": {
+      "id": 2082,
+      "name": "Breath of Nature IV",
+      "Usage Cost": "144 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "300",
+      "Description": "Increases your Natural Healing by 90 and your Natural Mana Treatment by 40 for 5m.",
+      "Shards cost": 156
+    }
+  },
+  {
+    "id": "ra_callcompanion_dark",
+    "faction": "asmodian",
+    "type": 0,
+    "lvls": [
+      54
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "54": {
+      "id": 629,
+      "name": "Call Gryphu I (A)",
+      "Usage Cost": "149 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "120",
+      "Description": "Summons 1 Gryphu, which inflicts damage on enemies within a 25m radius. Each time the Gryphu attacks a target, the target is slowed.",
+      "Shards cost": 162
+    }
+  },
+  {
+    "id": "ra_callcompanion_light",
+    "faction": "elyos",
+    "type": 0,
+    "lvls": [
+      54
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "54": {
+      "id": 628,
+      "name": "Call Gryphu I (E)",
+      "Usage Cost": "149 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "120",
+      "Description": "Summons 1 Gryphu, which inflicts damage on enemies within a 25m radius. Each time the Gryphu attacks a target, the target is slowed.",
+      "Shards cost": 162
+    }
+  },
+  {
+    "id": "ra_draineye",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      48
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "48": {
+      "id": 2277,
+      "name": "Keen Cleverness I",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "180",
+      "Description": "For 1m30s, there is a 10% chance of recovering your MP with each attack.",
+      "Shards cost": 144
+    }
+  },
+  {
+    "id": "ra_enchantbow",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      28
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "28": {
+      "id": 639,
+      "name": "Bow of Blessing I",
+      "Usage Cost": "103 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "180",
+      "Description": "Increases Physical Attack of Bow by 20% for 1m.",
+      "Shards cost": 84
+    }
+  },
+  {
+    "id": "ra_explosionarrow",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      45,
+      48,
+      51,
+      54
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+    ],
+    "45": {
+      "id": 642,
+      "name": "Explosive Arrow I",
+      "Usage Cost": "124 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Deals 883~887 damage to a target within a 27m radius.",
+      "Abyss point": 13750,
+      "Shards cost": 225
+    },
+    "48": {
+      "id": 2070,
+      "name": "Explosive Arrow II",
+      "Usage Cost": "124 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Deals 927~931 damage to a target within a 27m radius.",
+      "Abyss point": 26500,
+      "Shards cost": 240
+    },
+    "51": {
+      "id": 2078,
+      "name": "Explosive Arrow III",
+      "Usage Cost": "142 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Deals 1009~1013 damage to a target within a 27m radius.",
+      "Abyss point": 34500,
+      "Shards cost": 255
+    },
+    "54": {
+      "id": 2093,
+      "name": "Explosive Arrow IV",
+      "Usage Cost": "149 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Deals 1102~1106 damage to a target within a 27m radius.",
+      "Abyss point": 45700,
+      "Shards cost": 270
+    }
+  },
+  {
+    "id": "ra_fairyflare_dark",
+    "faction": "asmodian",
+    "type": 0,
+    "lvls": [
+      31
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "31": {
+      "id": 793,
+      "name": "Trap of Clairvoyance I (A)",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "60",
+      "Description": "Sets a trap at a point within 15m of you. The trap lasts for 1m. When an enemy approaches within 30m of the trap, it explodes, making the enemy visible.",
+      "Shards cost": 93
+    }
+  },
+  {
+    "id": "ra_fairyflare_light",
+    "faction": "elyos",
+    "type": 0,
+    "lvls": [
+      31
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "31": {
+      "id": 794,
+      "name": "Trap of Clairvoyance I (E)",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "60",
+      "Description": "Sets a trap at a point within 15m of you. The trap lasts for 1m. When an enemy approaches within 30m of the trap, it explodes, making the enemy visible.",
+      "Shards cost": 93
+    }
+  },
+  {
+    "id": "ra_heavenstrap_dark",
+    "faction": "asmodian",
+    "type": 0,
+    "lvls": [
+      28,
+      34,
+      40,
+      46,
+      52
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "28": {
+      "id": 709,
+      "name": "Snare Trap I (A)",
+      "Cast time": "1 sec",
+      "Cooldown": "20",
+      "Description": "Uses 3 Tripeed seeds to set up a single trap around you. The trap remains effective for 1m. When an enemy approaches within a 5m radius, it explodes to immobilize the enemy in mid-air.",
+      "Shards cost": 84
+    },
+    "34": {
+      "id": 710,
+      "name": "Snare Trap II (A)",
+      "Cast time": "1 sec",
+      "Cooldown": "20",
+      "Description": "Uses 5 Tripeed seeds to set up a single trap around you. The trap remains effective for 1m. When an enemy approaches within a 5m radius, it explodes to immobilize the enemy in mid-air.",
+      "Shards cost": 102
+    },
+    "40": {
+      "id": 768,
+      "name": "Snare Trap III (A)",
+      "Cast time": "1 sec",
+      "Cooldown": "20",
+      "Description": "Uses 5 Tripeed seeds to set a trap. The trap lasts for 1m. When an enemy comes within 5m of the trap, it explodes, immobilizing the enemy in mid-air.",
+      "Shards cost": 120
+    },
+    "46": {
+      "id": 700,
+      "name": "Snare Trap IV (A)",
+      "Cast time": "1 sec",
+      "Cooldown": "20",
+      "Description": "Uses 5 Tripeed seeds to set up a single trap around you. The trap remains effective for 1m. When an enemy approaches within a 5m radius, it explodes to immobilize the enemy in mid-air.",
+      "Shards cost": 138
+    },
+    "52": {
+      "id": 2081,
+      "name": "Snare Trap V (A)",
+      "Cast time": "1 sec",
+      "Cooldown": "20",
+      "Description": "Uses 10 Tripeed seeds to set up a trap. The trap lasts for 1m, and when an enemy approaches within a 5m radius, it explodes, immobilizing the enemy in mid-air.",
+      "Shards cost": 156
+    }
+  },
+  {
+    "id": "ra_heavenstrap_light",
+    "faction": "elyos",
+    "type": 0,
+    "lvls": [
+      28,
+      34,
+      40,
+      46,
+      52
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "28": {
+      "id": 707,
+      "name": "Snare Trap I (E)",
+      "Cast time": "1 sec",
+      "Cooldown": "20",
+      "Description": "Uses 3 Tripeed seeds to set up a single trap around you. The trap remains effective for 1m. When an enemy approaches within a 5m radius, it explodes to immobilize the enemy in mid-air.",
+      "Shards cost": 84
+    },
+    "34": {
+      "id": 708,
+      "name": "Snare Trap II (E)",
+      "Cast time": "1 sec",
+      "Cooldown": "20",
+      "Description": "Uses 5 Tripeed seeds to set up a single trap around you. The trap remains effective for 1m. When an enemy approaches within a 5m radius, it explodes to immobilize the enemy in mid-air.",
+      "Shards cost": 102
+    },
+    "40": {
+      "id": 769,
+      "name": "Snare Trap III (E)",
+      "Cast time": "1 sec",
+      "Cooldown": "20",
+      "Description": "Uses 1 Tripeed seeds to set a trap. The trap lasts for 1m, and when an enemy comes within 5m of the trap, it explodes, poisoning the enemy.",
+      "Shards cost": 120
+    },
+    "46": {
+      "id": 698,
+      "name": "Snare Trap IV (E)",
+      "Cast time": "1 sec",
+      "Cooldown": "20",
+      "Description": "Uses 5 Tripeed seeds to set up a single trap around you. The trap remains effective for 1m. When an enemy approaches within a 5m radius, it explodes to immobilize the enemy in mid-air.",
+      "Shards cost": 138
+    },
+    "52": {
+      "id": 2080,
+      "name": "Snare Trap V (E)",
+      "Cast time": "1 sec",
+      "Cooldown": "20",
+      "Description": "Uses 10 Tripeed seeds to set up a trap. The trap lasts for 1m, and when an enemy approaches within a 5m radius, it explodes, immobilizing the enemy in mid-air.",
+      "Shards cost": 156
+    }
+  },
+  {
+    "id": "ra_huntermind",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      45
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "45": {
+      "id": 643,
+      "name": "Hunter's Might I",
+      "Usage Cost": "165 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "120",
+      "Description": "Performs critical hit attacks up to 2 times for 10s. In addition, the Atk Range of your Bow is reduced by 5m.",
+      "Abyss point": 13750,
+      "Shards cost": 225
+    }
+  },
+  {
+    "id": "ra_lightningshot",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      55
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "55": {
+      "id": 631,
+      "name": "Lightning Arrow I",
+      "Usage Cost": "202 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "24",
+      "Description": "Fires an arrow that briefly stuns and inflicts 840~844 damage to a target within a 15m radius.",
+      "Abyss point": 152700,
+      "Shards cost": 275
+    }
+  },
+  {
+    "id": "ra_marksmanmode",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      37
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "37": {
+      "id": 692,
+      "name": "Sniper Stance I",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "60",
+      "Description": "Attack range of Bow increases by 10. You move at a very low speed while the skill is in effect.\nActive Skill",
+      "Shards cost": 111
+    }
+  },
+  {
+    "id": "ra_massexplosionarrow",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      50,
+      53
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving",
+      "Damage in PVP = 80%"
+    ],
+    "50": {
+      "id": 645,
+      "name": "Lethal Arrow I",
+      "Usage Cost": "206 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "60",
+      "Description": "High chance of inflicting 1789-1793 Physical Damage on the target within 27m.",
+      "Abyss point": 38700,
+      "Shards cost": 250
+    },
+    "53": {
+      "id": 2086,
+      "name": "Lethal Arrow II",
+      "Usage Cost": "244 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "60",
+      "Description": "High chance of inflicting 1965-1969 Physical Damage on the target within 27m.",
+      "Abyss point": 85800,
+      "Shards cost": 265
+    }
+  },
+  {
+    "id": "ra_movingshot",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      45,
+      48,
+      51,
+      54
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "45": {
+      "id": 640,
+      "name": "Gale Arrow I",
+      "Usage Cost": "124 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "8",
+      "Description": "Inflicts 461~465 damage on a target within a 27m radius.",
+      "Abyss point": 13750,
+      "Shards cost": 225
+    },
+    "48": {
+      "id": 2068,
+      "name": "Gale Arrow II",
+      "Usage Cost": "124 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "8",
+      "Description": "Inflicts 427~431 damage on a target within a 27m radius.",
+      "Abyss point": 26500,
+      "Shards cost": 240
+    },
+    "51": {
+      "id": 2076,
+      "name": "Gale Arrow III",
+      "Usage Cost": "142 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "8",
+      "Description": "Inflicts 461~465 damage on a target within a 27m radius.",
+      "Abyss point": 34500,
+      "Shards cost": 255
+    },
+    "54": {
+      "id": 2091,
+      "name": "Gale Arrow IV",
+      "Usage Cost": "149 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "8",
+      "Description": "Inflicts 499~503 damage on a target within a 27m radius.",
+      "Abyss point": 45700,
+      "Shards cost": 270
+    }
+  },
+  {
+    "id": "ra_painarrow",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      55
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+    ],
+    "55": {
+      "id": 632,
+      "name": "Agonizing Arrow I",
+      "Usage Cost": "202 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "60",
+      "Description": "Inflicts 1664~1668 damage to a target within a 27m radius and poisons it for 1m.",
+      "Abyss point": 152700,
+      "Shards cost": 275
+    }
+  },
+  {
+    "id": "ra_panthermove",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      45
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "45": {
+      "id": 641,
+      "name": "Speed of the Wind I",
+      "Usage Cost": "165 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "180",
+      "Description": "Increases Speed by 18%, Crit Strike by 100, and the Physical Attack of Bow by 10% for 1m.",
+      "Abyss point": 13750,
+      "Shards cost": 225
+    }
+  },
+  {
+    "id": "ra_paralyzearrow",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      20
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "20": {
+      "id": 695,
+      "name": "Sleep Arrow I",
+      "Usage Cost": "110 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "180",
+      "Description": "Forces a target within 15m to fall asleep for 12s. However, the target's All Elemental Defense increases by 500.",
+      "Shards cost": 60
+    }
+  },
+  {
+    "id": "ra_resistmind",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      48
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "48": {
+      "id": 724,
+      "name": "Nature's Resolve I",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "300",
+      "Description": "Removes 1 Physical Debuff from you and enables you to resist 1 Magical Attacks for 10s.",
+      "Shards cost": 144
+    }
+  },
+  {
+    "id": "ra_shadowarrow",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      50,
+      53
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "50": {
+      "id": 644,
+      "name": "Heart Shot I",
+      "Usage Cost": "165 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "20",
+      "Description": "Inflicts 813~817 damage to a target within a 27m radius with a higher chance of inflicting a critical hit.",
+      "Abyss point": 38700,
+      "Shards cost": 250
+    },
+    "53": {
+      "id": 2085,
+      "name": "Heart Shot II",
+      "Usage Cost": "196 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "20",
+      "Description": "Inflicts 889~893 damage to a target within a 27m radius with a higher chance of inflicting a critical hit.",
+      "Abyss point": 85800,
+      "Shards cost": 265
+    }
+  },
+  {
+    "id": "ra_silentarrow",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      25,
+      31,
+      37,
+      42,
+      48,
+      54
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "25": {
+      "id": 783,
+      "name": "Silence Arrow I",
+      "Usage Cost": "72 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "18",
+      "Description": "Fires an arrow at a target within 27m to inflict 63~67 physical damage, and silences the target for 4s~6s.",
+      "Shards cost": 75
+    },
+    "31": {
+      "id": 784,
+      "name": "Silence Arrow II",
+      "Usage Cost": "81 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "18",
+      "Description": "Fires an arrow at a target within 27m to inflict 72~76 physical damage, and silences the target for 5s~6s.",
+      "Shards cost": 93
+    },
+    "37": {
+      "id": 785,
+      "name": "Silence Arrow III",
+      "Usage Cost": "88 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "18",
+      "Description": "Fires an arrow at a target within 27m to inflict 81~85 physical damage, and silences the target for 5s~7s.",
+      "Shards cost": 111
+    },
+    "42": {
+      "id": 666,
+      "name": "Silence Arrow IV",
+      "Usage Cost": "92 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "18",
+      "Description": "Fires an arrow at a target within 27m to inflict 90~94 physical damage, and silences the target for 6s~7s.",
+      "Shards cost": 126
+    },
+    "48": {
+      "id": 723,
+      "name": "Silence Arrow V",
+      "Usage Cost": "93 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "18",
+      "Description": "Fires an arrow at a target within 27m to inflict 99~103 physical damage, and silences the target for 6s~8s.",
+      "Shards cost": 144
+    },
+    "54": {
+      "id": 2087,
+      "name": "Silence Arrow VI",
+      "Usage Cost": "100 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "18",
+      "Description": "Fires an arrow at a target within 27m to inflict 116~120 physical damage, and silences the target for 6s~8s.",
+      "Shards cost": 162
+    }
+  },
+  {
+    "id": "ra_spoutarrow",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      20,
+      25,
+      31,
+      37,
+      43,
+      49,
+      55
+    ],
+    "Skill type": "Normal",
+    "Target": "Area within a Radius of Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Max targets = 3"
+    ],
+    "20": {
+      "id": 702,
+      "name": "Arrow Deluge I",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "18",
+      "Description": "Inflicts 122~126 physical damage on a target within a 15m radius of you and up to 3 other enemies within a 5m radius of the target.",
+      "Shards cost": 60
+    },
+    "25": {
+      "id": 703,
+      "name": "Arrow Deluge II",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "18",
+      "Description": "Inflicts 154~158 physical damage on a target within a 15m radius of you and up to 3 other enemies within a 5m radius of the target.",
+      "Shards cost": 75
+    },
+    "31": {
+      "id": 787,
+      "name": "Arrow Deluge III",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "18",
+      "Description": "Inflicts 185~189 physical damage on a target within a 15m radius of you and up to 3 other enemies within a 5m radius of the target.",
+      "Shards cost": 93
+    },
+    "37": {
+      "id": 788,
+      "name": "Arrow Deluge IV",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "18",
+      "Description": "Inflicts 203~207 physical damage on a target within a 15m radius of you and up to 3 other enemies within a 5m radius of the target.",
+      "Shards cost": 111
+    },
+    "43": {
+      "id": 673,
+      "name": "Arrow Deluge V",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "18",
+      "Description": "Inflicts 243~247 physical damage on a target within a 15m radius of you and up to 3 other enemies within a 5m radius of the target.",
+      "Shards cost": 129
+    },
+    "49": {
+      "id": 725,
+      "name": "Arrow Deluge VI",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "18",
+      "Description": "Inflicts 259~263 physical damage on a target within a 15m radius of you and up to 3 other enemies within a 5m radius of the target.",
+      "Shards cost": 147
+    },
+    "55": {
+      "id": 2098,
+      "name": "Arrow Deluge VII",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "18",
+      "Description": "Inflicts 325~329 physical damage on a target within a 15m radius of you and up to 3 other enemies within a 5m radius of the target.",
+      "Shards cost": 165
+    }
+  },
+  {
+    "id": "ra_stigma_ancientarrow_light",
+    "faction": "elyos",
+    "type": 0,
+    "lvls": [
+      50
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "50": {
+      "id": 647,
+      "name": "Holy Arrow I",
+      "Usage Cost": "247 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "60",
+      "Description": "Fires an arrow at a target within 27m to inflict 1345~1349 physical damage. This attack has low accuracy.",
+      "Shards cost": 150
+    }
+  },
+  {
+    "id": "ra_stigma_destructarrow_dark",
+    "faction": "asmodian",
+    "type": 0,
+    "lvls": [
+      45
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "45": {
+      "id": 650,
+      "name": "Ancestral Darkwing Arrow I",
+      "Usage Cost": "206 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "60",
+      "Description": "Fires an arrow at a target within 27m to deal 1049~1053 physical damage. This attack has low accuracy.",
+      "Shards cost": 135
+    }
+  },
+  {
+    "id": "ra_stigma_mysticarrow_dark",
+    "faction": "asmodian",
+    "type": 0,
+    "lvls": [
+      50
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "50": {
+      "id": 648,
+      "name": "Deadly Arrow I",
+      "Usage Cost": "247 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "60",
+      "Description": "Fires an arrow at a target within 27m to inflict 1345~1349 physical damage. This attack has low accuracy.",
+      "Shards cost": 150
+    }
+  },
+  {
+    "id": "ra_stigma_phoenixarrow_light",
+    "faction": "elyos",
+    "type": 0,
+    "lvls": [
+      45
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "45": {
+      "id": 649,
+      "name": "Ancestral Brightwing Arrow I",
+      "Usage Cost": "206 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "60",
+      "Description": "Fires an arrow at a target within 27m to deal 1049~1053 physical damage. This attack has low accuracy.",
+      "Shards cost": 135
+    }
+  },
+  {
+    "id": "ra_stigma_tigereye",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      45
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "45": {
+      "id": 646,
+      "name": "Bestial Fury I",
+      "Usage Cost": "124 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "1",
+      "Description": "For 1m, the Atk Range of Bows decreases by 15m while Physical Attack increases by 50% and Atk Speed increases by 20%.",
+      "Shards cost": 135
+    }
+  },
+  {
+    "id": "ra_throwingtrap_dark",
+    "faction": "asmodian",
+    "type": 0,
+    "lvls": [
+      37,
+      43,
+      49,
+      55
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "37": {
+      "id": 636,
+      "name": "Trap of Slowing I (A)",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "120",
+      "Description": "Uses 3 Tripeed seeds to set a trap. The trap lasts for 1m, and when an enemy approaches within 5m radius, it explodes, immobilizing the enemy and reducing its Evasion.",
+      "Shards cost": 111
+    },
+    "43": {
+      "id": 637,
+      "name": "Trap of Slowing II (A)",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "120",
+      "Description": "Uses 5 Tripeed Seeds to set up a trap. For 1m, the trap immobilizes and reduces Evasion for an enemy that approaches within 10m.",
+      "Shards cost": 129
+    },
+    "49": {
+      "id": 638,
+      "name": "Trap of Slowing III (A)",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "120",
+      "Description": "Uses 10 Tripeed Seeds to set up a trap. For 1m, the trap immobilizes and reduces Evasion for an enemy that approaches within 10m.",
+      "Shards cost": 147
+    },
+    "55": {
+      "id": 2100,
+      "name": "Trap of Slowing IV (A)",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "120",
+      "Description": "Uses 10 Tripeed Seeds to set up a trap. For 1m, the trap immobilizes and reduces Evasion for an enemy that approaches within 10m.",
+      "Shards cost": 165
+    }
+  },
+  {
+    "id": "ra_throwingtrap_light",
+    "faction": "elyos",
+    "type": 0,
+    "lvls": [
+      37,
+      43,
+      49,
+      55
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "37": {
+      "id": 633,
+      "name": "Trap of Slowing I (E)",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "120",
+      "Description": "Uses 3 Tripeed seeds to set a trap. The trap lasts for 1m, and when an enemy approaches within 5m radius, it explodes, immobilizing the enemy and reducing its Evasion.",
+      "Shards cost": 111
+    },
+    "43": {
+      "id": 634,
+      "name": "Trap of Slowing II (E)",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "120",
+      "Description": "Uses 5 Tripeed Seeds to set up a trap. For 1m, the trap immobilizes and reduces Evasion for an enemy that approaches within 10m.",
+      "Shards cost": 129
+    },
+    "49": {
+      "id": 635,
+      "name": "Trap of Slowing III (E)",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "120",
+      "Description": "Uses 10 Tripeed Seeds to set up a trap. For 1m, the trap immobilizes and reduces Evasion for an enemy that approaches within 10m.",
+      "Shards cost": 147
+    },
+    "55": {
+      "id": 2099,
+      "name": "Trap of Slowing IV (E)",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "120",
+      "Description": "Uses 10 Tripeed Seeds to set up a trap. For 1m, the trap immobilizes and reduces Evasion for an enemy that approaches within 10m.",
+      "Shards cost": 165
+    }
+  },
+  {
+    "id": "ra_trackermind",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      52
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "52": {
+      "id": 625,
+      "name": "Sharpen Arrows I",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "1",
+      "Description": "Physical Attack of Bow increases by 10%, but 10% more MP is consumed while the skill is in use.\nActive Skill.",
+      "Abyss point": 78800,
+      "Shards cost": 260
+    }
+  },
+  {
+    "id": "sc_trueshotmind",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      44
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "44": {
+      "id": 684,
+      "name": "Focused Shots I",
+      "Usage Cost": "248 MP",
+      "Cast time": "0.5 sec",
+      "Cooldown": "1",
+      "Description": "Boosts your Physical Attack Skill by 30% for your next 5 attacks within 1m. Decreases your Physical Def by 50%.",
+      "Shards cost": 132
+    }
+  }
+]

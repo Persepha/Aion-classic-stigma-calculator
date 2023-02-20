@@ -1,0 +1,963 @@
+[
+  {
+    "id": "wi_arcaneboost",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      37
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving",
+      "Max targets = 1"
+    ],
+    "37": {
+      "id": 1554,
+      "name": "Vaizel's Wisdom I",
+      "Usage Cost": "229 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Spell casting time decreased by 25% for 15s.",
+      "Shards cost": 111
+    }
+  },
+  {
+    "id": "wi_arcanepower",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      28
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving",
+      "Max targets = 1"
+    ],
+    "28": {
+      "id": 1555,
+      "name": "Zikel's Wisdom I",
+      "Usage Cost": "229 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Increases your Magic Boost by 300 for 15s.",
+      "Shards cost": 84
+    }
+  },
+  {
+    "id": "wi_arcanewisdom",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      20
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving",
+      "Max targets = 1"
+    ],
+    "20": {
+      "id": 1556,
+      "name": "Lumiel's Wisdom I",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "For 15s, you can use skills with only 50% of the required MP.",
+      "Shards cost": 60
+    }
+  },
+  {
+    "id": "wi_countermagic",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      28,
+      40,
+      52
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving",
+      "Max targets = 1"
+    ],
+    "28": {
+      "id": 1560,
+      "name": "Curse of Weakness I",
+      "Usage Cost": "103 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "300",
+      "Description": "Curses a target within 25m. For 1 min, each time they use magical skills, they take magic damage equal to 5% of their Max HP. This damage will not exceed 500.",
+      "Shards cost": 84
+    },
+    "40": {
+      "id": 1561,
+      "name": "Curse of Weakness II",
+      "Usage Cost": "148 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "300",
+      "Description": "Curses a target within 25m. For 1 min, each time they use magical skills, they take magic damage equal to 10% of their Max HP. This damage will not exceed 1000.",
+      "Shards cost": 120
+    },
+    "52": {
+      "id": 2196,
+      "name": "Curse of Weakness III",
+      "Usage Cost": "190 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "300",
+      "Description": "Curses a target within 25m. For 1 min, each time they use magical skills, they take magic damage equal to 12% of their Max HP. This damage will not exceed 1200.",
+      "Shards cost": 156
+    }
+  },
+  {
+    "id": "wi_cursedtree",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      20
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Duration in PVP = 40%"
+    ],
+    "20": {
+      "id": 1454,
+      "name": "Curse of Roots I",
+      "Usage Cost": "74 MP",
+      "Cast time": "1.5 sec",
+      "Cooldown": "30",
+      "Description": "Transforms the target into a tree for 20s. The transformed target cannot move or act, and their All Elemental Defense increases. The effect ends if the target is attacked. The duration decreases if the target is a player.",
+      "Shards cost": 60
+    }
+  },
+  {
+    "id": "wi_elementalseal",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      52
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "52": {
+      "id": 1426,
+      "name": "Elemental Ward I",
+      "Usage Cost": "270 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "180",
+      "Description": "Increases All Elemental Defense by 300 and Magic Resistance by 300 for 1m.",
+      "Abyss point": 78800,
+      "Shards cost": 260
+    }
+  },
+  {
+    "id": "wi_flamestrike",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      50,
+      53
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Damage in PVP = 70%"
+    ],
+    "50": {
+      "id": 1444,
+      "name": "Flame Spray I",
+      "Usage Cost": "895 MP",
+      "Cast time": "3.5 sec",
+      "Cooldown": "30",
+      "Description": "Inflicts 3116 fire damage on a target within a 25m radius.",
+      "Abyss point": 38700,
+      "Shards cost": 250
+    },
+    "53": {
+      "id": 2199,
+      "name": "Flame Spray II",
+      "Usage Cost": "972 MP",
+      "Cast time": "3.5 sec",
+      "Cooldown": "30",
+      "Description": "Inflicts 3436 fire damage on a target within a 25m radius.",
+      "Abyss point": 85800,
+      "Shards cost": 265
+    }
+  },
+  {
+    "id": "wi_frostpillar_dark",
+    "faction": "asmodian",
+    "type": 0,
+    "lvls": [
+      25,
+      37,
+      49,
+      55
+    ],
+    "Skill type": "Normal",
+    "Target": "Specified Location",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving",
+      "Max targets = 1"
+    ],
+    "25": {
+      "id": 1457,
+      "name": "Ice Sheet I (A)",
+      "Usage Cost": "154 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "180",
+      "Description": "Inflicts Magical Water Damage on up to 6 enemies within a selected area and reduces their Movement Speed for 20 seconds.",
+      "Shards cost": 75
+    },
+    "37": {
+      "id": 1517,
+      "name": "Ice Sheet II (A)",
+      "Usage Cost": "213 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "180",
+      "Description": "Inflicts Magical Water Damage on up to 6 enemies within a selected area and reduces their Movement Speed for 20 seconds.",
+      "Shards cost": 111
+    },
+    "49": {
+      "id": 1600,
+      "name": "Ice Sheet III (A)",
+      "Usage Cost": "279 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "180",
+      "Description": "Inflicts Magical Water Damage on up to 6 enemies within a selected area and reduces their Movement Speed for 20 seconds.",
+      "Shards cost": 147
+    },
+    "55": {
+      "id": 2212,
+      "name": "Ice Sheet IV (A)",
+      "Usage Cost": "323 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "180",
+      "Description": "Inflicts Magical Water Damage on up to 6 enemies within a selected area and reduces their Movement Speed for 20 seconds.",
+      "Shards cost": 165
+    }
+  },
+  {
+    "id": "wi_frostpillar_light",
+    "faction": "elyos",
+    "type": 0,
+    "lvls": [
+      25,
+      37,
+      49,
+      55
+    ],
+    "Skill type": "Normal",
+    "Target": "Specified Location",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving",
+      "Max targets = 1"
+    ],
+    "25": {
+      "id": 1481,
+      "name": "Ice Sheet I (E)",
+      "Usage Cost": "154 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "180",
+      "Description": "Inflicts Magical Water Damage on up to 6 enemies within a selected area and reduces their Movement Speed for 20 seconds.",
+      "Shards cost": 75
+    },
+    "37": {
+      "id": 1516,
+      "name": "Ice Sheet II (E)",
+      "Usage Cost": "213 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "180",
+      "Description": "Inflicts Magical Water Damage on up to 6 enemies within a selected area and reduces their Movement Speed for 20 seconds.",
+      "Shards cost": 111
+    },
+    "49": {
+      "id": 1599,
+      "name": "Ice Sheet III (E)",
+      "Usage Cost": "279 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "180",
+      "Description": "Deals Magical Water Damage to up to 6 enemies within a selected area of effect and reduces their Movement Speeds for 20 seconds.",
+      "Shards cost": 147
+    },
+    "55": {
+      "id": 2211,
+      "name": "Ice Sheet IV (E)",
+      "Usage Cost": "323 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "180",
+      "Description": "Deals Magical Water Damage to up to 6 enemies within a selected area of effect and reduces their Movement Speeds for 20 seconds.",
+      "Shards cost": 165
+    }
+  },
+  {
+    "id": "wi_hpmpexchange",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      54
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "54": {
+      "id": 1431,
+      "name": "Exchange Vitality I",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "600",
+      "Description": "Exchanges your current HP with your MP.",
+      "Shards cost": 162
+    }
+  },
+  {
+    "id": "wi_icebarrier",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      48
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "48": {
+      "id": 1597,
+      "name": "Barrier of Severance I",
+      "Usage Cost": "217 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "300",
+      "Description": "Creates a shield that blocks 20000 damage for 8s each time the caster receives attack. The caster is stunned.",
+      "Shards cost": 144
+    }
+  },
+  {
+    "id": "wi_icyshield",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      55
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "55": {
+      "id": 1433,
+      "name": "Wintry Armor I",
+      "Usage Cost": "749 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "300",
+      "Description": "If an enemy within a 5m radius attacks you, you reflect 1000 damage to the enemy for 30s and slows its Movement Speed and Attack Speed for 2 sec.",
+      "Abyss point": 152700,
+      "Shards cost": 275
+    }
+  },
+  {
+    "id": "wi_icyveins_dark",
+    "faction": "asmodian",
+    "type": 0,
+    "lvls": [
+      44
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "44": {
+      "id": 1588,
+      "name": "Boon of Quickness I",
+      "Usage Cost": "201 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "300",
+      "Description": "Reduces the casting time of all your magic skills by 50% for 15s.",
+      "Shards cost": 132
+    }
+  },
+  {
+    "id": "wi_icyveins_light",
+    "faction": "elyos",
+    "type": 0,
+    "lvls": [
+      44
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "44": {
+      "id": 1587,
+      "name": "Boon of Strength I",
+      "Usage Cost": "201 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "300",
+      "Description": "Increases your Magic Boost by 500 and Magic Accuracy by 500 for 15s.",
+      "Shards cost": 132
+    }
+  },
+  {
+    "id": "wi_illusiondance",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      45
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "45": {
+      "id": 1440,
+      "name": "Illusion I",
+      "Usage Cost": "274 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "120",
+      "Description": "Removes 1 physical debuff and allows the caster to evade 2 Physical Attacks for 10s.",
+      "Abyss point": 13750,
+      "Shards cost": 225
+    }
+  },
+  {
+    "id": "wi_illusionstorm",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      45,
+      48,
+      51,
+      54
+    ],
+    "Skill type": "Normal",
+    "Target": "Area within a Radius of Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving",
+      "Max targets = 6"
+    ],
+    "45": {
+      "id": 1439,
+      "name": "Illusion Storm I",
+      "Usage Cost": "548 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "300",
+      "Description": "Inflicts 579 fire damage on up to 6 targets within a 10m radius. Targets are stunned for 4s.",
+      "Abyss point": 13750,
+      "Shards cost": 225
+    },
+    "48": {
+      "id": 2184,
+      "name": "Illusion Storm II",
+      "Usage Cost": "578 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "300",
+      "Description": "Inflicts 607 fire damage on up to 6 targets within a 10m radius. Targets are stunned for 4s.",
+      "Abyss point": 26500,
+      "Shards cost": 240
+    },
+    "51": {
+      "id": 2188,
+      "name": "Illusion Storm III",
+      "Usage Cost": "616 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "300",
+      "Description": "Inflicts 649 fire damage on up to 6 targets within a 10m radius. Targets are stunned for 4s.",
+      "Abyss point": 34500,
+      "Shards cost": 255
+    },
+    "54": {
+      "id": 2205,
+      "name": "Illusion Storm IV",
+      "Usage Cost": "669 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "300",
+      "Description": "Inflicts 702 fire damage on up to 6 targets within a 10m radius. Targets are stunned for 4s.",
+      "Abyss point": 45700,
+      "Shards cost": 270
+    }
+  },
+  {
+    "id": "wi_massexplosion",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      34,
+      46,
+      52
+    ],
+    "Skill type": "Normal",
+    "Target": "Area within a Radius of Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Max targets = 6"
+    ],
+    "34": {
+      "id": 1484,
+      "name": "Fire Burst I",
+      "Usage Cost": "181 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "12",
+      "Description": "Inflicts 664 Magical Fire Damage on a target within 25m of you and on up to 6 enemies within a 5m radius of the target.",
+      "Shards cost": 102
+    },
+    "46": {
+      "id": 1485,
+      "name": "Fire Burst II",
+      "Usage Cost": "231 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "12",
+      "Description": "Inflicts 855 Magical Fire Damage on a target within 25m of you and on up to 6 enemies within a 5m radius of the target.",
+      "Shards cost": 138
+    },
+    "52": {
+      "id": 1486,
+      "name": "Fire Burst III",
+      "Usage Cost": "261 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "12",
+      "Description": "Inflicts 1004 Magical Fire Damage on a target within 25m of you and on up to 6 enemies within a 5m radius of the target.",
+      "Shards cost": 156
+    }
+  },
+  {
+    "id": "wi_rockfall",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      45,
+      48,
+      51,
+      54
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving",
+      "Damage in PVP = 80%"
+    ],
+    "45": {
+      "id": 1441,
+      "name": "Summon Rock I",
+      "Usage Cost": "412 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "120",
+      "Description": "Inflicts 870 earth damage on a target within a 25m radius.",
+      "Abyss point": 13750,
+      "Shards cost": 225
+    },
+    "48": {
+      "id": 2186,
+      "name": "Summon Rock II",
+      "Usage Cost": "433 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "120",
+      "Description": "Inflicts 910 earth damage on a target within a 25m radius.",
+      "Abyss point": 26500,
+      "Shards cost": 240
+    },
+    "51": {
+      "id": 2190,
+      "name": "Summon Rock III",
+      "Usage Cost": "462 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "120",
+      "Description": "Inflicts 974 earth damage on a target within a 25m radius.",
+      "Abyss point": 34500,
+      "Shards cost": 255
+    },
+    "54": {
+      "id": 2207,
+      "name": "Summon Rock IV",
+      "Usage Cost": "502 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "120",
+      "Description": "Inflicts 1053 earth damage on a target within a 25m radius.",
+      "Abyss point": 45700,
+      "Shards cost": 270
+    }
+  },
+  {
+    "id": "wi_sleepingstorm",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      50
+    ],
+    "Skill type": "Normal",
+    "Target": "Area within a Radius of Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Duration in PVP = 40%",
+      "Max targets = 6"
+    ],
+    "50": {
+      "id": 1443,
+      "name": "Sleeping Storm I",
+      "Usage Cost": "522 MP",
+      "Cast time": "1 sec",
+      "Cooldown": "180",
+      "Description": "Forces a target within a 25m radius and up to 6 enemies within a 12m radius of the target to fall asleep for 20s and increases their All Elemental Defense. The duration decreases if the target is a player.",
+      "Abyss point": 38700,
+      "Shards cost": 250
+    }
+  },
+  {
+    "id": "wi_soulgain",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      45
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "45": {
+      "id": 1442,
+      "name": "Supplication of Focus I",
+      "Usage Cost": "136 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "120",
+      "Description": "Increases Magic Accuracy by 1000 for 20s.",
+      "Abyss point": 13750,
+      "Shards cost": 225
+    }
+  },
+  {
+    "id": "wi_stigma_atomicenergy_dark",
+    "faction": "asmodian",
+    "type": 0,
+    "lvls": [
+      45
+    ],
+    "Skill type": "Normal",
+    "Target": "Area within a Radius of Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Max targets = 6"
+    ],
+    "45": {
+      "id": 1450,
+      "name": "Ancestral Lava Tsunami I",
+      "Usage Cost": "506 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "60",
+      "Description": "Deals 1336 Magical Fire Damage to a target within 25m and up to 6 enemies within a 10m radius of the target after 4s.",
+      "Shards cost": 135
+    }
+  },
+  {
+    "id": "wi_stigma_atomicenergy_light",
+    "faction": "elyos",
+    "type": 0,
+    "lvls": [
+      45
+    ],
+    "Skill type": "Normal",
+    "Target": "Area within a Radius of Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Max targets = 6"
+    ],
+    "45": {
+      "id": 1449,
+      "name": "Ancestral Magma Eruption I",
+      "Usage Cost": "506 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "60",
+      "Description": "Deals 1336 Magical Fire Damage to a target within 25m and up to 6 enemies within a 10m radius of the target after 4s.",
+      "Shards cost": 135
+    }
+  },
+  {
+    "id": "wi_stigma_icelance",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      45,
+      51
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "45": {
+      "id": 1446,
+      "name": "Ice Harpoon I",
+      "Usage Cost": "284 MP",
+      "Cast time": "2.5 sec",
+      "Cooldown": "6",
+      "Description": "Deals 1344 Magical Water Damage to a target within 25m of you.",
+      "Shards cost": 135
+    },
+    "51": {
+      "id": 2192,
+      "name": "Ice Harpoon II",
+      "Usage Cost": "323 MP",
+      "Cast time": "2.5 sec",
+      "Cooldown": "6",
+      "Description": "Deals 1503 Magical Water Damage to a target within 25m of you.",
+      "Shards cost": 153
+    }
+  },
+  {
+    "id": "wi_stigma_lavawave_dark",
+    "faction": "asmodian",
+    "type": 0,
+    "lvls": [
+      50
+    ],
+    "Skill type": "Normal",
+    "Target": "Area within a Radius of Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Max targets = 6"
+    ],
+    "50": {
+      "id": 1448,
+      "name": "Lava Tempest I",
+      "Usage Cost": "570 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "60",
+      "Description": "Deals 1636 Magical Fire Damage to a target within 25m and up to 6 enemies within a 10m radius of the target after 4s.",
+      "Shards cost": 150
+    }
+  },
+  {
+    "id": "wi_stigma_volcanicflame_light",
+    "faction": "elyos",
+    "type": 0,
+    "lvls": [
+      50
+    ],
+    "Skill type": "Normal",
+    "Target": "Area within a Radius of Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Max targets = 6"
+    ],
+    "50": {
+      "id": 1447,
+      "name": "Big Magma Eruption I",
+      "Usage Cost": "570 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "60",
+      "Description": "Deals 1636 Magical Fire Damage to a target within 25m and up to 6 enemies within a 10m radius of the target after 4s.",
+      "Shards cost": 150
+    }
+  },
+  {
+    "id": "wi_stormshock",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      52,
+      55
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "52": {
+      "id": 1428,
+      "name": "Arcane Thunderbolt I",
+      "Usage Cost": "405 MP",
+      "Cast time": "1 sec",
+      "Cooldown": "150",
+      "Description": "Inflicts 1004 wind damage on a target within a 25m radius, and stuns the target for a short time.",
+      "Abyss point": 78800,
+      "Shards cost": 260
+    },
+    "55": {
+      "id": 1429,
+      "name": "Arcane Thunderbolt II",
+      "Usage Cost": "426 MP",
+      "Cast time": "1 sec",
+      "Cooldown": "150",
+      "Description": "Inflicts 1077 wind damage on a target within a 25m radius, and stuns the target for a short time.",
+      "Abyss point": 101800,
+      "Shards cost": 275
+    }
+  },
+  {
+    "id": "wi_summontornado_dark",
+    "faction": "asmodian",
+    "type": 0,
+    "lvls": [
+      43,
+      55
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "43": {
+      "id": 2292,
+      "name": "Summon Whirlwind I (A)",
+      "Usage Cost": "658 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "180",
+      "Description": "Summons a tempest that inflicts continuous Magical Wind Damage to and stuns enemies within a 10m radius around the target within a 15m radius around you for 10 seconds.",
+      "Shards cost": 129
+    },
+    "55": {
+      "id": 2294,
+      "name": "Summon Whirlwind II (A)",
+      "Usage Cost": "853 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "180",
+      "Description": "Summons a tempest that inflicts continuous Magical Wind Damage to and stuns enemies within a 10m radius around the target within a 15m radius around you for 10 seconds.",
+      "Shards cost": 165
+    }
+  },
+  {
+    "id": "wi_summontornado_light",
+    "faction": "elyos",
+    "type": 0,
+    "lvls": [
+      43,
+      55
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "43": {
+      "id": 2291,
+      "name": "Summon Whirlwind I (E)",
+      "Usage Cost": "658 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "180",
+      "Description": "Summons a tempest that inflicts continuous Magical Wind Damage to and stuns enemies within a 10m radius around the target within a 15m radius around you for 10 seconds.",
+      "Shards cost": 129
+    },
+    "55": {
+      "id": 2293,
+      "name": "Summon Whirlwind II (E)",
+      "Usage Cost": "853 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "180",
+      "Description": "Summons a tempest that inflicts continuous Magical Wind Damage to and stuns enemies within a 10m radius around the target within a 15m radius around you for 10 seconds.",
+      "Shards cost": 165
+    }
+  },
+  {
+    "id": "wi_windcutter",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      31,
+      37,
+      43,
+      49,
+      55
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "31": {
+      "id": 1435,
+      "name": "Wind Cut Down I",
+      "Usage Cost": "200 MP",
+      "Cast time": "1.5 sec",
+      "Cooldown": "16",
+      "Description": "Inflicts 729 wind damage to a target within a 25m radius of and causes it to bleed for 6s.",
+      "Shards cost": 93
+    },
+    "37": {
+      "id": 1436,
+      "name": "Wind Cut Down II",
+      "Usage Cost": "223 MP",
+      "Cast time": "1.5 sec",
+      "Cooldown": "16",
+      "Description": "Inflicts 811 wind damage to a target within a 25m radius of and causes it to bleed for 6s.",
+      "Shards cost": 111
+    },
+    "43": {
+      "id": 1437,
+      "name": "Wind Cut Down III",
+      "Usage Cost": "262 MP",
+      "Cast time": "1.5 sec",
+      "Cooldown": "16",
+      "Description": "Inflicts 909 wind damage to a target within a 25m radius of and causes it to bleed for 6s.",
+      "Shards cost": 129
+    },
+    "49": {
+      "id": 1438,
+      "name": "Wind Cut Down IV",
+      "Usage Cost": "292 MP",
+      "Cast time": "1.5 sec",
+      "Cooldown": "16",
+      "Description": "Inflicts 993 wind damage to a target within a 25m radius of and causes it to bleed for 6s.",
+      "Shards cost": 147
+    },
+    "55": {
+      "id": 2213,
+      "name": "Wind Cut Down V",
+      "Usage Cost": "341 MP",
+      "Cast time": "1.5 sec",
+      "Cooldown": "16",
+      "Description": "Inflicts 1166 wind damage to a target within a 25m radius of and causes it to bleed for 6s.",
+      "Shards cost": 165
+    }
+  },
+  {
+    "id": "wi_zeropoint",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      55
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Damage in PVP = 65%"
+    ],
+    "55": {
+      "id": 1434,
+      "name": "Glacial Shard I",
+      "Usage Cost": "1194 MP",
+      "Cast time": "4 sec",
+      "Cooldown": "60",
+      "Description": "Deals 4492 Magical Water Damage to a target within 25m of you.",
+      "Abyss point": 152700,
+      "Shards cost": 275
+    }
+  }
+]

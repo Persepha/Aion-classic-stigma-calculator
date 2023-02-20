@@ -1,3 +1,5 @@
+import { DepGraph } from "dependency-graph";
+
 export interface AdditionalStigmaData {
   id: number;
   name: string;
@@ -54,4 +56,11 @@ export interface ActiveAdvancedStigmaTree {
 
 export interface StigmaTree {
   stigmaTree: ActiveAdvancedStigmaTree | null;
+}
+
+export interface CharacterStigmas {
+  getStigmas(): Promise<DepGraph<any>>;
+  getFirstStigmaTree(): AdvancedStigmaTreeSlots;
+  getSecondStigmaTree(): AdvancedStigmaTreeSlots;
+  faction: string;
 }

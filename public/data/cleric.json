@@ -1,0 +1,956 @@
+[
+  {
+    "id": "pr_bindingheal",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      48,
+      54
+    ],
+    "Skill type": "Normal",
+    "Target": "Group Member",
+    "Additional info": [
+      "Can jumpshot",
+      "Max targets = 1"
+    ],
+    "48": {
+      "id": 1184,
+      "name": "Sympathetic Heal I",
+      "Usage Cost": "107 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "10",
+      "Description": "Can be used on an ally within 25m to restore 1171 HP.",
+      "Shards cost": 144
+    },
+    "54": {
+      "id": 2149,
+      "name": "Sympathetic Heal II",
+      "Usage Cost": "117 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "10",
+      "Description": "Can be used on an ally within 25m to restore 1312 HP.",
+      "Shards cost": 162
+    }
+  },
+  {
+    "id": "pr_blindinglight",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      20
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "20": {
+      "id": 1056,
+      "name": "Blinding Light I",
+      "Usage Cost": "31 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "300",
+      "Description": "Blinds the target for 20s.",
+      "Shards cost": 60
+    }
+  },
+  {
+    "id": "pr_calllightning",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      55
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "55": {
+      "id": 1033,
+      "name": "Call Lightning I",
+      "Usage Cost": "393 MP",
+      "Cast time": "3 sec",
+      "Cooldown": "120",
+      "Description": "Inflicts 2292 magical wind damage to a target within a 25m radius.",
+      "Abyss point": 152700,
+      "Shards cost": 275
+    }
+  },
+  {
+    "id": "pr_coursewound",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      28
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "28": {
+      "id": 1060,
+      "name": "Festering Wound I",
+      "Usage Cost": "21 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "60",
+      "Description": "Inflicts 42 Magical Water Damage on a target within 15m, and reduces the effect of recovery magic it receives by 50% for 1m.",
+      "Shards cost": 84
+    }
+  },
+  {
+    "id": "pr_eternalservent_dark",
+    "faction": "asmodian",
+    "type": 1,
+    "lvls": [
+      50,
+      53
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "50": {
+      "id": 1044,
+      "name": "Summon Noble Energy I (A)",
+      "Usage Cost": "202 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Summons a holy spirit near you. This spirit does not move from the summoned spot, and inflicts 1890 long-range fire damage to a selected target within a 30m radius. This spirit vanishes after a while and consumes its HP with each attack.",
+      "Abyss point": 38700,
+      "Shards cost": 250
+    },
+    "53": {
+      "id": 2145,
+      "name": "Summon Noble Energy II (A)",
+      "Usage Cost": "224 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Summons a holy spirit near you. This spirit does not move from the summoned spot, and inflicts 2075 long-range fire damage on a selected target within a 30m radius. This spirit vanishes after a while and consumes its HP with each attack.",
+      "Abyss point": 85800,
+      "Shards cost": 265
+    }
+  },
+  {
+    "id": "pr_eternalservent_light",
+    "faction": "elyos",
+    "type": 1,
+    "lvls": [
+      50,
+      53
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "50": {
+      "id": 1043,
+      "name": "Summon Noble Energy I (E)",
+      "Usage Cost": "202 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Summons a holy spirit near you. This spirit does not move from the summoned spot, and inflicts 1890 long-range fire damage to a selected target within a 30m radius. This spirit vanishes after a while and consumes its HP with each attack.",
+      "Abyss point": 38700,
+      "Shards cost": 250
+    },
+    "53": {
+      "id": 2144,
+      "name": "Summon Noble Energy II (E)",
+      "Usage Cost": "224 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Summons a holy spirit near you. This spirit does not move from the summoned spot, and inflicts 2075 long-range fire damage on a selected target within a 30m radius. This spirit vanishes after a while and consumes its HP with each attack.",
+      "Abyss point": 85800,
+      "Shards cost": 265
+    }
+  },
+  {
+    "id": "pr_firstaid",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      25,
+      31,
+      37,
+      43,
+      49,
+      55
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving",
+      "Max targets = 1"
+    ],
+    "25": {
+      "id": 1160,
+      "name": "Flash of Recovery I",
+      "Usage Cost": "166 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Heals a target within 23m of you by 1194.",
+      "Shards cost": 75
+    },
+    "31": {
+      "id": 1161,
+      "name": "Flash of Recovery II",
+      "Usage Cost": "191 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Heals a target within 23m of you by 1465.",
+      "Shards cost": 93
+    },
+    "37": {
+      "id": 1162,
+      "name": "Flash of Recovery III",
+      "Usage Cost": "215 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Heals a target within 23m of you by 1728.",
+      "Shards cost": 111
+    },
+    "43": {
+      "id": 1179,
+      "name": "Flash of Recovery IV",
+      "Usage Cost": "236 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Heals a target within 23m of you by 1978.",
+      "Shards cost": 129
+    },
+    "49": {
+      "id": 1185,
+      "name": "Flash of Recovery V",
+      "Usage Cost": "257 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Heals a target within 23m of you by 2210.",
+      "Shards cost": 147
+    },
+    "55": {
+      "id": 2155,
+      "name": "Flash of Recovery VI",
+      "Usage Cost": "291 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "30",
+      "Description": "Heals a target within 23m of you by 2420.",
+      "Shards cost": 165
+    }
+  },
+  {
+    "id": "pr_graceofgod",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      20
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "20": {
+      "id": 1163,
+      "name": "Grace of Empyrean Lord I",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "180",
+      "Description": "For 12s, your MP level is preserved.",
+      "Shards cost": 60
+    }
+  },
+  {
+    "id": "pr_healershand",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      55
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "55": {
+      "id": 1032,
+      "name": "Benevolence I",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "1",
+      "Description": "Healing Boost increased by 250, but 8% more MP is consumed while the skill is in use.\nActive Skill",
+      "Abyss point": 152700,
+      "Shards cost": 275
+    }
+  },
+  {
+    "id": "pr_healinggrace",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      45
+    ],
+    "Skill type": "Normal",
+    "Target": "Group Member",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving",
+      "Max targets = 6"
+    ],
+    "45": {
+      "id": 2285,
+      "name": "Noble Grace I",
+      "Usage Cost": "238 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "300",
+      "Description": "Increases the effect of healing magic on group members within 25 m of the caster by 50% for 15s.",
+      "Shards cost": 135
+    }
+  },
+  {
+    "id": "pr_healingservent_dark",
+    "faction": "asmodian",
+    "type": 1,
+    "lvls": [
+      52,
+      55
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "52": {
+      "id": 1024,
+      "name": "Summon Healing Servant I (A)",
+      "Usage Cost": "254 MP",
+      "Cast time": "1 sec",
+      "Cooldown": "60",
+      "Description": "Summons a Healing Energy spirit. This spirit does not move, but recovers the HP of you and your group within a 30 m radius by 361. The spirit disappears after a certain time.",
+      "Abyss point": 78800,
+      "Shards cost": 260
+    },
+    "55": {
+      "id": 1026,
+      "name": "Summon Healing Servant II (A)",
+      "Usage Cost": "264 MP",
+      "Cast time": "1 sec",
+      "Cooldown": "60",
+      "Description": "Summons a Healing Energy spirit. This spirit does not move, but recovers the HP of you and your group within a 30 m radius by 377. The spirit disappears after a certain time.",
+      "Abyss point": 101800,
+      "Shards cost": 275
+    }
+  },
+  {
+    "id": "pr_healingservent_light",
+    "faction": "elyos",
+    "type": 1,
+    "lvls": [
+      52,
+      55
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "52": {
+      "id": 1023,
+      "name": "Summon Healing Servant I (E)",
+      "Usage Cost": "254 MP",
+      "Cast time": "1 sec",
+      "Cooldown": "60",
+      "Description": "Summons a Healing Energy spirit. This spirit does not move, but recovers the HP of you and your group within a 30 m radius by 361. The spirit disappears after a certain time.",
+      "Abyss point": 78800,
+      "Shards cost": 260
+    },
+    "55": {
+      "id": 1025,
+      "name": "Summon Healing Servant II (E)",
+      "Usage Cost": "264 MP",
+      "Cast time": "1 sec",
+      "Cooldown": "60",
+      "Description": "Summons a Healing Energy spirit. This spirit does not move, but recovers the HP of you and your group within a 30 m radius by 377. The spirit disappears after a certain time.",
+      "Abyss point": 101800,
+      "Shards cost": 275
+    }
+  },
+  {
+    "id": "pr_massdispel",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      44
+    ],
+    "Skill type": "Normal",
+    "Target": "Group Member",
+    "Additional info": [
+      "Can jumpshot",
+      "Max targets = 6"
+    ],
+    "44": {
+      "id": 1180,
+      "name": "Splendor of Purification I",
+      "Usage Cost": "37 MP",
+      "Cast time": "1 sec",
+      "Cooldown": "10",
+      "Description": "Removes all debuffs from you and group members within a 25m radius.",
+      "Shards cost": 132
+    }
+  },
+  {
+    "id": "pr_massemergentheal",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      40,
+      46,
+      52
+    ],
+    "Skill type": "Normal",
+    "Target": "Group Member",
+    "Additional info": [
+      "Can jumpshot",
+      "Max targets = 6"
+    ],
+    "40": {
+      "id": 1089,
+      "name": "Splendor of Recovery I",
+      "Usage Cost": "360 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "60",
+      "Description": "Restores the HP of you and your group members within a 25m radius by 2041.",
+      "Shards cost": 120
+    },
+    "46": {
+      "id": 1182,
+      "name": "Splendor of Recovery II",
+      "Usage Cost": "393 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "60",
+      "Description": "Restores the HP of you and your group members within a 25m radius by 2306.",
+      "Shards cost": 138
+    },
+    "52": {
+      "id": 2141,
+      "name": "Splendor of Recovery III",
+      "Usage Cost": "447 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "60",
+      "Description": "Restores the HP of you and your group members within a 25m radius by 2548.",
+      "Shards cost": 156
+    }
+  },
+  {
+    "id": "pr_memoryblur",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      45,
+      48,
+      51,
+      54
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "45": {
+      "id": 1039,
+      "name": "Shatter Memory I",
+      "Usage Cost": "211 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "120",
+      "Description": "Decreases the Enmity of a target within a 25m radius.",
+      "Abyss point": 13750,
+      "Shards cost": 225
+    },
+    "48": {
+      "id": 2128,
+      "name": "Shatter Memory II",
+      "Usage Cost": "222 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "120",
+      "Description": "Decreases the Enmity of a target within a 25m radius.",
+      "Abyss point": 26500,
+      "Shards cost": 240
+    },
+    "51": {
+      "id": 2135,
+      "name": "Shatter Memory III",
+      "Usage Cost": "236 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "120",
+      "Description": "Decreases the Enmity of a target within a 25m radius.",
+      "Abyss point": 34500,
+      "Shards cost": 255
+    },
+    "54": {
+      "id": 2151,
+      "name": "Shatter Memory IV",
+      "Usage Cost": "257 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "120",
+      "Description": "Decreases the Enmity of a target within a 25m radius.",
+      "Abyss point": 45700,
+      "Shards cost": 270
+    }
+  },
+  {
+    "id": "pr_painlinks",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      45,
+      48,
+      51,
+      54
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "45": {
+      "id": 1040,
+      "name": "Chain of Suffering I",
+      "Usage Cost": "317 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "300",
+      "Description": "Inflicts 532 earth damage to a target within a 25m radius, and deals additional 507 damage every 12s for 2m. In addition, reduces the target's Magic Resistance by 400. If the target dies while the skill is in effect, it is resurrected at its registered Kisk or Obelisk.",
+      "Abyss point": 13750,
+      "Shards cost": 225
+    },
+    "48": {
+      "id": 2129,
+      "name": "Chain of Suffering II",
+      "Usage Cost": "333 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "300",
+      "Description": "Inflicts 557 earth damage to a target within a 25m radius, and deals additional 531 damage every 12s for 2m. In addition, reduces the target's Magic Resistance by 400. If the target dies while the skill is in effect, it is resurrected at its registered Kisk or Obelisk.",
+      "Abyss point": 26500,
+      "Shards cost": 240
+    },
+    "51": {
+      "id": 2136,
+      "name": "Chain of Suffering III",
+      "Usage Cost": "355 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "300",
+      "Description": "Inflicts 590 earth damage to a target within a 25m radius, and deals additional 562 damage every 12s for 2m. In addition, reduces the target's Magic Resistance by 400. If the target dies while the skill is in effect, it is resurrected at its registered Kisk or Obelisk.",
+      "Abyss point": 34500,
+      "Shards cost": 255
+    },
+    "54": {
+      "id": 2152,
+      "name": "Chain of Suffering IV",
+      "Usage Cost": "386 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "300",
+      "Description": "Inflicts 642 earth damage to a target within a 25m radius, and deals additional 612 damage every 12s for 2m. In addition, reduces the target's Magic Resistance by 400. If the target dies while the skill is in effect, it is resurrected at its registered Kisk or Obelisk.",
+      "Abyss point": 45700,
+      "Shards cost": 270
+    }
+  },
+  {
+    "id": "pr_powersmite",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      54
+    ],
+    "Skill type": "Chain Skills",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "54": {
+      "id": 1030,
+      "name": "Punishing Earth I",
+      "Usage Cost": "205 MP",
+      "Cast time": "2.5 sec",
+      "Cooldown": "30",
+      "Description": "Inflicts 1286 earth damage to a target within a 25m radius.\nChain Skill Level 1",
+      "Shards cost": 162
+    }
+  },
+  {
+    "id": "pr_purgatory",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      28,
+      34,
+      40,
+      46,
+      52
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "28": {
+      "id": 1034,
+      "name": "Earth's Wrath I",
+      "Usage Cost": "120 MP",
+      "Cast time": "1.5 sec",
+      "Cooldown": "12",
+      "Description": "Inflicts 222 earth damage to a target within a 25m radius, and deals periodic 212 damage every 3s for 9s.",
+      "Shards cost": 84
+    },
+    "34": {
+      "id": 1035,
+      "name": "Earth's Wrath II",
+      "Usage Cost": "149 MP",
+      "Cast time": "1.5 sec",
+      "Cooldown": "12",
+      "Description": "Inflicts 257 earth damage to a target within a 25m radius, and deals periodic 245 damage every 3s for 9s.",
+      "Shards cost": 102
+    },
+    "40": {
+      "id": 1036,
+      "name": "Earth's Wrath III",
+      "Usage Cost": "170 MP",
+      "Cast time": "1.5 sec",
+      "Cooldown": "12",
+      "Description": "Inflicts 282 earth damage to a target within a 25m radius, and deals periodic 269 damage every 3s for 9s.",
+      "Shards cost": 120
+    },
+    "46": {
+      "id": 1037,
+      "name": "Earth's Wrath IV",
+      "Usage Cost": "191 MP",
+      "Cast time": "1.5 sec",
+      "Cooldown": "12",
+      "Description": "Inflicts 317 earth damage to a target within a 25m radius, and deals periodic 302 damage every 3s for 9s.",
+      "Shards cost": 138
+    },
+    "52": {
+      "id": 2140,
+      "name": "Earth's Wrath V",
+      "Usage Cost": "219 MP",
+      "Cast time": "1.5 sec",
+      "Cooldown": "12",
+      "Description": "Inflicts 354 earth damage to a target within a 25m radius, and deals periodic 338 damage every 3s for 9s.",
+      "Shards cost": 156
+    }
+  },
+  {
+    "id": "pr_regeneraitionshine",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      45,
+      48,
+      51,
+      54
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "45": {
+      "id": 1038,
+      "name": "Splendor of Rebirth I",
+      "Usage Cost": "290 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "60",
+      "Description": "Instantly recovers the HP of a target within a 25m radius by 320, and recovers its HP by 320 every 3s for 21s. Physical Def also increases by 200.",
+      "Abyss point": 13750,
+      "Shards cost": 225
+    },
+    "48": {
+      "id": 2127,
+      "name": "Splendor of Rebirth II",
+      "Usage Cost": "302 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "60",
+      "Description": "Instantly recovers the HP of a target within a 25m radius by 338, and recovers its HP by 338 every 3s for 21s. Physical Def also increases by 200.",
+      "Abyss point": 26500,
+      "Shards cost": 240
+    },
+    "51": {
+      "id": 2134,
+      "name": "Splendor of Rebirth III",
+      "Usage Cost": "314 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "60",
+      "Description": "Instantly recovers the HP of a target within a 25m radius by 356, and recovers its HP by 356 every 3s for 21s. Physical Def also increases by 200.",
+      "Abyss point": 34500,
+      "Shards cost": 255
+    },
+    "54": {
+      "id": 2150,
+      "name": "Splendor of Rebirth IV",
+      "Usage Cost": "326 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "60",
+      "Description": "Instantly recovers the HP of a target within a 25m radius by 373, and recovers its HP by 373 every 3s for 21s. Physical Def also increases by 200.",
+      "Abyss point": 45700,
+      "Shards cost": 270
+    }
+  },
+  {
+    "id": "pr_reversecondition",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      28
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "28": {
+      "id": 1098,
+      "name": "Reverse Condition I",
+      "Cast time": "1 sec",
+      "Cooldown": "600",
+      "Description": "Exchanges your current HP with your MP.",
+      "Shards cost": 84
+    }
+  },
+  {
+    "id": "pr_revivehand",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      45
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "45": {
+      "id": 1041,
+      "name": "Hand of Reincarnation I",
+      "Usage Cost": "158 MP",
+      "Cast time": "1 sec",
+      "Cooldown": "300",
+      "Description": "Grants a blessing to a group member within a 25m radius that lasts for 5m. If the group member dies while the blessing is in effect, they are resurrected with their HP and MP at 50%.",
+      "Abyss point": 13750,
+      "Shards cost": 225
+    }
+  },
+  {
+    "id": "pr_sageswisdom",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      34
+    ],
+    "Skill type": "Normal",
+    "Target": "Self",
+    "Additional info": [
+      "Can jumpshot",
+      "Can use while moving"
+    ],
+    "34": {
+      "id": 1102,
+      "name": "Sage's Wisdom I",
+      "Usage Cost": "187 MP",
+      "Cast time": "Cast Instantly",
+      "Cooldown": "300",
+      "Description": "Reduces the casting time of all your magic skills by 50% for 10s.",
+      "Shards cost": 102
+    }
+  },
+  {
+    "id": "pr_stigma_abysalcircle_dark",
+    "faction": "asmodian",
+    "type": 0,
+    "lvls": [
+      45
+    ],
+    "Skill type": "Normal",
+    "Target": "Area within a Radius of Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Max targets = 6"
+    ],
+    "45": {
+      "id": 1193,
+      "name": "Ancestral Marchutan's Light I",
+      "Usage Cost": "351 MP",
+      "Cast time": "3 sec",
+      "Cooldown": "180",
+      "Description": "Stigma skill of an Ancient Daeva. Recovers the HP of a target within a 25m radius of you and that of up to 6 allies within a 25m radius of the target by 1154, and forms a protective shield for 10s that can block 1156 damage each time, up to 1156 damage, whenever you receive attack.",
+      "Shards cost": 135
+    }
+  },
+  {
+    "id": "pr_stigma_abysalsanctuary_dark",
+    "faction": "asmodian",
+    "type": 0,
+    "lvls": [
+      50
+    ],
+    "Skill type": "Normal",
+    "Target": "Area within a Radius of Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Max targets = 6"
+    ],
+    "50": {
+      "id": 1050,
+      "name": "Marchutan's Splendor I",
+      "Usage Cost": "498 MP",
+      "Cast time": "3 sec",
+      "Cooldown": "180",
+      "Description": "Recovers the HP of a target within a 25m radius of you and up to 6 allies within a 25m radius of the target by 1403, and forms a shield for 10s that can block 1683 damage each time, up to 1683 damage, whenever you receive attack.",
+      "Shards cost": 150
+    }
+  },
+  {
+    "id": "pr_stigma_divinecircle_light",
+    "faction": "elyos",
+    "type": 0,
+    "lvls": [
+      45
+    ],
+    "Skill type": "Normal",
+    "Target": "Area within a Radius of Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Max targets = 6"
+    ],
+    "45": {
+      "id": 1192,
+      "name": "Ancestral Yustiel's Light I",
+      "Usage Cost": "351 MP",
+      "Cast time": "3 sec",
+      "Cooldown": "180",
+      "Description": "Stigma skill of an Ancient Daeva. Instantly recovers HP of target within a 25m radius of you and that of up to 6 allies within a 25m radius of the target by 1154, and additionally recovers their HP by 231 every 2s for 10s.",
+      "Shards cost": 135
+    }
+  },
+  {
+    "id": "pr_stigma_divinesanctuary_light",
+    "faction": "elyos",
+    "type": 0,
+    "lvls": [
+      50
+    ],
+    "Skill type": "Normal",
+    "Target": "Area within a Radius of Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Max targets = 6"
+    ],
+    "50": {
+      "id": 1049,
+      "name": "Yustiel's Splendor I",
+      "Usage Cost": "498 MP",
+      "Cast time": "3 sec",
+      "Cooldown": "180",
+      "Description": "Instantly recovers the HP of a target within a 25m radius of you and up to 6 allies within a 25m radius of the target by 1403, and additionally recovers their HP by 336 every 2s for 10s.",
+      "Shards cost": 150
+    }
+  },
+  {
+    "id": "pr_stigma_suggestion",
+    "faction": "daeva",
+    "type": 0,
+    "lvls": [
+      45
+    ],
+    "Skill type": "Normal",
+    "Target": "Area within a Radius of Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Max targets = 6"
+    ],
+    "45": {
+      "id": 1048,
+      "name": "Stability I",
+      "Usage Cost": "123 MP",
+      "Cast time": "1 sec",
+      "Cooldown": "600",
+      "Description": "Calms a target within 25m of you and up to 6 enemies within 20m of the target, reducing their Enmity towards you.",
+      "Shards cost": 135
+    }
+  },
+  {
+    "id": "pr_suffermemory",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      52,
+      55
+    ],
+    "Skill type": "Normal",
+    "Target": "Selected Target",
+    "Additional info": [
+      "Can jumpshot"
+    ],
+    "52": {
+      "id": 1027,
+      "name": "Enfeebling Burst I",
+      "Usage Cost": "244 MP",
+      "Cast time": "1 sec",
+      "Cooldown": "90",
+      "Description": "Instantly inflicts 202 wind damage to a target within a 25m radius, and inflicts periodic 193 earth damage to it every 3s for 27s, while reducing its Physical Attack by 50.",
+      "Abyss point": 78800,
+      "Shards cost": 260
+    },
+    "55": {
+      "id": 1028,
+      "name": "Enfeebling Burst II",
+      "Usage Cost": "262 MP",
+      "Cast time": "1 sec",
+      "Cooldown": "90",
+      "Description": "Instantly inflicts 217 wind damage to a target within a 25m radius, and inflicts periodic 207 earth damage to it every 3s for 27s, while reducing its Physical Attack by 50.",
+      "Abyss point": 101800,
+      "Shards cost": 275
+    }
+  },
+  {
+    "id": "pr_tranquility",
+    "faction": "daeva",
+    "type": 1,
+    "lvls": [
+      50,
+      53
+    ],
+    "Skill type": "Normal",
+    "Target": "Area within a Radius of Target",
+    "Additional info": [
+      "Can jumpshot",
+      "Max targets = 6"
+    ],
+    "50": {
+      "id": 1042,
+      "name": "Ripple of Purification I",
+      "Usage Cost": "748 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "120",
+      "Description": "Removes up to 3 debuffs cast on you and up to 6 allies within a 20m radius of you. Recovers HP by 3706.",
+      "Abyss point": 38700,
+      "Shards cost": 250
+    },
+    "53": {
+      "id": 2143,
+      "name": "Ripple of Purification II",
+      "Usage Cost": "774 MP",
+      "Cast time": "2 sec",
+      "Cooldown": "120",
+      "Description": "Removes up to 3 debuffs cast on you and up to 6 allies within a 20m radius of you. Recovers HP by 3881.",
+      "Abyss point": 85800,
+      "Shards cost": 265
+    }
+  }
+]
