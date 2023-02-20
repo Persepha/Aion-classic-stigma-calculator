@@ -78,7 +78,8 @@
 }
 
 .tooltip .tooltiptext {
-    visibility: hidden;
+    /*visibility: hidden;*/
+    display: none;
     width: calc(28rem + .5rem);
 
 
@@ -106,7 +107,8 @@
 }
 
 .selectedStigma:hover .tooltiptext{
-    visibility: visible;
+    /*visibility: visible;*/
+    display: block;
 }
 
 .selectedStigma:hover .lvls{
