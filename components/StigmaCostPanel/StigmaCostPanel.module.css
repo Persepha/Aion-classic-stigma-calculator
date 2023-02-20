@@ -1,12 +1,9 @@
 .panel {
-
-
     display: flex;
     justify-content: center;
     gap: 1rem;
 
     padding: .5rem;
-
 }
 
 .costItem {

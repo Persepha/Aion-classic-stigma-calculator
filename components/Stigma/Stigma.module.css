@@ -84,13 +84,6 @@
 
     position: absolute;
     z-index: 10;
-    /*top: -5px;*/
-
-    /*left: 110%;*/
-    /*right: 100%;*/
-
-    /*left: 50%;*/
-    /*bottom: 100%;*/
 }
 
 .lvls {
@@ -98,7 +91,6 @@
     position: absolute;
     z-index: 1;
     top: -5px;
-    /*left: calc(110% + 28rem + .3rem);*/
 
     display: flex;
     justify-content: center;
@@ -111,13 +103,6 @@
     position: absolute;
     border-width: 5px;
     border-style: solid;
-
-
-    /*top: 25px;*/
-    /*right: 100%;*/
-    /*margin-top: -5px;*/
-
-    /*border-color: transparent black transparent transparent;*/
 }
 
 .selectedStigma:hover .tooltiptext{
@@ -133,15 +118,15 @@
 }
 
 .selectedStigma:hover .tooltip {
-    -webkit-box-shadow:0px 0px 5px 2px #00C9AB;
-    -moz-box-shadow: 0px 0px 5px 2px #00C9AB;
-    box-shadow: 0px 0px 5px 2px #00C9AB;
+    -webkit-box-shadow:0px 0px 5px 2px var(--accent-color);;
+    -moz-box-shadow: 0px 0px 5px 2px var(--accent-color);;
+    box-shadow: 0px 0px 5px 2px var(--accent-color);;
 }
 
 .tooltip:hover {
-    -webkit-box-shadow:0px 0px 5px 2px #00C9AB;
-    -moz-box-shadow: 0px 0px 5px 2px #00C9AB;
-    box-shadow: 0px 0px 5px 2px #00C9AB;
+    -webkit-box-shadow:0px 0px 5px 2px var(--accent-color);;
+    -moz-box-shadow: 0px 0px 5px 2px var(--accent-color);;
+    box-shadow: 0px 0px 5px 2px var(--accent-color);;
 }
 
 .divider {
@@ -157,9 +142,9 @@
 .lvl {
     background-color: hsl(0 0% 6% / 0.9);
     color: #bcbcbc;
-    -webkit-box-shadow:0px 0px 5px 2px #00C9AB;
-    -moz-box-shadow: 0px 0px 5px 2px #00C9AB;
-    box-shadow: 0px 0px 5px 2px #00C9AB;
+    -webkit-box-shadow:0px 0px 5px 2px var(--accent-color);;
+    -moz-box-shadow: 0px 0px 5px 2px var(--accent-color);;
+    box-shadow: 0px 0px 5px 2px var(--accent-color);;
     border-radius: 6px;
     padding: 3px 5px;
     transition: color 0.3s ease 0s;
@@ -167,7 +152,7 @@
 }
 
 .lvl:hover {
-    background-color: #00C9AB;
+    background-color: var(--accent-color);;
 }
 
 .selectedLvl {
@@ -185,9 +170,9 @@
     width: 28rem;
 
     background-color: hsl(0 0% 6% / 0.9);
-    -webkit-box-shadow:0px 0px 5px 2px #00C9AB;
-    -moz-box-shadow: 0px 0px 5px 2px #00C9AB;
-    box-shadow: 0px 0px 5px 2px #00C9AB;
+    -webkit-box-shadow:0px 0px 5px 2px var(--accent-color);;
+    -moz-box-shadow: 0px 0px 5px 2px var(--accent-color);;
+    box-shadow: 0px 0px 5px 2px var(--accent-color);;
     color: #fff;
     border-radius: 6px;
 }
@@ -223,7 +208,7 @@
 }
 
 .deleteButton:hover {
-    box-shadow: 0px 0px 5px 2px #00c9ab;
+    box-shadow: 0px 0px 5px 2px var(--accent-color);;
 }
 
 .icon {

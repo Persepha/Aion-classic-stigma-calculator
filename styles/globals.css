@@ -1,5 +1,6 @@
 :root {
   --font-size-sm: 1.6rem;
+  --accent-color: #00c9ab;
 }
 
 * {
@@ -40,7 +41,6 @@ body {
 }
 
 .stigmaCalculator{
-  /*overflow: scroll;*/
   height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
@@ -49,7 +49,7 @@ body {
   flex-direction: column;
   gap: 2rem;
 
-  padding: 2rem;
+  padding: 2rem 2rem 0 2rem;
 }
 
 .stigmaCalculator::-webkit-scrollbar {
@@ -57,11 +57,11 @@ body {
 }
 
 .stigmaCalculator::-webkit-scrollbar-track {
-  background: #00C9AB;
+  background: hsl(0 0% 0% / 0.6);
 }
 
 .stigmaCalculator::-webkit-scrollbar-thumb {
-  background: #00C9AB;
+  background: var(--accent-color);
 }
 
 .sp {
