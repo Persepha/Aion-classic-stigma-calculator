@@ -37,7 +37,8 @@
 }
 
 .stigmaContainer:hover .tooltiptext{
-    visibility: visible;
+    /*visibility: visible;*/
+    display: block;
 }
 
 .stigmaContainer {
