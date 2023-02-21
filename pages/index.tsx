@@ -116,6 +116,7 @@ export default function Home() {
     useState<StigmaTree>({ stigmaTree: null });
 
   function selectClass(selectedClass: ClassesEnumType) {
+    stigmaGraph.current = null;
     setCurrentClass(ClassesEnum[selectedClass]);
   }
 
@@ -376,17 +377,19 @@ export default function Home() {
                 />
               </div>
 
-              <AvailableDefaultStigmas
-                selectStigma={selectStigma}
-                stigmas={availableStigmas}
-                selectedClass={currentClass}
-                isStigmaCanBeSelected={isStigmaCanBeActivated}
-              />
+              {stigmaGraph.current && (
+                <AvailableDefaultStigmas
+                  selectStigma={selectStigma}
+                  stigmas={availableStigmas}
+                  selectedClass={currentClass}
+                  isStigmaCanBeSelected={isStigmaCanBeActivated}
+                />
+              )}
             </div>
           </section>
 
           <section className="sp">
-            {firstAdvancedStigmaTree.stigmaTree && (
+            {stigmaGraph.current && firstAdvancedStigmaTree.stigmaTree && (
               <AdvancedStigmaTree
                 advancedStigmaTree={firstAdvancedStigmaTree.stigmaTree}
                 selectedClass={currentClass}
@@ -396,7 +399,7 @@ export default function Home() {
               />
             )}
 
-            {secondAdvancedStigmaTree.stigmaTree && (
+            {stigmaGraph.current && secondAdvancedStigmaTree.stigmaTree && (
               <AdvancedStigmaTree
                 advancedStigmaTree={secondAdvancedStigmaTree.stigmaTree}
                 selectedClass={currentClass}
