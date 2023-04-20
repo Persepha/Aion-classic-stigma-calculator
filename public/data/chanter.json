@@ -9,14 +9,15 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Can jumpshot",
-      "Can use while moving"
+      "Jumpshot Possible",
+      "Utilisable en Mouvement"
     ],
     "45": {
       "id": 1230,
-      "name": "Blessing of Stone I",
+      "name": "Bénédiction de Pierre I",
+      "icon": "Blessing of Stone I",
       "Usage Cost": "105 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "1",
       "Description": "Increases Maximum HP by 10%, All Elemental Defense by 50, Physical Def by 10 of a target within a 25m radius for 30m.",
       "Abyss point": 13750,
@@ -36,14 +37,15 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Can jumpshot",
-      "Can use while moving"
+      "Jumpshot Possible",
+      "Utilisable en Mouvement"
     ],
     "45": {
       "id": 1213,
-      "name": "Stamina Restoration I",
+      "name": "Restoration d'endurance I",
+      "icon": "Stamina Restoration I",
       "Usage Cost": "208 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "60",
       "Description": "Restores HP by 3137.",
       "Abyss point": 13750,
@@ -51,9 +53,10 @@
     },
     "48": {
       "id": 2156,
-      "name": "Stamina Restoration II",
+      "name": "Restoration d'endurance II",
+      "icon": "Stamina Restoration II",
       "Usage Cost": "217 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "60",
       "Description": "Restores HP by 3308.",
       "Abyss point": 26500,
@@ -61,9 +64,10 @@
     },
     "51": {
       "id": 2162,
-      "name": "Stamina Restoration III",
+      "name": "Restoration d'endurance III",
+      "icon": "Stamina Restoration III",
       "Usage Cost": "226 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "60",
       "Description": "Restores HP by 3470.",
       "Abyss point": 34500,
@@ -71,9 +75,10 @@
     },
     "54": {
       "id": 2175,
-      "name": "Stamina Restoration IV",
+      "name": "Restoration d'endurance IV",
+      "icon": "Stamina Restoration IV",
       "Usage Cost": "234 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "60",
       "Description": "Restores HP by 3627.",
       "Abyss point": 45700,
@@ -90,13 +95,14 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Can jumpshot",
-      "Can use while moving"
+      "Jumpshot Possible",
+      "Utilisable en Mouvement"
     ],
     "54": {
       "id": 1998,
-      "name": "Hit Mantra I",
-      "Cast time": "Cast Instantly",
+      "name": "Mantra de coup I",
+      "icon": "Hit Mantra I",
+      "Cast time": "Instantané",
       "Description": "Increases Crit Strike by 50, Magic Crit by 50, Strike Resist by 50, and Spell Resist by 50 for you and your group members within a 20m radius.\nActive Skill",
       "Shards cost": 162
     }
@@ -111,14 +117,15 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Can jumpshot",
-      "Can use while moving"
+      "Jumpshot Possible",
+      "Utilisable en Mouvement"
     ],
     "44": {
       "id": 1337,
-      "name": "Enhancement Mantra I",
-      "Cast time": "Cast Instantly",
-      "Description": "Increases Stun Resistance of you and your group members within 20m radius of you by 500.\nActive Skill.",
+      "name": "Mantra d'amélioration I",
+      "icon": "Enhancement Mantra I",
+      "Cast time": "Instantané",
+      "Description": "Augmente la résistance à l'étourdissement de 500 pour vous et des membres de votre groupe dans un rayon de 20 m autour de vous.\nCompétence active.",
       "Shards cost": 132
     }
   },
@@ -132,13 +139,14 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Can jumpshot",
-      "Can use while moving"
+      "Jumpshot Possible",
+      "Utilisable en Mouvement"
     ],
     "50": {
       "id": 1234,
-      "name": "Invincibility Mantra I",
-      "Cast time": "Cast Instantly",
+      "name": "Mantra d'invincibilité I",
+      "icon": "Invincibility Mantra I",
+      "Cast time": "Instantané",
       "Description": "Recovers the MP of the caster and group members within a 20m radius by 32, and also increases Physical Attack, Physical Def, and Magic Boost.\nActive Skill.",
       "Abyss point": 38700,
       "Shards cost": 250
@@ -160,68 +168,75 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Can jumpshot",
-      "Can use while moving"
+      "Jumpshot Possible",
+      "Utilisable en Mouvement"
     ],
     "20": {
       "id": 1219,
-      "name": "Healing Conduit I",
+      "name": "Intermédiaire de soins I",
+       "icon": "Healing Conduit I",
       "Usage Cost": "59 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "120",
       "Description": "For 10 sec, HP of the caster and group members is restored by 23 whenever the target suffers damage. But only those who stay within 5m radius of the target can restore their HP.",
       "Shards cost": 60
     },
     "25": {
       "id": 1329,
-      "name": "Healing Conduit II",
+      "name": "Intermédiaire de soins II",
+       "icon": "Healing Conduit II",
       "Usage Cost": "69 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "120",
       "Description": "For 10 sec, HP of the caster and group members is restored by 29 whenever the target suffers damage. But only those who stay within 5m radius of the target can restore their HP.",
       "Shards cost": 75
     },
     "31": {
       "id": 1330,
-      "name": "Healing Conduit III",
+      "name": "Intermédiaire de soins III",
+       "icon": "Healing Conduit III",
       "Usage Cost": "80 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "120",
       "Description": "For 10 sec, HP of the caster and group members is restored by 35 whenever the target suffers damage. But only those who stay within 5m radius of the target can restore their HP.",
       "Shards cost": 93
     },
     "37": {
       "id": 1331,
-      "name": "Healing Conduit IV",
+      "name": "Intermédiaire de soins IV",
+      "icon": "Healing Conduit IV",
       "Usage Cost": "90 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "120",
       "Description": "For 10 sec, HP of the caster and group members is restored by 41 whenever the target suffers damage. But only those who stay within 5m radius of the target can restore their HP.",
       "Shards cost": 111
     },
     "43": {
       "id": 1336,
-      "name": "Healing Conduit V",
+      "name": "Intermédiaire de soins V",
+      "icon": "Healing Conduit V",
       "Usage Cost": "102 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "120",
       "Description": "For 10 sec, HP of the caster and group members is restored by 47 whenever the target suffers damage. But only those who stay within 5m radius of the target can restore their HP.",
       "Shards cost": 129
     },
     "49": {
       "id": 1341,
-      "name": "Healing Conduit VI",
+      "name": "Intermédiaire de soins VI",
+      "icon": "Healing Conduit VI",
       "Usage Cost": "123 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "120",
       "Description": "For 10 sec, HP of the caster and group members is restored by 57 whenever the target suffers damage. But only those who stay within 5m radius of the target can restore their HP.",
       "Shards cost": 147
     },
     "55": {
       "id": 2182,
-      "name": "Healing Conduit VII",
+      "name": "Intermédiaire de soins VII",
+      "icon": "Healing Conduit VII",
       "Usage Cost": "138 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "120",
       "Description": "For 10 sec, HP of the caster and group members is restored by 70 whenever the target suffers damage. But only those who stay within 5m radius of the target can restore their HP.",
       "Shards cost": 165
@@ -238,23 +253,25 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Can jumpshot",
-      "Can use while moving"
+      "Jumpshot Possible",
+      "Utilisable en Mouvement"
     ],
     "48": {
       "id": 1340,
-      "name": "Soul Crush I",
+      "name": "Ame écrasée I",
+      "icon": "Soul Crush I",
       "Usage Cost": "166 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "60",
       "Description": "Deals 546~550 physical damage to a stunned target and causes it to become Stumbled.",
       "Shards cost": 144
     },
     "54": {
       "id": 2179,
-      "name": "Soul Crush II",
+      "name": "Ame écrasée II",
+      "icon": "Soul Crush II",
       "Usage Cost": "199 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "60",
       "Description": "Deals 664~668 physical damage to a stunned target and causes it to become Stumbled.",
       "Shards cost": 162
@@ -273,14 +290,15 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Can jumpshot",
-      "Can use while moving"
+      "Jumpshot Possible",
+      "Utilisable en Mouvement"
     ],
     "45": {
       "id": 1217,
-      "name": "Blessing of Wind I",
+      "name": "Bénédiction du vent I",
+      "icon": "Blessing of Wind I",
       "Usage Cost": "317 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "180",
       "Description": "For 30s, there is a 10% chance of inflicting additional 189 damage to the target each time you attack.",
       "Abyss point": 13750,
@@ -288,9 +306,10 @@
     },
     "48": {
       "id": 2157,
-      "name": "Blessing of Wind II",
+      "name": "Bénédiction du vent II",
+      "icon": "Blessing of Wind II",
       "Usage Cost": "333 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "180",
       "Description": "For 30s, there is a 10% chance of inflicting additional 196 damage to the target each time you attack.",
       "Abyss point": 26500,
@@ -298,9 +317,10 @@
     },
     "51": {
       "id": 2163,
-      "name": "Blessing of Wind III",
+      "name": "Bénédiction du vent III",
+      "icon": "Blessing of Wind III",
       "Usage Cost": "354 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "180",
       "Description": "For 30s, there is a 10% chance of inflicting additional 218 damage to the target each time you attack.",
       "Abyss point": 34500,
@@ -308,9 +328,10 @@
     },
     "54": {
       "id": 2176,
-      "name": "Blessing of Wind IV",
+      "name": "Bénédiction du vent IV",
+      "icon": "Blessing of Wind IV",
       "Usage Cost": "385 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "180",
       "Description": "For 30s, there is a 10% chance of inflicting additional 239 damage to the target each time you attack.",
       "Abyss point": 45700,
@@ -327,15 +348,16 @@
     "Skill type": "Normal",
     "Target": "Group Member",
     "Additional info": [
-      "Can jumpshot",
-      "Can use while moving",
-      "Max targets = 6"
+      "Jumpshot Possible",
+      "Utilisable en Mouvement",
+      "Cibles Max = 6"
     ],
     "40": {
       "id": 1223,
-      "name": "Word of Inspiration I",
+      "name": "Mot d'inspiration I",
+      "icon": "Word of Inspiration I",
       "Usage Cost": "300 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "10",
       "Description": "Increases Magic Boost by 100, Accuracy by 100, and Physical Attack by 20% of your group members within a 20m radius of you for 15s.",
       "Shards cost": 120
@@ -351,15 +373,16 @@
     "Skill type": "Normal",
     "Target": "Group Member",
     "Additional info": [
-      "Can jumpshot",
-      "Can use while moving",
-      "Max targets = 6"
+      "Jumpshot Possible",
+      "Utilisable en Mouvement",
+      "Cibles Max = 6"
     ],
     "28": {
       "id": 1224,
-      "name": "Word of Protection I",
+      "name": "Parole de protection I",
+      "icon": "Word of Protection I",
       "Usage Cost": "300 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "10",
       "Description": "Increases Evasion, Parry, Block by 100 and All Elemental Defense by 100 of your group members within a 20m radius of you for 15s.",
       "Shards cost": 84
@@ -375,15 +398,16 @@
     "Skill type": "Normal",
     "Target": "Area within a Radius of Target",
     "Additional info": [
-      "Can jumpshot",
-      "Can use while moving",
-      "Max targets = 6"
+      "Jumpshot Possible",
+      "Utilisable en Mouvement",
+      "Cibles Max = 6"
     ],
     "55": {
       "id": 2001,
-      "name": "Elemental Screen I",
+      "name": "Forteresse inexpugnable I",
+      "icon": "Elemental Screen I",
       "Usage Cost": "303 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "180",
       "Description": "Increases the Physical Def and All Elemental Defense of you and up to 6 allies within a 20m radius by 2000 and 200 for 30s.",
       "Abyss point": 152700,
@@ -403,42 +427,46 @@
     "Skill type": "Normal",
     "Target": "Group Member",
     "Additional info": [
-      "Can jumpshot",
-      "Can use while moving",
-      "Max targets = 6"
+      "Jumpshot Possible",
+      "Utilisable en Mouvement",
+      "Cibles Max = 6"
     ],
     "34": {
       "id": 1324,
-      "name": "Word of Life I",
+      "name": "Parole de vie I",
+      "icon": "Word of Life I",
       "Usage Cost": "278 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "120",
       "Description": "Heals all group members within 20m of you by 353 every 2s for 10s.",
       "Shards cost": 102
     },
     "40": {
       "id": 1325,
-      "name": "Word of Life II",
+      "name": "Parole de vie II",
+      "icon": "Word of Life II",
       "Usage Cost": "299 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "120",
       "Description": "Heals all group members within 20m of you by 409 every 2s for 10s.",
       "Shards cost": 120
     },
     "46": {
       "id": 1346,
-      "name": "Word of Life III",
+      "name": "Parole de vie III",
+      "icon": "Word of Life III",
       "Usage Cost": "322 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "120",
       "Description": "Heals all group members within 20m of you by 463 every 2s for 10s.",
       "Shards cost": 138
     },
     "52": {
       "id": 2168,
-      "name": "Word of Life IV",
+      "name": "Parole de vie IV",
+      "icon": "Word of Life IV",
       "Usage Cost": "356 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "120",
       "Description": "Heals all group members within 20m of you by 509 every 2s for 10s.",
       "Shards cost": 156
@@ -455,14 +483,15 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Can jumpshot",
-      "Accuracy = +500"
+      "Jumpshot Possible",
+      "Précision Magique = +500"
     ],
     "50": {
       "id": 1233,
-      "name": "Mountain Crash I",
+      "name": "Crash de montagne I",
+      "icon": "Mountain Crash I",
       "Usage Cost": "144 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "30",
       "Description": "Inflicts 1425~1429 damage to a target within a 25m radius, and deals periodic 103 damage every 3s for 12s.",
       "Abyss point": 38700,
@@ -470,9 +499,10 @@
     },
     "53": {
       "id": 2171,
-      "name": "Mountain Crash II",
+      "name": "Crash de montagne II",
+      "icon": "Mountain Crash II",
       "Usage Cost": "171 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "30",
       "Description": "Inflicts 1476~1480 damage to a target within a 25m radius, and deals periodic 109 damage every 3s for 12s.",
       "Abyss point": 85800,
@@ -492,11 +522,12 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Can jumpshot"
+      "Jumpshot Possible"
     ],
     "45": {
       "id": 1218,
-      "name": "Magic Recovery I",
+      "name": "Récupération magique I",
+      "icon": "Magic Recovery I",
       "Usage Cost": "100 MP",
       "Cast time": "1 sec",
       "Cooldown": "300",
@@ -506,7 +537,8 @@
     },
     "48": {
       "id": 2158,
-      "name": "Magic Recovery II",
+      "name": "Récupération magique II",
+      "icon": "Magic Recovery II",
       "Usage Cost": "140 MP",
       "Cast time": "1 sec",
       "Cooldown": "300",
@@ -516,7 +548,8 @@
     },
     "51": {
       "id": 2164,
-      "name": "Magic Recovery III",
+      "name": "Récupération magique III",
+      "icon": "Magic Recovery III",
       "Usage Cost": "180 MP",
       "Cast time": "1 sec",
       "Cooldown": "300",
@@ -526,7 +559,8 @@
     },
     "54": {
       "id": 2177,
-      "name": "Magic Recovery IV",
+      "name": "Récupération magique IV",
+      "icon": "Magic Recovery IV",
       "Usage Cost": "220 MP",
       "Cast time": "1 sec",
       "Cooldown": "300",
@@ -545,14 +579,15 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Can jumpshot",
-      "Can use while moving"
+      "Jumpshot Possible",
+      "Utilisable en Mouvement"
     ],
     "20": {
       "id": 1315,
-      "name": "Rage Spell I",
+      "name": "Sort de fureur I",
+      "icon": "Rage Spell I",
       "Usage Cost": "379 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "15",
       "Description": "For 30m, your Physical Attack increases by 15%. But in the meantime, your healing skill casting time increases by 20%.",
       "Shards cost": 60
@@ -573,59 +608,65 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Can jumpshot",
-      "Can use while moving"
+      "Jumpshot Possible",
+      "Utilisable en Mouvement"
     ],
     "22": {
       "id": 1201,
-      "name": "Protective Ward I",
+      "name": "Protection I",
+      "icon": "Protective Ward I",
       "Usage Cost": "77 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "120",
       "Description": "Creates a protective shield for 10s that has a 10% chance of blocking damage whenever you are hit by attack, and increases your resistance to Stumble and Stun. The protective shield blocks 30% damage from each attack.",
       "Shards cost": 66
     },
     "28": {
       "id": 1202,
-      "name": "Protective Ward II",
+      "name": "Protection II",
+      "icon": "Protective Ward II",
       "Usage Cost": "100 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "120",
       "Description": "Creates a protective shield for 10s that has a 10% chance of blocking damage whenever you are hit by attack, and increases your resistance to Stumble and Stun. The protective shield blocks 33% damage from each attack.",
       "Shards cost": 84
     },
     "34": {
       "id": 1203,
-      "name": "Protective Ward III",
+      "name": "Protection III",
+      "icon": "Protective Ward III",
       "Usage Cost": "124 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "120",
       "Description": "Creates a protective shield for 10s that has a 10% chance of blocking damage whenever you are hit by attack, and increases your resistance to Stumble and Stun. The protective shield blocks 36% damage from each attack.",
       "Shards cost": 102
     },
     "40": {
       "id": 1206,
-      "name": "Protective Ward IV",
+      "name": "Protection IV",
+      "icon": "Protective Ward IV",
       "Usage Cost": "142 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "120",
       "Description": "Creates a protective shield for 10s that has a 10% chance of blocking damage whenever you are hit by attack, and increases your resistance to Stumble and Stun. The protective shield blocks 39% damage from each attack.",
       "Shards cost": 120
     },
     "46": {
       "id": 1210,
-      "name": "Protective Ward V",
+      "name": "Protection V",
+      "icon": "Protective Ward V",
       "Usage Cost": "159 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "120",
       "Description": "Creates a protective shield for 10s that has a 10% chance of blocking damage whenever you are hit by attack, and increases your resistance to Stumble and Stun. The protective shield blocks 42% damage from each attack.",
       "Shards cost": 138
     },
     "52": {
       "id": 2169,
-      "name": "Protective Ward VI",
+      "name": "Protection VI",
+      "icon": "Protective Ward VI",
       "Usage Cost": "182 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "120",
       "Description": "Creates a protective shield for 10s that has a 10% chance of blocking damage whenever you are hit by attack, and increases your resistance to Stumble and Stun. The protective shield blocks 44% damage from each attack.",
       "Shards cost": 156
@@ -642,13 +683,14 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Can jumpshot"
+      "Jumpshot Possible"
     ],
     "52": {
       "id": 1993,
-      "name": "Disorienting Blow I",
+      "name": "Frappe déstabilisante I",
+      "icon": "Disorienting Blow I",
       "Usage Cost": "144 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "60",
       "Description": "Inflicts 236~240 physical damage on the target and puts it in the Stumbled state.",
       "Abyss point": 78800,
@@ -656,9 +698,10 @@
     },
     "55": {
       "id": 1994,
-      "name": "Disorienting Blow II",
+      "name": "Frappe déstabilisante II",
+      "icon": "Disorienting Blow II",
       "Usage Cost": "152 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "60",
       "Description": "Inflicts 255~259 physical damage on the target and puts it in the Stumbled state.",
       "Abyss point": 101800,
@@ -675,14 +718,15 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Can jumpshot",
-      "Can use while moving"
+      "Jumpshot Possible",
+      "Utilisable en Mouvement"
     ],
     "55": {
       "id": 1999,
-      "name": "Numbing Blow I",
+      "name": "Frappe engourdissante I",
+      "icon": "Numbing Blow I",
       "Usage Cost": "152 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "40",
       "Description": "Inflicts 615~619 damage to the target, increasing the target's casting time by 50%, and decreasing the target's Attack Speed for 7s.",
       "Abyss point": 152700,
@@ -700,23 +744,25 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Can jumpshot",
-      "Can use while moving"
+      "Jumpshot Possible",
+      "Utilisable en Mouvement"
     ],
     "43": {
       "id": 2286,
-      "name": "Soul Lock I",
+      "name": "Verrou d'âme I",
+      "icon": "Soul Lock I",
       "Usage Cost": "123 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "60",
       "Description": "Inflicts 497 ~ 501 physical damage on a stunned or stumbled target within a 25 m radius and binds it for 3s.",
       "Shards cost": 129
     },
     "55": {
       "id": 2287,
-      "name": "Soul Lock II",
+      "name": "Verrou d'âme II",
+      "icon": "Soul Lock II",
       "Usage Cost": "152 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "60",
       "Description": "Inflicts 628 ~ 632 physical damage on a stunned or stumbled target within a 25 m radius and binds it for 3s.",
       "Shards cost": 165
@@ -734,32 +780,35 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Can jumpshot",
-      "Can use while moving"
+      "Jumpshot Possible",
+      "Utilisable en Mouvement"
     ],
     "40": {
       "id": 1211,
-      "name": "Splash Swing I",
+      "name": "Swing jaillissant I",
+      "icon": "Splash Swing I",
       "Usage Cost": "81 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "30",
       "Description": "Upon successful parry, inflicts 747~751 damage to the target.",
       "Shards cost": 120
     },
     "46": {
       "id": 1212,
-      "name": "Splash Swing II",
+      "name": "Swing jaillissant II",
+      "icon": "Splash Swing II",
       "Usage Cost": "83 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "30",
       "Description": "Upon successful parry, inflicts 855~859 damage to the target.",
       "Shards cost": 138
     },
     "52": {
       "id": 2170,
-      "name": "Splash Swing III",
+      "name": "Swing jaillissant III",
+      "icon": "Splash Swing III",
       "Usage Cost": "96 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "30",
       "Description": "Upon successful parry, inflicts 1107~1111 damage to the target.",
       "Shards cost": 156
@@ -775,15 +824,16 @@
     "Skill type": "Normal",
     "Target": "Area within a Radius of Target",
     "Additional info": [
-      "Can jumpshot",
-      "Can use while moving",
-      "Max targets = 12"
+      "Jumpshot Possible",
+      "Utilisable en Mouvement",
+      "Cibles Max = 12"
     ],
     "50": {
       "id": 1197,
-      "name": "Divine Curtain I",
+      "name": "Rideau divin I",
+      "icon": "Divine Curtain I",
       "Usage Cost": "622 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "600",
       "Description": "Creates a shield for 15s that has a 10% chance of blocking damage each time you and up to 12 allies within a 20m radius receive attack, and also recovers 493 HP every 3s (The shield blocks 55% of the damage you receive per attack until it blocks a total of 5000 damage).",
       "Shards cost": 150
@@ -799,15 +849,16 @@
     "Skill type": "Normal",
     "Target": "Area within a Radius of Target",
     "Additional info": [
-      "Can jumpshot",
-      "Can use while moving",
-      "Max targets = 6"
+      "Jumpshot Possible",
+      "Utilisable en Mouvement",
+      "Cibles Max = 6"
     ],
     "45": {
       "id": 1199,
-      "name": "Ancestral Word of Spellstopping I",
+      "name": "Parole anti-sort ancestrale I",
+      "icon": "Ancestral Word of Spellstopping I",
       "Usage Cost": "500 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "600",
       "Description": "Stigma skill of an Ancient Daeva. Creates a protective shield for 15s that blocks damage with 10% probability each time you and allies within a 20m radius receive attack, and recovers HP by 331 every 3s. (The shield blocks 40% of the damage you receive each time. It remains effective until it absorbs a total of 5000 damage.)",
       "Shards cost": 135
@@ -823,15 +874,16 @@
     "Skill type": "Normal",
     "Target": "Area within a Radius of Target",
     "Additional info": [
-      "Can jumpshot",
-      "Can use while moving",
-      "Max targets = 12"
+      "Jumpshot Possible",
+      "Utilisable en Mouvement",
+      "Cibles Max = 12"
     ],
     "50": {
       "id": 1198,
-      "name": "Curtain of Aether I",
+      "name": "Rideau d'Ether I",
+      "icon": "Curtain of Aether I",
       "Usage Cost": "622 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "600",
       "Description": "Creates a shield for 15s that has a 10% chance of blocking damage each time you and up to 12 allies within a 20m radius receive attack (The shield blocks 65% of the damage you receive per attack until it blocks a total of 5000 damage).",
       "Shards cost": 150
@@ -847,15 +899,16 @@
     "Skill type": "Normal",
     "Target": "Area within a Radius of Target",
     "Additional info": [
-      "Can jumpshot",
-      "Can use while moving",
-      "Max targets = 6"
+      "Jumpshot Possible",
+      "Utilisable en Mouvement",
+      "Cibles Max = 6"
     ],
     "45": {
       "id": 1200,
-      "name": "Ancestral Aetheric Field I",
+      "name": "Champ éthéré ancestral I",
+      "icon": "Ancestral Aetheric Field I",
       "Usage Cost": "500 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "600",
       "Description": "Stigma skill of an Ancient Daeva. Creates a protective shield for 15s that can block damage with 10% probability each time you and allies within a 20m radius receive attack. (The shield blocks 50% of the damage you receive each time. It remains effective until it absorbs a total of 5000 damage.)",
       "Shards cost": 135
@@ -872,11 +925,12 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Can jumpshot"
+      "Jumpshot Possible"
     ],
     "45": {
       "id": 1196,
-      "name": "Recovery Spell I",
+      "name": "Sort de récupération I",
+      "icon": "Recovery Spell I",
       "Usage Cost": "290 MP",
       "Cast time": "1 sec",
       "Cooldown": "10",
@@ -885,7 +939,8 @@
     },
     "51": {
       "id": 2166,
-      "name": "Recovery Spell II",
+      "name": "Sort de récupération II",
+      "icon": "Recovery Spell II",
       "Usage Cost": "314 MP",
       "Cast time": "1 sec",
       "Cooldown": "10",
@@ -904,11 +959,12 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Can jumpshot"
+      "Jumpshot Possible"
     ],
     "52": {
       "id": 1995,
-      "name": "Healing Burst I",
+      "name": "Salve de guérison I",
+      "icon": "Healing Burst I",
       "Usage Cost": "280 MP",
       "Cast time": "3 sec",
       "Cooldown": "10",
@@ -918,7 +974,8 @@
     },
     "55": {
       "id": 1996,
-      "name": "Healing Burst II",
+      "name": "Salve de guérison II",
+      "icon": "Healing Burst II",
       "Usage Cost": "291 MP",
       "Cast time": "3 sec",
       "Cooldown": "10",
@@ -937,16 +994,17 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Can jumpshot",
-      "Can use while moving",
-      "Max targets = 1",
-      "Duration in PVP = 80%"
+      "Jumpshot Possible",
+      "Utilisable en Mouvement",
+      "Cibles Max = 1",
+      "Durée en PVP = 80%"
     ],
     "28": {
       "id": 1321,
-      "name": "Binding Word I",
+      "name": "Parole de lien I",
+      "icon": "Binding Word I",
       "Usage Cost": "251 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "45",
       "Description": "Binds and reduces the Movement Speed of a target within 25m for 5s. The duration decreases if the target is a player.",
       "Shards cost": 84
@@ -965,41 +1023,45 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Can jumpshot",
-      "Can use while moving"
+      "Jumpshot Possible",
+      "Utilisable en Mouvement"
     ],
     "25": {
       "id": 1318,
-      "name": "Promise of Aether I",
+      "name": "Promesse de l'Ether I",
+      "icon": "Promise of Aether I",
       "Usage Cost": "58 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "10",
       "Description": "For 30m, you have a 0.5% chance of recovering MP with each attack.",
       "Shards cost": 75
     },
     "37": {
       "id": 1319,
-      "name": "Promise of Aether II",
+      "name": "Promesse de l'Ether II",
+      "icon": "Promise of Aether II",
       "Usage Cost": "71 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "10",
       "Description": "For 30m, you have a 0.5% chance of recovering MP with each attack.",
       "Shards cost": 111
     },
     "49": {
       "id": 1342,
-      "name": "Promise of Aether III",
+      "name": "Promesse de l'Ether III",
+      "icon": "Promise of Aether III",
       "Usage Cost": "91 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "10",
       "Description": "For 30m, you have a 0.5% chance of recovering MP with each attack.",
       "Shards cost": 147
     },
     "55": {
       "id": 2183,
-      "name": "Promise of Aether IV",
+      "name": "Promesse de l'Ether IV",
+      "icon": "Promise of Aether IV",
       "Usage Cost": "106 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "10",
       "Description": "For 30m, you have a 0.5% chance of recovering MP with each attack.",
       "Shards cost": 165
