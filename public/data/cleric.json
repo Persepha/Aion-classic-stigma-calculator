@@ -10,12 +10,13 @@
     "Skill type": "Normal",
     "Target": "Group Member",
     "Additional info": [
-      "Can jumpshot",
-      "Max targets = 1"
+      "Jumpshot Possible",
+      "Cibles Max = 1"
     ],
     "48": {
       "id": 1184,
-      "name": "Sympathetic Heal I",
+      "name": "STR",
+      "icon": "Sympathetic Heal I",
       "Usage Cost": "107 MP",
       "Cast time": "2 sec",
       "Cooldown": "10",
@@ -24,7 +25,8 @@
     },
     "54": {
       "id": 2149,
-      "name": "Sympathetic Heal II",
+      "name": "STR",
+      "icon": "Sympathetic Heal II",
       "Usage Cost": "117 MP",
       "Cast time": "2 sec",
       "Cooldown": "10",
@@ -42,14 +44,15 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Can jumpshot",
-      "Can use while moving"
+      "Jumpshot Possible",
+      "Utilisable en Mouvement"
     ],
     "20": {
       "id": 1056,
-      "name": "Blinding Light I",
+      "name": "STR",
+      "icon": "Blinding Light I",
       "Usage Cost": "31 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "300",
       "Description": "Blinds the target for 20s.",
       "Shards cost": 60
@@ -65,11 +68,12 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Can jumpshot"
+      "Jumpshot Possible"
     ],
     "55": {
       "id": 1033,
-      "name": "Call Lightning I",
+      "name": "STR",
+      "icon": "Call Lightning I",
       "Usage Cost": "393 MP",
       "Cast time": "3 sec",
       "Cooldown": "120",
@@ -88,14 +92,15 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Can jumpshot",
-      "Can use while moving"
+      "Jumpshot Possible",
+      "Utilisable en Mouvement"
     ],
     "28": {
       "id": 1060,
-      "name": "Festering Wound I",
+      "name": "STR",
+      "icon": "Festering Wound I",
       "Usage Cost": "21 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "60",
       "Description": "Inflicts 42 Magical Water Damage on a target within 15m, and reduces the effect of recovery magic it receives by 50% for 1m.",
       "Shards cost": 84
@@ -112,14 +117,15 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Can jumpshot",
-      "Can use while moving"
+      "Jumpshot Possible",
+      "Utilisable en Mouvement"
     ],
     "50": {
       "id": 1044,
-      "name": "Summon Noble Energy I (A)",
+      "name": "STR",
+      "icon": "Summon Noble Energy I (A)",
       "Usage Cost": "202 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "30",
       "Description": "Summons a holy spirit near you. This spirit does not move from the summoned spot, and inflicts 1890 long-range fire damage to a selected target within a 30m radius. This spirit vanishes after a while and consumes its HP with each attack.",
       "Abyss point": 38700,
@@ -127,9 +133,10 @@
     },
     "53": {
       "id": 2145,
-      "name": "Summon Noble Energy II (A)",
+      "name": "STR",
+      "icon": "Summon Noble Energy II (A)",
       "Usage Cost": "224 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "30",
       "Description": "Summons a holy spirit near you. This spirit does not move from the summoned spot, and inflicts 2075 long-range fire damage on a selected target within a 30m radius. This spirit vanishes after a while and consumes its HP with each attack.",
       "Abyss point": 85800,
@@ -147,14 +154,15 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Can jumpshot",
-      "Can use while moving"
+      "Jumpshot Possible",
+      "Utilisable en Mouvement"
     ],
     "50": {
       "id": 1043,
-      "name": "Summon Noble Energy I (E)",
+      "name": "STR",
+      "icon": "Summon Noble Energy I (E)",
       "Usage Cost": "202 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "30",
       "Description": "Summons a holy spirit near you. This spirit does not move from the summoned spot, and inflicts 1890 long-range fire damage to a selected target within a 30m radius. This spirit vanishes after a while and consumes its HP with each attack.",
       "Abyss point": 38700,
@@ -162,9 +170,10 @@
     },
     "53": {
       "id": 2144,
-      "name": "Summon Noble Energy II (E)",
+      "name": "STR",
+      "icon": "Summon Noble Energy II (E)",
       "Usage Cost": "224 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "30",
       "Description": "Summons a holy spirit near you. This spirit does not move from the summoned spot, and inflicts 2075 long-range fire damage on a selected target within a 30m radius. This spirit vanishes after a while and consumes its HP with each attack.",
       "Abyss point": 85800,
@@ -186,60 +195,66 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Can jumpshot",
-      "Can use while moving",
-      "Max targets = 1"
+      "Jumpshot Possible",
+      "Utilisable en Mouvement",
+      "Cibles Max = 1"
     ],
     "25": {
       "id": 1160,
-      "name": "Flash of Recovery I",
+      "name": "STR",
+      "icon": "Flash of Recovery I",
       "Usage Cost": "166 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "30",
       "Description": "Heals a target within 23m of you by 1194.",
       "Shards cost": 75
     },
     "31": {
       "id": 1161,
-      "name": "Flash of Recovery II",
+      "name": "STR",
+      "icon": "Flash of Recovery II",
       "Usage Cost": "191 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "30",
       "Description": "Heals a target within 23m of you by 1465.",
       "Shards cost": 93
     },
     "37": {
       "id": 1162,
-      "name": "Flash of Recovery III",
+      "name": "STR",
+      "icon": "Flash of Recovery III",
       "Usage Cost": "215 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "30",
       "Description": "Heals a target within 23m of you by 1728.",
       "Shards cost": 111
     },
     "43": {
       "id": 1179,
-      "name": "Flash of Recovery IV",
+      "name": "STR",
+      "icon": "Flash of Recovery IV",
       "Usage Cost": "236 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "30",
       "Description": "Heals a target within 23m of you by 1978.",
       "Shards cost": 129
     },
     "49": {
       "id": 1185,
-      "name": "Flash of Recovery V",
+      "name": "STR",
+      "icon": "Flash of Recovery V",
       "Usage Cost": "257 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "30",
       "Description": "Heals a target within 23m of you by 2210.",
       "Shards cost": 147
     },
     "55": {
       "id": 2155,
-      "name": "Flash of Recovery VI",
+      "name": "STR",
+      "icon": "Flash of Recovery VI",
       "Usage Cost": "291 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "30",
       "Description": "Heals a target within 23m of you by 2420.",
       "Shards cost": 165
@@ -255,13 +270,14 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Can jumpshot",
-      "Can use while moving"
+      "Jumpshot Possible",
+      "Utilisable en Mouvement"
     ],
     "20": {
       "id": 1163,
-      "name": "Grace of Empyrean Lord I",
-      "Cast time": "Cast Instantly",
+      "name": "STR",
+      "icon": "Grace of Empyrean Lord I",
+      "Cast time": "Instantané",
       "Cooldown": "180",
       "Description": "For 12s, your MP level is preserved.",
       "Shards cost": 60
@@ -277,13 +293,14 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Can jumpshot",
-      "Can use while moving"
+      "Jumpshot Possible",
+      "Utilisable en Mouvement"
     ],
     "55": {
       "id": 1032,
-      "name": "Benevolence I",
-      "Cast time": "Cast Instantly",
+      "name": "STR",
+      "icon": "Benevolence I",
+      "Cast time": "Instantané",
       "Cooldown": "1",
       "Description": "Healing Boost increased by 250, but 8% more MP is consumed while the skill is in use.\nActive Skill",
       "Abyss point": 152700,
@@ -300,15 +317,16 @@
     "Skill type": "Normal",
     "Target": "Group Member",
     "Additional info": [
-      "Can jumpshot",
-      "Can use while moving",
-      "Max targets = 6"
+      "Jumpshot Possible",
+      "Utilisable en Mouvement",
+      "Cibles Max = 6"
     ],
     "45": {
       "id": 2285,
-      "name": "Noble Grace I",
+      "name": "STR",
+      "icon": "Noble Grace I",
       "Usage Cost": "238 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "300",
       "Description": "Increases the effect of healing magic on group members within 25 m of the caster by 50% for 15s.",
       "Shards cost": 135
@@ -325,11 +343,12 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Can jumpshot"
+      "Jumpshot Possible"
     ],
     "52": {
       "id": 1024,
-      "name": "Summon Healing Servant I (A)",
+      "name": "STR",
+      "icon": "Summon Healing Servant I (A)",
       "Usage Cost": "254 MP",
       "Cast time": "1 sec",
       "Cooldown": "60",
@@ -339,7 +358,8 @@
     },
     "55": {
       "id": 1026,
-      "name": "Summon Healing Servant II (A)",
+      "name": "STR",
+      "icon": "Summon Healing Servant II (A)",
       "Usage Cost": "264 MP",
       "Cast time": "1 sec",
       "Cooldown": "60",
@@ -359,12 +379,13 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Can jumpshot",
-      "Can use while moving"
+      "Jumpshot Possible",
+      "Utilisable en Mouvement"
     ],
     "52": {
       "id": 1023,
-      "name": "Summon Healing Servant I (E)",
+      "name": "STR",
+      "icon": "Summon Healing Servant I (E)",
       "Usage Cost": "254 MP",
       "Cast time": "1 sec",
       "Cooldown": "60",
@@ -374,7 +395,8 @@
     },
     "55": {
       "id": 1025,
-      "name": "Summon Healing Servant II (E)",
+      "name": "STR",
+      "icon": "Summon Healing Servant II (E)",
       "Usage Cost": "264 MP",
       "Cast time": "1 sec",
       "Cooldown": "60",
@@ -393,12 +415,13 @@
     "Skill type": "Normal",
     "Target": "Group Member",
     "Additional info": [
-      "Can jumpshot",
-      "Max targets = 6"
+      "Jumpshot Possible",
+      "Cibles Max = 6"
     ],
     "44": {
       "id": 1180,
-      "name": "Splendor of Purification I",
+      "name": "STR",
+      "icon": "Splendor of Purification I",
       "Usage Cost": "37 MP",
       "Cast time": "1 sec",
       "Cooldown": "10",
@@ -418,12 +441,13 @@
     "Skill type": "Normal",
     "Target": "Group Member",
     "Additional info": [
-      "Can jumpshot",
-      "Max targets = 6"
+      "Jumpshot Possible",
+      "Cibles Max = 6"
     ],
     "40": {
       "id": 1089,
-      "name": "Splendor of Recovery I",
+      "name": "STR",
+      "icon": "Splendor of Recovery I",
       "Usage Cost": "360 MP",
       "Cast time": "2 sec",
       "Cooldown": "60",
@@ -432,7 +456,8 @@
     },
     "46": {
       "id": 1182,
-      "name": "Splendor of Recovery II",
+      "name": "STR",
+      "icon": "Splendor of Recovery II",
       "Usage Cost": "393 MP",
       "Cast time": "2 sec",
       "Cooldown": "60",
@@ -441,7 +466,8 @@
     },
     "52": {
       "id": 2141,
-      "name": "Splendor of Recovery III",
+      "name": "STR",
+      "icon": "Splendor of Recovery III",
       "Usage Cost": "447 MP",
       "Cast time": "2 sec",
       "Cooldown": "60",
@@ -462,14 +488,15 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Can jumpshot",
-      "Can use while moving"
+      "Jumpshot Possible",
+      "Utilisable en Mouvement"
     ],
     "45": {
       "id": 1039,
-      "name": "Shatter Memory I",
+      "name": "STR",
+      "icon": "Shatter Memory I",
       "Usage Cost": "211 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "120",
       "Description": "Decreases the Enmity of a target within a 25m radius.",
       "Abyss point": 13750,
@@ -477,9 +504,10 @@
     },
     "48": {
       "id": 2128,
-      "name": "Shatter Memory II",
+      "name": "STR",
+      "icon": "Shatter Memory II",
       "Usage Cost": "222 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "120",
       "Description": "Decreases the Enmity of a target within a 25m radius.",
       "Abyss point": 26500,
@@ -487,9 +515,10 @@
     },
     "51": {
       "id": 2135,
-      "name": "Shatter Memory III",
+      "name": "STR",
+      "icon": "Shatter Memory III",
       "Usage Cost": "236 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "120",
       "Description": "Decreases the Enmity of a target within a 25m radius.",
       "Abyss point": 34500,
@@ -497,9 +526,10 @@
     },
     "54": {
       "id": 2151,
-      "name": "Shatter Memory IV",
+      "name": "STR",
+      "icon": "Shatter Memory IV",
       "Usage Cost": "257 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "120",
       "Description": "Decreases the Enmity of a target within a 25m radius.",
       "Abyss point": 45700,
@@ -519,11 +549,12 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Can jumpshot"
+      "Jumpshot Possible"
     ],
     "45": {
       "id": 1040,
-      "name": "Chain of Suffering I",
+      "name": "STR",
+      "icon": "Chain of Suffering I",
       "Usage Cost": "317 MP",
       "Cast time": "2 sec",
       "Cooldown": "300",
@@ -533,7 +564,8 @@
     },
     "48": {
       "id": 2129,
-      "name": "Chain of Suffering II",
+      "name": "STR",
+      "icon": "Chain of Suffering II",
       "Usage Cost": "333 MP",
       "Cast time": "2 sec",
       "Cooldown": "300",
@@ -543,7 +575,8 @@
     },
     "51": {
       "id": 2136,
-      "name": "Chain of Suffering III",
+      "name": "STR",
+      "icon": "Chain of Suffering III",
       "Usage Cost": "355 MP",
       "Cast time": "2 sec",
       "Cooldown": "300",
@@ -553,7 +586,8 @@
     },
     "54": {
       "id": 2152,
-      "name": "Chain of Suffering IV",
+      "name": "STR",
+      "icon": "Chain of Suffering IV",
       "Usage Cost": "386 MP",
       "Cast time": "2 sec",
       "Cooldown": "300",
@@ -572,11 +606,12 @@
     "Skill type": "Chain Skills",
     "Target": "Selected Target",
     "Additional info": [
-      "Can jumpshot"
+      "Jumpshot Possible"
     ],
     "54": {
       "id": 1030,
-      "name": "Punishing Earth I",
+      "name": "STR",
+      "icon": "Punishing Earth I",
       "Usage Cost": "205 MP",
       "Cast time": "2.5 sec",
       "Cooldown": "30",
@@ -598,11 +633,12 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Can jumpshot"
+      "Jumpshot Possible"
     ],
     "28": {
       "id": 1034,
-      "name": "Earth's Wrath I",
+      "name": "STR",
+      "icon": "Earth's Wrath I",
       "Usage Cost": "120 MP",
       "Cast time": "1.5 sec",
       "Cooldown": "12",
@@ -611,7 +647,8 @@
     },
     "34": {
       "id": 1035,
-      "name": "Earth's Wrath II",
+      "name": "STR",
+      "icon": "Earth's Wrath II",
       "Usage Cost": "149 MP",
       "Cast time": "1.5 sec",
       "Cooldown": "12",
@@ -620,7 +657,8 @@
     },
     "40": {
       "id": 1036,
-      "name": "Earth's Wrath III",
+      "name": "STR",
+      "icon": "Earth's Wrath III",
       "Usage Cost": "170 MP",
       "Cast time": "1.5 sec",
       "Cooldown": "12",
@@ -629,7 +667,8 @@
     },
     "46": {
       "id": 1037,
-      "name": "Earth's Wrath IV",
+      "name": "STR",
+      "icon": "Earth's Wrath IV",
       "Usage Cost": "191 MP",
       "Cast time": "1.5 sec",
       "Cooldown": "12",
@@ -638,7 +677,8 @@
     },
     "52": {
       "id": 2140,
-      "name": "Earth's Wrath V",
+      "name": "STR",
+      "icon": "Earth's Wrath V",
       "Usage Cost": "219 MP",
       "Cast time": "1.5 sec",
       "Cooldown": "12",
@@ -659,11 +699,12 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Can jumpshot"
+      "Jumpshot Possible"
     ],
     "45": {
       "id": 1038,
-      "name": "Splendor of Rebirth I",
+      "name": "STR",
+      "icon": "Splendor of Rebirth I",
       "Usage Cost": "290 MP",
       "Cast time": "2 sec",
       "Cooldown": "60",
@@ -673,7 +714,8 @@
     },
     "48": {
       "id": 2127,
-      "name": "Splendor of Rebirth II",
+      "name": "STR",
+      "icon": "Splendor of Rebirth II",
       "Usage Cost": "302 MP",
       "Cast time": "2 sec",
       "Cooldown": "60",
@@ -683,7 +725,8 @@
     },
     "51": {
       "id": 2134,
-      "name": "Splendor of Rebirth III",
+      "name": "STR",
+      "icon": "Splendor of Rebirth III",
       "Usage Cost": "314 MP",
       "Cast time": "2 sec",
       "Cooldown": "60",
@@ -693,7 +736,8 @@
     },
     "54": {
       "id": 2150,
-      "name": "Splendor of Rebirth IV",
+      "name": "STR",
+      "icon": "Splendor of Rebirth IV",
       "Usage Cost": "326 MP",
       "Cast time": "2 sec",
       "Cooldown": "60",
@@ -712,11 +756,12 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Can jumpshot"
+      "Jumpshot Possible"
     ],
     "28": {
       "id": 1098,
-      "name": "Reverse Condition I",
+      "name": "STR",
+      "icon": "Reverse Condition I",
       "Cast time": "1 sec",
       "Cooldown": "600",
       "Description": "Exchanges your current HP with your MP.",
@@ -733,11 +778,12 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Can jumpshot"
+      "Jumpshot Possible"
     ],
     "45": {
       "id": 1041,
-      "name": "Hand of Reincarnation I",
+      "name": "STR",
+      "icon": "Hand of Reincarnation I",
       "Usage Cost": "158 MP",
       "Cast time": "1 sec",
       "Cooldown": "300",
@@ -756,14 +802,15 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Can jumpshot",
-      "Can use while moving"
+      "Jumpshot Possible",
+      "Utilisable en Mouvement"
     ],
     "34": {
       "id": 1102,
-      "name": "Sage's Wisdom I",
+      "name": "STR",
+      "icon": "Sage's Wisdom I",
       "Usage Cost": "187 MP",
-      "Cast time": "Cast Instantly",
+      "Cast time": "Instantané",
       "Cooldown": "300",
       "Description": "Reduces the casting time of all your magic skills by 50% for 10s.",
       "Shards cost": 102
@@ -779,12 +826,13 @@
     "Skill type": "Normal",
     "Target": "Area within a Radius of Target",
     "Additional info": [
-      "Can jumpshot",
-      "Max targets = 6"
+      "Jumpshot Possible",
+      "Cibles Max = 6"
     ],
     "45": {
       "id": 1193,
-      "name": "Ancestral Marchutan's Light I",
+      "name": "STR",
+      "icon": "Ancestral Marchutan's Light I",
       "Usage Cost": "351 MP",
       "Cast time": "3 sec",
       "Cooldown": "180",
@@ -802,12 +850,13 @@
     "Skill type": "Normal",
     "Target": "Area within a Radius of Target",
     "Additional info": [
-      "Can jumpshot",
-      "Max targets = 6"
+      "Jumpshot Possible",
+      "Cibles Max = 6"
     ],
     "50": {
       "id": 1050,
-      "name": "Marchutan's Splendor I",
+      "name": "STR",
+      "icon": "Marchutan's Splendor I",
       "Usage Cost": "498 MP",
       "Cast time": "3 sec",
       "Cooldown": "180",
@@ -825,12 +874,13 @@
     "Skill type": "Normal",
     "Target": "Area within a Radius of Target",
     "Additional info": [
-      "Can jumpshot",
-      "Max targets = 6"
+      "Jumpshot Possible",
+      "Cibles Max = 6"
     ],
     "45": {
       "id": 1192,
-      "name": "Ancestral Yustiel's Light I",
+      "name": "STR",
+      "icon": "Ancestral Yustiel's Light I",
       "Usage Cost": "351 MP",
       "Cast time": "3 sec",
       "Cooldown": "180",
@@ -848,12 +898,13 @@
     "Skill type": "Normal",
     "Target": "Area within a Radius of Target",
     "Additional info": [
-      "Can jumpshot",
-      "Max targets = 6"
+      "Jumpshot Possible",
+      "Cibles Max = 6"
     ],
     "50": {
       "id": 1049,
-      "name": "Yustiel's Splendor I",
+      "name": "STR",
+      "icon": "Yustiel's Splendor I",
       "Usage Cost": "498 MP",
       "Cast time": "3 sec",
       "Cooldown": "180",
@@ -871,12 +922,12 @@
     "Skill type": "Normal",
     "Target": "Area within a Radius of Target",
     "Additional info": [
-      "Can jumpshot",
-      "Max targets = 6"
+      "Jumpshot Possible",
+      "Cibles Max = 6"
     ],
     "45": {
       "id": 1048,
-      "name": "Stability I",
+      "icon": "Stability I",
       "Usage Cost": "123 MP",
       "Cast time": "1 sec",
       "Cooldown": "600",
@@ -895,11 +946,12 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Can jumpshot"
+      "Jumpshot Possible"
     ],
     "52": {
       "id": 1027,
-      "name": "Enfeebling Burst I",
+      "name": "STR",
+      "icon": "Enfeebling Burst I",
       "Usage Cost": "244 MP",
       "Cast time": "1 sec",
       "Cooldown": "90",
@@ -909,7 +961,8 @@
     },
     "55": {
       "id": 1028,
-      "name": "Enfeebling Burst II",
+      "name": "STR",
+      "icon": "Enfeebling Burst II",
       "Usage Cost": "262 MP",
       "Cast time": "1 sec",
       "Cooldown": "90",
@@ -929,12 +982,13 @@
     "Skill type": "Normal",
     "Target": "Area within a Radius of Target",
     "Additional info": [
-      "Can jumpshot",
-      "Max targets = 6"
+      "Jumpshot Possible",
+      "Cibles Max = 6"
     ],
     "50": {
       "id": 1042,
-      "name": "Ripple of Purification I",
+      "name": "STR",
+      "icon": "Ripple of Purification I",
       "Usage Cost": "748 MP",
       "Cast time": "2 sec",
       "Cooldown": "120",
@@ -944,7 +998,8 @@
     },
     "53": {
       "id": 2143,
-      "name": "Ripple of Purification II",
+      "name": "STR",
+      "icon": "Ripple of Purification II",
       "Usage Cost": "774 MP",
       "Cast time": "2 sec",
       "Cooldown": "120",
