@@ -109,7 +109,7 @@ export class Ranger implements CharacterStigmas {
     graph.addDependency("ra_massexplosionarrow", "ra_huntermind");
 
     // 2 2
-    graph.addDependency("ra_trackermind", "ra_spoutarrow");
+    graph.addDependency("ra_trackermind", "ra_explosionarrow");
     graph.addDependency("ra_trackermind", "sc_trueshotmind");
 
     // 1 1

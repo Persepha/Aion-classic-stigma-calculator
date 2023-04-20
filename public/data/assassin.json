@@ -10,14 +10,13 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Utilisable en Mouvement"
+      "Can use while moving"
     ],
     "50": {
       "id": 852,
-      "name": "STR",
-      "icon": "Dash and Slash I",
+      "name": "Dash and Slash I",
       "Usage Cost": "165 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "Inflicts 936~940 damage by charging the target within a 20m radius.",
       "Abyss point": 38700,
@@ -25,10 +24,9 @@
     },
     "53": {
       "id": 2115,
-      "name": "STR",
-      "icon": "Dash and Slash II",
+      "name": "Dash and Slash II",
       "Usage Cost": "196 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "Inflicts 1031~1035 damage by charging the target within a 20m radius.",
       "Abyss point": 85800,
@@ -45,16 +43,15 @@
     "Skill type": "Normal",
     "Target": "Area within a Radius of Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement",
-      "Cibles Max = 6"
+      "Can jumpshot",
+      "Can use while moving",
+      "Max targets = 6"
     ],
     "37": {
       "id": 802,
-      "name": "STR",
-      "icon": "Blinding Burst I",
+      "name": "Blinding Burst I",
       "Usage Cost": "79 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "Blinds the nearby enemies within a 15m radius of you for 15s~25s.",
       "Shards cost": 111
@@ -75,64 +72,58 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Utilisable en Mouvement"
+      "Can use while moving"
     ],
     "25": {
       "id": 803,
-      "name": "STR",
-      "icon": "Ambush I",
+      "name": "Ambush I",
       "Usage Cost": "65 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "40",
       "Description": "Jumps behind a target's back within 20m to inflict 94~98 physical damage. May also stun it.",
       "Shards cost": 75
     },
     "31": {
       "id": 804,
-      "name": "STR",
-      "icon": "Ambush II",
+      "name": "Ambush II",
       "Usage Cost": "73 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "40",
       "Description": "Jumps behind a target's back within 20m to inflict 104~108 physical damage. May also stun it.",
       "Shards cost": 93
     },
     "37": {
       "id": 870,
-      "name": "STR",
-      "icon": "Ambush III",
+      "name": "Ambush III",
       "Usage Cost": "79 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "40",
       "Description": "Jumps behind a target's back within 20m to inflict 125~129 physical damage. May also stun it.",
       "Shards cost": 111
     },
     "43": {
       "id": 928,
-      "name": "STR",
-      "icon": "Ambush IV",
+      "name": "Ambush IV",
       "Usage Cost": "82 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "40",
       "Description": "You move behind a target within 20m to inflict 142~146 physical damage, and stuns it at a certain rate.",
       "Shards cost": 129
     },
     "49": {
       "id": 938,
-      "name": "STR",
-      "icon": "Ambush V",
+      "name": "Ambush V",
       "Usage Cost": "82 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "40",
       "Description": "You move behind a target within 20m to inflict 168~172 physical damage, and stuns it at a certain rate.",
       "Shards cost": 147
     },
     "55": {
       "id": 2126,
-      "name": "STR",
-      "icon": "Ambush VI",
+      "name": "Ambush VI",
       "Usage Cost": "101 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "40",
       "Description": "Jumps behind a target's back within 20m to inflict 203~207 physical damage. May also stun it.",
       "Shards cost": 165
@@ -154,68 +145,61 @@
     "Skill type": "Chain Skills",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "20": {
       "id": 810,
-      "name": "STR",
-      "icon": "Sigil Strike I",
-      "Cast time": "Instantané",
+      "name": "Sigil Strike I",
+      "Cast time": "Cast Instantly",
       "Cooldown": "6",
       "Description": "Inflicts 34~39 physical damage on the target and engraves a signet pattern on the target up to 3 level. Chain Skill Level 2",
       "Shards cost": 60
     },
     "25": {
       "id": 811,
-      "name": "STR",
-      "icon": "Sigil Strike II",
-      "Cast time": "Instantané",
+      "name": "Sigil Strike II",
+      "Cast time": "Cast Instantly",
       "Cooldown": "6",
       "Description": "Inflicts 42~47 physical damage on the target and engraves a signet pattern on the target up to 3 level. Chain Skill Level 2",
       "Shards cost": 75
     },
     "31": {
       "id": 812,
-      "name": "STR",
-      "icon": "Sigil Strike III",
-      "Cast time": "Instantané",
+      "name": "Sigil Strike III",
+      "Cast time": "Cast Instantly",
       "Cooldown": "6",
       "Description": "Inflicts 46~51 physical damage on the target and engraves a signet pattern on the target up to 3 level. Chain Skill Level 2",
       "Shards cost": 93
     },
     "37": {
       "id": 874,
-      "name": "STR",
-      "icon": "Sigil Strike IV",
-      "Cast time": "Instantané",
+      "name": "Sigil Strike IV",
+      "Cast time": "Cast Instantly",
       "Cooldown": "6",
       "Description": "Inflicts 51~56 physical damage on the target and engraves a signet pattern on the target up to 3 level. Chain Skill Level 2",
       "Shards cost": 111
     },
     "41": {
       "id": 925,
-      "name": "STR",
-      "icon": "Sigil Strike V",
-      "Cast time": "Instantané",
+      "name": "Sigil Strike V",
+      "Cast time": "Cast Instantly",
       "Cooldown": "6",
       "Description": "Deals 56~61 physical damage to the target and carves a rune on the target up to level 3. Chain Skill Level 2",
       "Shards cost": 123
     },
     "47": {
       "id": 936,
-      "name": "STR",
-      "icon": "Sigil Strike VI",
-      "Cast time": "Instantané",
+      "name": "Sigil Strike VI",
+      "Cast time": "Cast Instantly",
       "Cooldown": "6",
       "Description": "Deals 61~66 physical damage to the target and carves a rune on the target up to level 3. Chain Skill Level 2",
       "Shards cost": 141
     },
     "53": {
       "id": 2116,
-      "name": "STR",
-      "icon": "Sigil Strike VII",
-      "Cast time": "Instantané",
+      "name": "Sigil Strike VII",
+      "Cast time": "Cast Instantly",
       "Cooldown": "6",
       "Description": "Inflicts 72~77 physical damage on the target and engraves a signet pattern on the target up to 3 level. Chain Skill Level 2",
       "Shards cost": 159
@@ -232,14 +216,13 @@
     "Skill type": "Chain Skills",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible"
+      "Can jumpshot"
     ],
     "50": {
       "id": 846,
-      "name": "STR",
-      "icon": "Agony Rune I",
+      "name": "Agony Rune I",
       "Usage Cost": "103 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "60",
       "Description": "Inflicts 992 fire damage to a target within a 10m radius. Chain Skill Level 2",
       "Abyss point": 38700,
@@ -247,10 +230,9 @@
     },
     "53": {
       "id": 2114,
-      "name": "STR",
-      "icon": "Agony Rune II",
+      "name": "Agony Rune II",
       "Usage Cost": "122 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "60",
       "Description": "Inflicts 1091 fire damage to a target within a 10m radius. Chain Skill Level 2",
       "Abyss point": 85800,
@@ -270,15 +252,14 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "45": {
       "id": 841,
-      "name": "STR",
-      "icon": "Apply Lethal Venom I",
+      "name": "Apply Lethal Venom I",
       "Usage Cost": "206 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "Uses 5 Scolopen Poison to apply poison to your weapon. For 30s, there is a 2% chance of inflicting additional 464 damage to the target with each attack.",
       "Abyss point": 13750,
@@ -286,10 +267,9 @@
     },
     "48": {
       "id": 2103,
-      "name": "STR",
-      "icon": "Apply Lethal Venom II",
+      "name": "Apply Lethal Venom II",
       "Usage Cost": "207 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "Uses 6 Scolopen Poison apply poison to your weapon. For 30s, there is a 2% chance of inflicting additional 490 damage on the target with each attack.",
       "Abyss point": 26500,
@@ -297,10 +277,9 @@
     },
     "51": {
       "id": 2107,
-      "name": "STR",
-      "icon": "Apply Lethal Venom III",
+      "name": "Apply Lethal Venom III",
       "Usage Cost": "236 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "Uses 7 Scolopen Poison to apply poison to your weapon. For 30s, there is a 2% chance of inflicting additional 546 damage on the target with each attack.",
       "Abyss point": 34500,
@@ -308,10 +287,9 @@
     },
     "54": {
       "id": 2123,
-      "name": "STR",
-      "icon": "Apply Lethal Venom IV",
+      "name": "Apply Lethal Venom IV",
       "Usage Cost": "248 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "Uses 8 Scolopen Poison to apply poison to your weapon. For 30s, there is a 2% chance of inflicting additional 605 damage on the target with each attack.",
       "Abyss point": 45700,
@@ -331,14 +309,13 @@
     "Skill type": "Chain Skills",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible"
+      "Can jumpshot"
     ],
     "45": {
       "id": 842,
-      "name": "STR",
-      "icon": "Lightning Slash I",
+      "name": "Lightning Slash I",
       "Usage Cost": "83 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "24",
       "Description": "Inflicts 325~329 damage to the target. The target's Magic Accuracy decreases by 200 for 30s. Chain Skill Level 2",
       "Abyss point": 13750,
@@ -346,10 +323,9 @@
     },
     "48": {
       "id": 2104,
-      "name": "STR",
-      "icon": "Lightning Slash II",
+      "name": "Lightning Slash II",
       "Usage Cost": "83 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "24",
       "Description": "Inflicts 342~346 damage to the target. The target's Magic Accuracy decreases by 200 for 30s. Chain Skill Level 2",
       "Abyss point": 26500,
@@ -357,10 +333,9 @@
     },
     "51": {
       "id": 2108,
-      "name": "STR",
-      "icon": "Lightning Slash III",
+      "name": "Lightning Slash III",
       "Usage Cost": "95 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "24",
       "Description": "Inflicts 383~387 damage to the target. The target's Magic Accuracy decreases by 200 for 30s. Chain Skill Level 2",
       "Abyss point": 34500,
@@ -368,10 +343,9 @@
     },
     "54": {
       "id": 2124,
-      "name": "STR",
-      "icon": "Lightning Slash IV",
+      "name": "Lightning Slash IV",
       "Usage Cost": "100 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "24",
       "Description": "Inflicts 425~429 damage to the target. The target's Magic Accuracy decreases by 200 for 30s. Chain Skill Level 2",
       "Abyss point": 45700,
@@ -388,15 +362,14 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "31": {
       "id": 836,
-      "name": "STR",
-      "icon": "Oath of Accuracy I",
+      "name": "Oath of Accuracy I",
       "Usage Cost": "73 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "300",
       "Description": "Increases your Accuracy by 500 and Magic Accuracy by 500 for 20s.",
       "Shards cost": 93
@@ -413,25 +386,23 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "44": {
       "id": 929,
-      "name": "STR",
-      "icon": "Throw Shuriken I",
+      "name": "Throw Shuriken I",
       "Usage Cost": "62 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "30",
       "Description": "Deals 582~586 physical damage to a target immobilized in mid-air within 20m.",
       "Shards cost": 132
     },
     "50": {
       "id": 939,
-      "name": "STR",
-      "icon": "Throw Shuriken II",
+      "name": "Throw Shuriken II",
       "Usage Cost": "62 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "30",
       "Description": "Deals 674~678 physical damage to a target immobilized in mid-air within 20m.",
       "Shards cost": 150
@@ -447,15 +418,14 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "20": {
       "id": 913,
-      "name": "STR",
-      "icon": "Flurry I",
+      "name": "Flurry I",
       "Usage Cost": "115 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "120",
       "Description": "Your Atk Speed increases by 20% for 30s.",
       "Shards cost": 60
@@ -471,15 +441,14 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "52": {
       "id": 1984,
-      "name": "STR",
-      "icon": "Sensory Boost I",
+      "name": "Sensory Boost I",
       "Usage Cost": "144 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "Increases your Evasion by 800, and Magic Resistance by 500 for 12s.",
       "Abyss point": 78800,
@@ -496,14 +465,13 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Utilisable en Mouvement"
+      "Can use while moving"
     ],
     "40": {
       "id": 2278,
-      "name": "STR",
-      "icon": "Flash of Speed I",
+      "name": "Flash of Speed I",
       "Usage Cost": "203 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "You move 10m forward instantly, and all immobilization and Movement Speed reduction debuffs are removed.",
       "Shards cost": 120
@@ -523,55 +491,50 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "28": {
       "id": 819,
-      "name": "STR",
-      "icon": "Rune Burst I",
+      "name": "Rune Burst I",
       "Usage Cost": "69 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "12",
       "Description": "Erases the rune carved on a target within a 10m radius up to the level of 5 and sets it to burst, damaging the target. The amount of damage varies on the target's rune level.",
       "Shards cost": 84
     },
     "34": {
       "id": 822,
-      "name": "STR",
-      "icon": "Rune Burst II",
+      "name": "Rune Burst II",
       "Usage Cost": "76 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "12",
       "Description": "Erases the rune carved on a target within a 10m radius up to the level of 5 and sets it to burst, damaging the target. The amount of damage varies on the target's rune level.",
       "Shards cost": 102
     },
     "40": {
       "id": 827,
-      "name": "STR",
-      "icon": "Rune Burst III",
+      "name": "Rune Burst III",
       "Usage Cost": "81 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "12",
       "Description": "Erases the rune carved on a target within a 10m radius up to the level of 5 and sets it to burst, damaging the target. The amount of damage varies on the target's rune level.",
       "Shards cost": 120
     },
     "46": {
       "id": 828,
-      "name": "STR",
-      "icon": "Rune Burst IV",
+      "name": "Rune Burst IV",
       "Usage Cost": "83 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "12",
       "Description": "Erases the rune carved on a target within a 10m radius up to the level of 5 and sets it to burst, damaging the target. The amount of damage varies on the target's rune level.",
       "Shards cost": 138
     },
     "52": {
       "id": 2112,
-      "name": "STR",
-      "icon": "Rune Burst V",
+      "name": "Rune Burst V",
       "Usage Cost": "96 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "12",
       "Description": "Erases the rune carved on a target within a 10m radius up to the level of 5 and sets it to burst, damaging the target. The amount of damage varies on the target's rune level.",
       "Shards cost": 156
@@ -590,46 +553,42 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement",
-      "Cibles Max = 1"
+      "Can jumpshot",
+      "Can use while moving",
+      "Max targets = 1"
     ],
     "34": {
       "id": 915,
-      "name": "STR",
-      "icon": "Rune Knife I",
+      "name": "Rune Knife I",
       "Usage Cost": "38 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "7",
       "Description": "Deals 48~53 physical damage to a target within 11m, and carves runes up to level 3.",
       "Shards cost": 102
     },
     "40": {
       "id": 916,
-      "name": "STR",
-      "icon": "Rune Knife II",
+      "name": "Rune Knife II",
       "Usage Cost": "41 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "7",
       "Description": "Deals 55~60 physical damage to a target within 11m, and carves runes up to level 3.",
       "Shards cost": 120
     },
     "46": {
       "id": 934,
-      "name": "STR",
-      "icon": "Rune Knife III",
+      "name": "Rune Knife III",
       "Usage Cost": "42 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "7",
       "Description": "Deals 60~65 physical damage to a target within 11m, and carves runes up to level 3.",
       "Shards cost": 138
     },
     "52": {
       "id": 2113,
-      "name": "STR",
-      "icon": "Rune Knife IV",
+      "name": "Rune Knife IV",
       "Usage Cost": "48 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "7",
       "Description": "Deals 71~76 physical damage to a target within 11m, and carves runes up to level 3.",
       "Shards cost": 156
@@ -645,15 +604,14 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "55": {
       "id": 1989,
-      "name": "STR",
-      "icon": "Signet Silence I",
+      "name": "Signet Silence I",
       "Usage Cost": "202 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "90",
       "Description": "Ignite a rune carved on a target within a 10m radius up to level 5, causing the rune to explode inflicting damage and silencing the target for 30s. The chance of silencing the target varies depending on the level of the rune carved on the target.",
       "Abyss point": 152700,
@@ -670,15 +628,14 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "48": {
       "id": 949,
-      "name": "STR",
-      "icon": "Deadly Abandon I",
+      "name": "Deadly Abandon I",
       "Usage Cost": "100 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "300",
       "Description": "Increases your Physical Attack by 20% for 3m while decreasing your Evasion by 200.",
       "Shards cost": 144
@@ -694,15 +651,14 @@
     "Skill type": "Chain Skills",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "45": {
       "id": 945,
-      "name": "STR",
-      "icon": "Ancestral Darkness Rune I",
+      "name": "Ancestral Darkness Rune I",
       "Usage Cost": "144 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "Detonates up to 5 runes on a target within 20m, inflicting damage to the target and healing you for a portion of the damage.",
       "Shards cost": 135
@@ -718,15 +674,14 @@
     "Skill type": "Chain Skills",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "50": {
       "id": 947,
-      "name": "STR",
-      "icon": "Rune Swipe I",
+      "name": "Rune Swipe I",
       "Usage Cost": "165 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "Detonates a rune carved on a target within a 20m radius up to Level 5, causing the rune to explode, inflicting damage, Silence, and reducing the target’s Attack Speed for 4 seconds.",
       "Shards cost": 150
@@ -742,15 +697,14 @@
     "Skill type": "Chain Skills",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "45": {
       "id": 944,
-      "name": "STR",
-      "icon": "Ancestral Radiant Rune I",
+      "name": "Ancestral Radiant Rune I",
       "Usage Cost": "144 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "A Stigma skill of ancient Daevas. Detonates up to 5 runes on a target within 20m, dealing damage, and also temporarily silences the target and reduces its Attack Speed.",
       "Shards cost": 135
@@ -766,15 +720,14 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "45": {
       "id": 948,
-      "name": "STR",
-      "icon": "Shadow Walk I",
+      "name": "Shadow Walk I",
       "Usage Cost": "124 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "You enter Advanced Stealth for 5m. Your Movement Speed decreases by 20% while in effect.\nYou may use buff magic and skills on yourself three times and still remain in stealth.\nCan't be used during battle.",
       "Shards cost": 135
@@ -790,15 +743,14 @@
     "Skill type": "Chain Skills",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "50": {
       "id": 946,
-      "name": "STR",
-      "icon": "Divine Rune I",
+      "name": "Divine Rune I",
       "Usage Cost": "165 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "Detonates a rune carved on a target within a 20m radius up to Level 5, causing the rune to explode, inflicting damage, Silence, and reducing the target’s Attack Speed for 7 seconds.",
       "Shards cost": 150
@@ -815,12 +767,11 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible"
+      "Can jumpshot"
     ],
     "52": {
       "id": 1982,
-      "name": "STR",
-      "icon": "Explosive Burst I",
+      "name": "Explosive Burst I",
       "Usage Cost": "144 MP",
       "Cast time": "1.2s",
       "Cooldown": "120",
@@ -830,8 +781,7 @@
     },
     "55": {
       "id": 1983,
-      "name": "STR",
-      "icon": "Explosive Burst II",
+      "name": "Explosive Burst II",
       "Usage Cost": "152 MP",
       "Cast time": "1.2s",
       "Cooldown": "120",
@@ -850,15 +800,14 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "28": {
       "id": 919,
-      "name": "STR",
-      "icon": "Apply Deadly Poison I",
+      "name": "Apply Deadly Poison I",
       "Usage Cost": "52 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "10",
       "Description": "Uses 2 Scolopen Poison to apply poison to your weapon. For 2m, there is a 0.2% chance of stunning the enemy.",
       "Shards cost": 84
@@ -877,14 +826,13 @@
     "Skill type": "Chain Skills",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible"
+      "Can jumpshot"
     ],
     "45": {
       "id": 837,
-      "name": "STR",
-      "icon": "Beastly Scar I",
+      "name": "Beastly Scar I",
       "Usage Cost": "124 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "6",
       "Description": "Inflicts 370~375 damage to the target and engraves a signet rune on the target up to the level of 5.\nChain Skill Level 4",
       "Abyss point": 13750,
@@ -892,10 +840,9 @@
     },
     "48": {
       "id": 2101,
-      "name": "STR",
-      "icon": "Beastly Scar II",
+      "name": "Beastly Scar II",
       "Usage Cost": "124 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "6",
       "Description": "Inflicts 389~394 damage to the target and engraves a signet rune on the target up to the level of 5.\nChain Skill Level 4",
       "Abyss point": 26500,
@@ -903,10 +850,9 @@
     },
     "51": {
       "id": 2105,
-      "name": "STR",
-      "icon": "Beastly Scar III",
+      "name": "Beastly Scar III",
       "Usage Cost": "142 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "6",
       "Description": "Inflicts 436~441 damage to the target and engraves a signet rune on the target up to the level of 5.\nChain Skill Level 4",
       "Abyss point": 34500,
@@ -914,10 +860,9 @@
     },
     "54": {
       "id": 2121,
-      "name": "STR",
-      "icon": "Beastly Scar IV",
+      "name": "Beastly Scar IV",
       "Usage Cost": "149 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "6",
       "Description": "Inflicts 484~489 damage to the target and engraves a signet rune on the target up to the level of 5.\nChain Skill Level 4",
       "Abyss point": 45700,
@@ -934,15 +879,14 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "55": {
       "id": 1990,
-      "name": "STR",
-      "icon": "Quickening Doom I",
+      "name": "Quickening Doom I",
       "Usage Cost": "152 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "60",
       "Description": "Inflicts 715~719 damage to the target, and inflicts an additional 756 damage and may stun the target if it is poisoned.",
       "Abyss point": 152700,
@@ -959,15 +903,14 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "54": {
       "id": 1987,
-      "name": "STR",
-      "icon": "Venomous Strike I",
+      "name": "Venomous Strike I",
       "Usage Cost": "124 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "120",
       "Description": "Chance to inflict 115~119 damage and poison the target for 15s. If used on the target's back, inflicts an additional 702 damage.",
       "Shards cost": 162
@@ -983,15 +926,14 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "37": {
       "id": 850,
-      "name": "STR",
-      "icon": "Eye of Wrath I",
+      "name": "Eye of Wrath I",
       "Usage Cost": "59 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "60",
       "Description": "Performs critical hit attacks up to 1 times for 10s. However, your Crit Strike decreases by 300.",
       "Shards cost": 111
@@ -1007,14 +949,13 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "22": {
       "id": 920,
-      "name": "STR",
-      "icon": "Aethertwisting I",
-      "Cast time": "Instantané",
+      "name": "Aethertwisting I",
+      "Cast time": "Cast Instantly",
       "Cooldown": "60",
       "Description": "You can resist 2 magical attacks. Lasts 8s.",
       "Shards cost": 66
@@ -1033,14 +974,13 @@
     "Skill type": "Chain Skills",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible"
+      "Can jumpshot"
     ],
     "45": {
       "id": 838,
-      "name": "STR",
-      "icon": "Agonizing Slash I",
+      "name": "Agonizing Slash I",
       "Usage Cost": "83 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "24",
       "Description": "Inflicts 325~329 damage to the target. Decreases the target's Magic Resistance by 200 and All Elemental Defense by 50 for 15s.\nChain Skill Level 2.",
       "Abyss point": 13750,
@@ -1048,10 +988,9 @@
     },
     "48": {
       "id": 2102,
-      "name": "STR",
-      "icon": "Agonizing Slash II",
+      "name": "Agonizing Slash II",
       "Usage Cost": "83 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "24",
       "Description": "Inflicts 342~346 damage to the target. Decreases the target's Magic Resistance by 200 and All Elemental Defense by 50 for 15s.\nChain Skill Level 2.",
       "Abyss point": 26500,
@@ -1059,10 +998,9 @@
     },
     "51": {
       "id": 2106,
-      "name": "STR",
-      "icon": "Agonizing Slash III",
+      "name": "Agonizing Slash III",
       "Usage Cost": "95 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "24",
       "Description": "Inflicts 383~387 damage to the target. Decreases the target's Magic Resistance by 200 and All Elemental Defense by 50 for 15s.\nChain Skill Level 2.",
       "Abyss point": 34500,
@@ -1070,10 +1008,9 @@
     },
     "54": {
       "id": 2122,
-      "name": "STR",
-      "icon": "Agonizing Slash IV",
+      "name": "Agonizing Slash IV",
       "Usage Cost": "100 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "24",
       "Description": "Inflicts 425~429 damage to the target. Decreases the target's Magic Resistance by 200 and All Elemental Defense by 50 for 15s.\nChain Skill Level 2.",
       "Abyss point": 45700,
