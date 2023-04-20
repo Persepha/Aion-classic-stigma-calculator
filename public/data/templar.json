@@ -9,16 +9,15 @@
     "Skill type": "Normal",
     "Target": "Area within a Radius of Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement",
-      "Cibles Max = 4"
+      "Can jumpshot",
+      "Can use while moving",
+      "Max targets = 4"
     ],
     "48": {
       "id": 540,
-      "name": "STR",
-      "icon": "Terrible Howl I",
+      "name": "Terrible Howl I",
       "Usage Cost": "124 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "300",
       "Description": "Taunts up to 4 enemies within a 10m radius of you, increasing their Enmity towards you, reducing their Movement Speed, and fearing them for 4s.",
       "Shards cost": 144
@@ -37,12 +36,11 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible"
+      "Can jumpshot"
     ],
     "45": {
       "id": 411,
-      "name": "STR",
-      "icon": "Divine Justice I",
+      "name": "Divine Justice I",
       "Usage Cost": "165 MP",
       "Cast time": "0.5 sec",
       "Cooldown": "120",
@@ -52,8 +50,7 @@
     },
     "48": {
       "id": 2042,
-      "name": "STR",
-      "icon": "Divine Justice II",
+      "name": "Divine Justice II",
       "Usage Cost": "165 MP",
       "Cast time": "0.5 sec",
       "Cooldown": "120",
@@ -63,8 +60,7 @@
     },
     "51": {
       "id": 2049,
-      "name": "STR",
-      "icon": "Divine Justice III",
+      "name": "Divine Justice III",
       "Usage Cost": "189 MP",
       "Cast time": "0.5 sec",
       "Cooldown": "120",
@@ -74,8 +70,7 @@
     },
     "54": {
       "id": 2064,
-      "name": "STR",
-      "icon": "Divine Justice IV",
+      "name": "Divine Justice IV",
       "Usage Cost": "199 MP",
       "Cast time": "0.5 sec",
       "Cooldown": "120",
@@ -97,45 +92,41 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "34": {
       "id": 410,
-      "name": "STR",
-      "icon": "Break Power I",
+      "name": "Break Power I",
       "Usage Cost": "57 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "16",
       "Description": "Inflicts 16~20 physical damage on a stumbled target, and decreases its Physical Attack by 20 for 30s. While the skill is in effect, your Attack increases by 20.",
       "Shards cost": 102
     },
     "40": {
       "id": 457,
-      "name": "STR",
-      "icon": "Break Power II",
+      "name": "Break Power II",
       "Usage Cost": "61 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "16",
       "Description": "Inflicts 16~20 physical damage on a stumbled target, and decreases its Physical Attack by 25 for 30s. While the skill is in effect, your Attack increases by 25.",
       "Shards cost": 120
     },
     "46": {
       "id": 536,
-      "name": "STR",
-      "icon": "Break Power III",
+      "name": "Break Power III",
       "Usage Cost": "63 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "16",
       "Description": "Deals 16~20 physical damage to a stumbled target, and decreases its Physical Attack by 25 for 30s. While the skill is in effect, your Attack increases by 25.",
       "Shards cost": 138
     },
     "52": {
       "id": 111,
-      "name": "STR",
-      "icon": "Break Power IV",
+      "name": "Break Power IV",
       "Usage Cost": "72 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "16",
       "Description": "Deals 16~20 physical damage to a stumbled target, and decreases its Physical Attack by 25 for 30s. While the skill is in effect, your Attack increases by 25.",
       "Shards cost": 156
@@ -152,25 +143,23 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "44": {
       "id": 531,
-      "name": "STR",
-      "icon": "Power of Restoration I",
+      "name": "Power of Restoration I",
       "Usage Cost": "87 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "300",
       "Description": "Recovers your HP by 80 every 6s for 1m.",
       "Shards cost": 132
     },
     "50": {
       "id": 543,
-      "name": "STR",
-      "icon": "Power of Restoration II",
+      "name": "Power of Restoration II",
       "Usage Cost": "93 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "300",
       "Description": "Recovers your HP by 89 every 6s for 1m.",
       "Shards cost": 150
@@ -186,13 +175,12 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Dégâts en PVP = 120%"
+      "Can jumpshot",
+      "Damage in PVP = 120%"
     ],
     "55": {
       "id": 1979,
-      "name": "STR",
-      "icon": "Shieldburst I",
+      "name": "Shieldburst I",
       "Usage Cost": "252 MP",
       "Cast time": "1 sec",
       "Cooldown": "30",
@@ -211,15 +199,14 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "50": {
       "id": 416,
-      "name": "STR",
-      "icon": "Empyrean Fury I",
+      "name": "Empyrean Fury I",
       "Usage Cost": "165 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "90",
       "Description": "Increases Physical Attack by 50%, Magic Accuracy by 200 and Magic Boost by 200 for 30s.",
       "Abyss point": 38700,
@@ -236,15 +223,14 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "20": {
       "id": 513,
-      "name": "STR",
-      "icon": "Divine Fury I",
+      "name": "Divine Fury I",
       "Usage Cost": "86 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "Increases your Physical Attack by 30% for 30s.",
       "Shards cost": 60
@@ -264,55 +250,50 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "28": {
       "id": 414,
-      "name": "STR",
-      "icon": "Punishment I",
+      "name": "Punishment I",
       "Usage Cost": "86 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "30",
       "Description": "Inflicts 377~381 random physical damage on the target by wielding a Greatsword.",
       "Shards cost": 84
     },
     "34": {
       "id": 415,
-      "name": "STR",
-      "icon": "Punishment II",
+      "name": "Punishment II",
       "Usage Cost": "95 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "30",
       "Description": "Inflicts 418~422 random physical damage on the target by wielding a Greatswor",
       "Shards cost": 102
     },
     "40": {
       "id": 461,
-      "name": "STR",
-      "icon": "Punishment III",
+      "name": "Punishment III",
       "Usage Cost": "102 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "30",
       "Description": "Inflicts 536~540 random physical damage on the target by wielding a Greatsword.",
       "Shards cost": 120
     },
     "46": {
       "id": 534,
-      "name": "STR",
-      "icon": "Punishment IV",
+      "name": "Punishment IV",
       "Usage Cost": "104 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "30",
       "Description": "Inflicts 638~642 random physical damage on the target by wielding a Greatsword.",
       "Shards cost": 138
     },
     "52": {
       "id": 2053,
-      "name": "STR",
-      "icon": "Punishment V",
+      "name": "Punishment V",
       "Usage Cost": "120 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "30",
       "Description": "Inflicts 822~826 random physical damage on the target by wielding a Greatsword.",
       "Shards cost": 156
@@ -329,15 +310,14 @@
     "Skill type": "Normal",
     "Target": "Area within a Radius of Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Cibles Max = 6"
+      "Can jumpshot",
+      "Max targets = 6"
     ],
     "52": {
       "id": 1973,
-      "name": "STR",
-      "icon": "Punishing Wave I",
+      "name": "Punishing Wave I",
       "Usage Cost": "240 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "Inflicts 489~493 damage on up to 6 enemies within a 7m radius, and immobilizes them for 10s.",
       "Abyss point": 78800,
@@ -345,10 +325,9 @@
     },
     "55": {
       "id": 1974,
-      "name": "STR",
-      "icon": "Punishing Wave II",
+      "name": "Punishing Wave II",
       "Usage Cost": "252 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "Inflicts 523~527 damage on up to 6 enemies within a 7m radius, and immobilizes them for 10s.",
       "Abyss point": 101800,
@@ -365,17 +344,15 @@
     "Skill type": "Normal",
     "Target": "Group Member",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement",
-      "Dissipation Impossible",
-      "Cibles Max = 1"
+      "Can jumpshot",
+      "Can use while moving",
+      "Max targets = 1"
     ],
     "37": {
       "id": 417,
-      "name": "STR",
-      "icon": "Bodyguard I",
+      "name": "Bodyguard I",
       "Usage Cost": "79 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "120",
       "Description": "For 30 sec, you suffer 100 damage instead of an ally within 25m radius whenever ally receives attack.",
       "Shards cost": 111
@@ -395,55 +372,50 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "28": {
       "id": 402,
-      "name": "STR",
-      "icon": "Incite Rage I",
+      "name": "Incite Rage I",
       "Usage Cost": "86 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "60",
       "Description": "Provokes a target within a 15m radius to increase its Enmity towards you.",
       "Shards cost": 84
     },
     "34": {
       "id": 406,
-      "name": "STR",
-      "icon": "Incite Rage II",
+      "name": "Incite Rage II",
       "Usage Cost": "95 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "60",
       "Description": "Provokes a target within a 15m radius to increase its Enmity towards you.",
       "Shards cost": 102
     },
     "40": {
       "id": 403,
-      "name": "STR",
-      "icon": "Incite Rage III",
+      "name": "Incite Rage III",
       "Usage Cost": "102 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "60",
       "Description": "Provokes a target within a 15m radius to increase its Enmity towards you.",
       "Shards cost": 120
     },
     "46": {
       "id": 408,
-      "name": "STR",
-      "icon": "Incite Rage IV",
+      "name": "Incite Rage IV",
       "Usage Cost": "104 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "60",
       "Description": "Provokes a target within a 15m radius to increase its Enmity towards you.",
       "Shards cost": 138
     },
     "52": {
       "id": 2054,
-      "name": "STR",
-      "icon": "Incite Rage V",
+      "name": "Incite Rage V",
       "Usage Cost": "120 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "60",
       "Description": "Provokes a target within a 15m radius to increase its Enmity towards you.",
       "Shards cost": 156
@@ -462,45 +434,41 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "20": {
       "id": 424,
-      "name": "STR",
-      "icon": "Holy Shield I",
+      "name": "Holy Shield I",
       "Usage Cost": "58 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "60",
       "Description": "For 30s, you reflect 46 damage back to enemies within 5m radius when they successfully land an attack on you.",
       "Shards cost": 60
     },
     "31": {
       "id": 425,
-      "name": "STR",
-      "icon": "Holy Shield II",
+      "name": "Holy Shield II",
       "Usage Cost": "73 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "60",
       "Description": "For 30s, you reflect 83 damage back to enemies within 5m radius when they successfully land an attack on you.",
       "Shards cost": 93
     },
     "42": {
       "id": 527,
-      "name": "STR",
-      "icon": "Holy Shield III",
+      "name": "Holy Shield III",
       "Usage Cost": "83 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "60",
       "Description": "For 30s, you reflect 115 damage back to enemies within 5m radius when they successfully land an attack on you.",
       "Shards cost": 126
     },
     "54": {
       "id": 2058,
-      "name": "STR",
-      "icon": "Holy Shield IV",
+      "name": "Holy Shield IV",
       "Usage Cost": "100 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "60",
       "Description": "For 30s, you reflect 168 damage back to enemies within 5m radius when they successfully land an attack on you.",
       "Shards cost": 162
@@ -517,15 +485,14 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "52": {
       "id": 1971,
-      "name": "STR",
-      "icon": "Threatening Taunt I",
+      "name": "Threatening Taunt I",
       "Usage Cost": "48 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "60",
       "Description": "Provokes a target within a 15 m radius of you to increase its Enmity towards you and temporarily decrease its Attack Speed.",
       "Abyss point": 78800,
@@ -533,10 +500,9 @@
     },
     "55": {
       "id": 1972,
-      "name": "STR",
-      "icon": "Threatening Taunt II",
+      "name": "Threatening Taunt II",
       "Usage Cost": "51 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "60",
       "Description": "Provokes a target within a 15 m radius of you to increase its Enmity towards you and temporarily decrease its Attack Speed.",
       "Abyss point": 101800,
@@ -553,16 +519,15 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement",
-      "Cibles Max = 6"
+      "Can jumpshot",
+      "Can use while moving",
+      "Max targets = 6"
     ],
     "55": {
       "id": 1978,
-      "name": "STR",
-      "icon": "Empyrean Providence I",
+      "name": "Empyrean Providence I",
       "Usage Cost": "404 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "600",
       "Description": "Creates a protective shield for 15s that has a 10% chance of blocking damage each time the caster and up to 6 allies within a 30m radius receive attack. In addition, increases Stun, Knock Back, Stumble, Spin, and Aerial Thrust Resistances by 1000 (The protective shield blocks 50% of the damage received per attack).",
       "Abyss point": 152700,
@@ -579,15 +544,14 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "50": {
       "id": 413,
-      "name": "STR",
-      "icon": "Shield of Faith I",
+      "name": "Shield of Faith I",
       "Usage Cost": "165 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "Blocks 1 attacks for 30 sec with shield defense. A shield required",
       "Abyss point": 38700,
@@ -609,66 +573,60 @@
     "Skill type": "Normal",
     "Target": "Area within a Radius of Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement",
-      "Cibles Max = 5"
+      "Can jumpshot",
+      "Can use while moving",
+      "Max targets = 5"
     ],
     "25": {
       "id": 431,
-      "name": "STR",
-      "icon": "Provoking Roar I",
+      "name": "Provoking Roar I",
       "Usage Cost": "81 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "30",
       "Description": "Taunts up to 5 enemies within a 10m radius of you to increase their Enmity.",
       "Shards cost": 75
     },
     "31": {
       "id": 432,
-      "name": "STR",
-      "icon": "Provoking Roar II",
+      "name": "Provoking Roar II",
       "Usage Cost": "91 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "30",
       "Description": "Taunts up to 5 enemies within a 10m radius of you to increase their Enmity.",
       "Shards cost": 93
     },
     "37": {
       "id": 451,
-      "name": "STR",
-      "icon": "Provoking Roar III",
+      "name": "Provoking Roar III",
       "Usage Cost": "98 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "30",
       "Description": "Taunts up to 5 enemies within a 10m radius of you to increase their Enmity.",
       "Shards cost": 111
     },
     "43": {
       "id": 530,
-      "name": "STR",
-      "icon": "Provoking Roar IV",
+      "name": "Provoking Roar IV",
       "Usage Cost": "103 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "30",
       "Description": "Taunts up to 5 enemies within a 10m radius of you to increase their Enmity.",
       "Shards cost": 129
     },
     "49": {
       "id": 541,
-      "name": "STR",
-      "icon": "Provoking Roar V",
+      "name": "Provoking Roar V",
       "Usage Cost": "103 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "30",
       "Description": "Taunts up to 5 enemies within a 10m radius of you to increase their Enmity.",
       "Shards cost": 147
     },
     "55": {
       "id": 2067,
-      "name": "STR",
-      "icon": "Provoking Roar VI",
+      "name": "Provoking Roar VI",
       "Usage Cost": "126 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "30",
       "Description": "Taunts up to 5 enemies within a 10m radius of you to increase their Enmity.",
       "Shards cost": 165
@@ -687,14 +645,13 @@
     "Skill type": "Chain Skills",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible"
+      "Can jumpshot"
     ],
     "45": {
       "id": 412,
-      "name": "STR",
-      "icon": "Magic Smash I",
+      "name": "Magic Smash I",
       "Usage Cost": "165 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "30",
       "Description": "Inflicts 1087 earth damage to a target within a 25m radius. Chain Skill Level 3",
       "Abyss point": 13750,
@@ -702,10 +659,9 @@
     },
     "48": {
       "id": 2043,
-      "name": "STR",
-      "icon": "Magic Smash II",
+      "name": "Magic Smash II",
       "Usage Cost": "165 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "30",
       "Description": "Inflicts 1134 earth damage to a target within a 25m radius. Chain Skill Level 3",
       "Abyss point": 26500,
@@ -713,10 +669,9 @@
     },
     "51": {
       "id": 2050,
-      "name": "STR",
-      "icon": "Magic Smash III",
+      "name": "Magic Smash III",
       "Usage Cost": "189 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "30",
       "Description": "Inflicts 1243 earth damage to a target within a 25m radius. Chain Skill Level 3",
       "Abyss point": 34500,
@@ -724,10 +679,9 @@
     },
     "54": {
       "id": 2065,
-      "name": "STR",
-      "icon": "Magic Smash IV",
+      "name": "Magic Smash IV",
       "Usage Cost": "199 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "30",
       "Description": "Inflicts 1356 earth damage to a target within a 25m radius. Chain Skill Level 3",
       "Abyss point": 45700,
@@ -747,15 +701,14 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "45": {
       "id": 409,
-      "name": "STR",
-      "icon": "Prayer of Resilience I",
+      "name": "Prayer of Resilience I",
       "Usage Cost": "206 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "Restores HP by 2181.",
       "Abyss point": 13750,
@@ -763,10 +716,9 @@
     },
     "48": {
       "id": 2041,
-      "name": "STR",
-      "icon": "Prayer of Resilience II",
+      "name": "Prayer of Resilience II",
       "Usage Cost": "207 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "Restores HP by 2342.",
       "Abyss point": 26500,
@@ -774,10 +726,9 @@
     },
     "51": {
       "id": 2048,
-      "name": "STR",
-      "icon": "Prayer of Resilience III",
+      "name": "Prayer of Resilience III",
       "Usage Cost": "236 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "Restores HP by 3027.",
       "Abyss point": 34500,
@@ -785,10 +736,9 @@
     },
     "54": {
       "id": 2063,
-      "name": "STR",
-      "icon": "Prayer of Resilience IV",
+      "name": "Prayer of Resilience IV",
       "Usage Cost": "248 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "Restores HP by 3167.",
       "Abyss point": 45700,
@@ -805,14 +755,13 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "54": {
       "id": 1976,
-      "name": "STR",
-      "icon": "Barricade of Steel I",
-      "Cast time": "Instantané",
+      "name": "Barricade of Steel I",
+      "Cast time": "Cast Instantly",
       "Cooldown": "6",
       "Description": "Increases Block by 1000, Physical Def by 15%, Stun, Knock Back, Stumble, Spin, and Aerial Thrust Resistances by 1000, and reflects 210 damage to the enemy that s you within a 20m radius. This skill is disabled if another skill is used. You cannot jump while the skill is in effect. A shield required",
       "Shards cost": 162
@@ -831,16 +780,15 @@
     "Skill type": "Normal",
     "Target": "Area within a Radius of Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement",
-      "Cibles Max = 6"
+      "Can jumpshot",
+      "Can use while moving",
+      "Max targets = 6"
     ],
     "45": {
       "id": 438,
-      "name": "STR",
-      "icon": "Prayer of Victory I",
+      "name": "Prayer of Victory I",
       "Usage Cost": "206 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "300",
       "Description": "Increases the Maximum HP of you and up to 6 allies within a 30m radius by 1000 for 2m.",
       "Abyss point": 13750,
@@ -848,10 +796,9 @@
     },
     "48": {
       "id": 439,
-      "name": "STR",
-      "icon": "Prayer of Victory II",
+      "name": "Prayer of Victory II",
       "Usage Cost": "207 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "300",
       "Description": "Increases the Maximum HP of you and up to 6 allies within a 30m radius by 1100 for 2m.",
       "Abyss point": 26500,
@@ -859,10 +806,9 @@
     },
     "51": {
       "id": 440,
-      "name": "STR",
-      "icon": "Prayer of Victory III",
+      "name": "Prayer of Victory III",
       "Usage Cost": "236 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "300",
       "Description": "Increases the Maximum HP of you and up to 6 allies within a 30m radius by 1200 for 2m.",
       "Abyss point": 34500,
@@ -870,10 +816,9 @@
     },
     "54": {
       "id": 466,
-      "name": "STR",
-      "icon": "Prayer of Victory IV",
+      "name": "Prayer of Victory IV",
       "Usage Cost": "248 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "300",
       "Description": "Increases the Maximum HP of you and up to 6 allies within a 30m radius by 1300 for 2m.",
       "Abyss point": 45700,
@@ -890,15 +835,14 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "50": {
       "id": 550,
-      "name": "STR",
-      "icon": "Punishment of Darkness I",
+      "name": "Punishment of Darkness I",
       "Usage Cost": "165 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "60",
       "Description": "Deals 907~911 physical damage to the target and absorbs 50% of the damage as HP.",
       "Shards cost": 150
@@ -914,15 +858,14 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "45": {
       "id": 547,
-      "name": "STR",
-      "icon": "Ancestral Righteous Punishment I",
+      "name": "Ancestral Righteous Punishment I",
       "Usage Cost": "124 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "60",
       "Description": "Deals 743~747 physical damage to the target and absorbs 50% of the damage as HP.",
       "Shards cost": 135
@@ -938,15 +881,14 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "45": {
       "id": 546,
-      "name": "STR",
-      "icon": "Ancestral Holy Punishment I",
+      "name": "Ancestral Holy Punishment I",
       "Usage Cost": "124 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "120",
       "Description": "Deals 743~747 physical damage to the target and stuns it for 2s.",
       "Shards cost": 135
@@ -962,15 +904,14 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "50": {
       "id": 549,
-      "name": "STR",
-      "icon": "Punishment of Light I",
+      "name": "Punishment of Light I",
       "Usage Cost": "165 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "120",
       "Description": "Deals 907~911 physical damage to the target and stuns it for 2s.",
       "Shards cost": 150
@@ -986,15 +927,14 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "45": {
       "id": 401,
-      "name": "STR",
-      "icon": "Aether Armor I",
+      "name": "Aether Armor I",
       "Usage Cost": "103 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "300",
       "Description": "Increases your Magic Resistance by 800 for 30s.",
       "Shards cost": 135
@@ -1010,15 +950,14 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "22": {
       "id": 523,
-      "name": "STR",
-      "icon": "Doom Lure I",
+      "name": "Doom Lure I",
       "Usage Cost": "76 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "30",
       "Description": "Grabs an enemy within 16m of you, pulling it to you, increasing its Enmity towards you, and decreasing its Movement Speed for 10s.",
       "Shards cost": 66
@@ -1035,25 +974,23 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "40": {
       "id": 2271,
-      "name": "STR",
-      "icon": "Inquisitor's Blow I",
+      "name": "Inquisitor's Blow I",
       "Usage Cost": "81 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "30",
       "Description": "Inflicts 443 ~ 447 physical damage on a target within a 15m radius of you.",
       "Shards cost": 120
     },
     "52": {
       "id": 2272,
-      "name": "STR",
-      "icon": "Inquisitor's Blow II",
+      "name": "Inquisitor's Blow II",
       "Usage Cost": "96 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "30",
       "Description": "Inflicts 682 ~ 686 physical damage on a target within a 15m radius of you.",
       "Shards cost": 156
@@ -1071,32 +1008,29 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "40": {
       "id": 183,
-      "name": "STR",
-      "icon": "Siegebreaker I",
-      "Cast time": "Instantané",
+      "name": "Siegebreaker I",
+      "Cast time": "Cast Instantly",
       "Cooldown": "12",
       "Description": "Deals 16~20 physical damage to the target. Deals an extra 4000 physical damage to castle gates.",
       "Shards cost": 120
     },
     "46": {
       "id": 382,
-      "name": "STR",
-      "icon": "Siegebreaker II",
-      "Cast time": "Instantané",
+      "name": "Siegebreaker II",
+      "Cast time": "Cast Instantly",
       "Cooldown": "12",
       "Description": "Deals 16~20 physical damage to the target. Deals an extra 5500 physical damage to castle gates.",
       "Shards cost": 138
     },
     "52": {
       "id": 2026,
-      "name": "STR",
-      "icon": "Siegebreaker III",
-      "Cast time": "Instantané",
+      "name": "Siegebreaker III",
+      "Cast time": "Cast Instantly",
       "Cooldown": "12",
       "Description": "Deals 16~20 physical damage to the target. Deals an extra 6500 physical damage to castle gates.",
       "Shards cost": 156
@@ -1112,15 +1046,14 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "34": {
       "id": 287,
-      "name": "STR",
-      "icon": "Unwavering Devotion I",
+      "name": "Unwavering Devotion I",
       "Usage Cost": "79 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "Increases your Stun, Knock Back, Stumble, Spin, and Aerial Thrust Resistances by 1000 for 1m30s.",
       "Shards cost": 111

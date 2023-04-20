@@ -9,12 +9,11 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible"
+      "Can jumpshot"
     ],
     "20": {
       "id": 1746,
-      "name": "STR",
-      "icon": "Body Root I",
+      "name": "Body Root I",
       "Usage Cost": "108 MP",
       "Cast time": "0.5 sec",
       "Cooldown": "20",
@@ -35,12 +34,11 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible"
+      "Can jumpshot"
     ],
     "34": {
       "id": 1625,
-      "name": "STR",
-      "icon": "Weaken Spirit I",
+      "name": "Weaken Spirit I",
       "Usage Cost": "190 MP",
       "Cast time": "2 sec",
       "Cooldown": "12",
@@ -49,8 +47,7 @@
     },
     "40": {
       "id": 1626,
-      "name": "STR",
-      "icon": "Weaken Spirit II",
+      "name": "Weaken Spirit II",
       "Usage Cost": "216 MP",
       "Cast time": "2 sec",
       "Cooldown": "12",
@@ -59,8 +56,7 @@
     },
     "46": {
       "id": 1693,
-      "name": "STR",
-      "icon": "Weaken Spirit III",
+      "name": "Weaken Spirit III",
       "Usage Cost": "242 MP",
       "Cast time": "2 sec",
       "Cooldown": "12",
@@ -69,8 +65,7 @@
     },
     "52": {
       "id": 2226,
-      "name": "STR",
-      "icon": "Weaken Spirit IV",
+      "name": "Weaken Spirit IV",
       "Usage Cost": "278 MP",
       "Cast time": "2 sec",
       "Cooldown": "12",
@@ -94,12 +89,11 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible"
+      "Can jumpshot"
     ],
     "20": {
       "id": 1755,
-      "name": "STR",
-      "icon": "Absorb Vitality I",
+      "name": "Absorb Vitality I",
       "Usage Cost": "109 MP",
       "Cast time": "2 sec",
       "Cooldown": "12",
@@ -108,8 +102,7 @@
     },
     "25": {
       "id": 1756,
-      "name": "STR",
-      "icon": "Absorb Vitality II",
+      "name": "Absorb Vitality II",
       "Usage Cost": "143 MP",
       "Cast time": "2 sec",
       "Cooldown": "12",
@@ -118,8 +111,7 @@
     },
     "31": {
       "id": 1757,
-      "name": "STR",
-      "icon": "Absorb Vitality III",
+      "name": "Absorb Vitality III",
       "Usage Cost": "176 MP",
       "Cast time": "2 sec",
       "Cooldown": "12",
@@ -128,8 +120,7 @@
     },
     "37": {
       "id": 1758,
-      "name": "STR",
-      "icon": "Absorb Vitality IV",
+      "name": "Absorb Vitality IV",
       "Usage Cost": "190 MP",
       "Cast time": "2 sec",
       "Cooldown": "12",
@@ -138,8 +129,7 @@
     },
     "41": {
       "id": 1779,
-      "name": "STR",
-      "icon": "Absorb Vitality V",
+      "name": "Absorb Vitality V",
       "Usage Cost": "221 MP",
       "Cast time": "2 sec",
       "Cooldown": "12",
@@ -148,8 +138,7 @@
     },
     "47": {
       "id": 1790,
-      "name": "STR",
-      "icon": "Absorb Vitality VI",
+      "name": "Absorb Vitality VI",
       "Usage Cost": "250 MP",
       "Cast time": "2 sec",
       "Cooldown": "12",
@@ -158,8 +147,7 @@
     },
     "53": {
       "id": 2229,
-      "name": "STR",
-      "icon": "Absorb Vitality VII",
+      "name": "Absorb Vitality VII",
       "Usage Cost": "284 MP",
       "Cast time": "2 sec",
       "Cooldown": "12",
@@ -177,15 +165,14 @@
     "Skill type": "Normal",
     "Target": "Pet",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "52": {
       "id": 2004,
-      "name": "STR",
-      "icon": "Healing Spirit I",
+      "name": "Healing Spirit I",
       "Usage Cost": "335 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "120",
       "Description": "Recovers the HP of a spirit within a 15m radius by 100% and removes all magical debuffs from it.",
       "Abyss point": 78800,
@@ -203,13 +190,12 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Cibles Max = 1"
+      "Can jumpshot",
+      "Max targets = 1"
     ],
     "40": {
       "id": 2298,
-      "name": "STR",
-      "icon": "Transference I",
+      "name": "Transference I",
       "Usage Cost": "10% HP",
       "Cast time": "1 sec",
       "Cooldown": "300",
@@ -218,8 +204,7 @@
     },
     "52": {
       "id": 2299,
-      "name": "STR",
-      "icon": "Transference II",
+      "name": "Transference II",
       "Usage Cost": "10% HP",
       "Cast time": "1 sec",
       "Cooldown": "300",
@@ -237,12 +222,11 @@
     "Skill type": "Normal",
     "Target": "Pet",
     "Additional info": [
-      "Jumpshot Possible"
+      "Can jumpshot"
     ],
     "45": {
       "id": 1662,
-      "name": "STR",
-      "icon": "Armor Spirit I",
+      "name": "Armor Spirit I",
       "Usage Cost": "400 MP",
       "Cast time": "1 sec",
       "Cooldown": "60",
@@ -266,65 +250,59 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "25": {
       "id": 1634,
-      "name": "STR",
-      "icon": "Ignite Aether I",
+      "name": "Ignite Aether I",
       "Usage Cost": "114 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "30",
       "Description": "Removes up to 3 buffs from the target, inflicting 189 damage for the first buff removed and a further 189 damage per each additional buff.",
       "Shards cost": 75
     },
     "31": {
       "id": 1635,
-      "name": "STR",
-      "icon": "Ignite Aether II",
+      "name": "Ignite Aether II",
       "Usage Cost": "141 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "30",
       "Description": "Removes up to 3 buffs from the target, inflicting 225 damage for the first buff removed and a further 255 damage per each additional buff.",
       "Shards cost": 93
     },
     "37": {
       "id": 1759,
-      "name": "STR",
-      "icon": "Ignite Aether III",
+      "name": "Ignite Aether III",
       "Usage Cost": "157 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "30",
       "Description": "Removes up to 3 buffs from the target, inflicting 250 damage for the first buff removed and a further 250 damage per each additional buff.",
       "Shards cost": 111
     },
     "42": {
       "id": 1780,
-      "name": "STR",
-      "icon": "Ignite Aether IV",
+      "name": "Ignite Aether IV",
       "Usage Cost": "181 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "30",
       "Description": "Removes up to 3 buffs from the target, inflicting 274 damage for the first buff removed and a further 274 damage per each additional buff.",
       "Shards cost": 126
     },
     "48": {
       "id": 1793,
-      "name": "STR",
-      "icon": "Ignite Aether V",
+      "name": "Ignite Aether V",
       "Usage Cost": "202 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "30",
       "Description": "Removes up to 3 buffs from the target, inflicting 304 damage for the first buff removed and a further 304 damage per each additional buff.",
       "Shards cost": 144
     },
     "54": {
       "id": 2233,
-      "name": "STR",
-      "icon": "Ignite Aether VI",
+      "name": "Ignite Aether VI",
       "Usage Cost": "234 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "30",
       "Description": "Removes up to 3 buffs from the target, inflicting 360 damage for the first buff removed and a further 360 damage per each additional buff.",
       "Shards cost": 162
@@ -340,12 +318,11 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible"
+      "Can jumpshot"
     ],
     "54": {
       "id": 2009,
-      "name": "STR",
-      "icon": "Withering Gloom I",
+      "name": "Withering Gloom I",
       "Usage Cost": "293 MP",
       "Cast time": "2 sec",
       "Cooldown": "120",
@@ -363,12 +340,11 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible"
+      "Can jumpshot"
     ],
     "45": {
       "id": 1663,
-      "name": "STR",
-      "icon": "Shackle of Vulnerability I",
+      "name": "Shackle of Vulnerability I",
       "Usage Cost": "100 MP",
       "Cast time": "1 sec",
       "Cooldown": "30",
@@ -387,13 +363,12 @@
     "Skill type": "Normal",
     "Target": "Pet",
     "Additional info": [
-      "Jumpshot Possible",
-      "Cibles Max = 12"
+      "Can jumpshot",
+      "Max targets = 12"
     ],
     "40": {
       "id": 1607,
-      "name": "STR",
-      "icon": "Cloaking Word I",
+      "name": "Cloaking Word I",
       "Usage Cost": "420 MP",
       "Cast time": "0.5 sec",
       "Cooldown": "600",
@@ -411,15 +386,14 @@
     "Skill type": "Normal",
     "Target": "Pet",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "44": {
       "id": 1785,
-      "name": "STR",
-      "icon": "Spirit Recovery I",
+      "name": "Spirit Recovery I",
       "Usage Cost": "169 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "Recovers your spirit's HP by 100%.",
       "Shards cost": 132
@@ -439,13 +413,12 @@
     "Skill type": "Normal",
     "Target": "Group Member",
     "Additional info": [
-      "Jumpshot Possible",
-      "Cibles Max =  6"
+      "Can jumpshot",
+      "Max targets =  6"
     ],
     "31": {
       "id": 1608,
-      "name": "STR",
-      "icon": "Blessing of Fire I",
+      "name": "Blessing of Fire I",
       "Usage Cost": "175 MP",
       "Cast time": "2 sec",
       "Cooldown": "150",
@@ -454,8 +427,7 @@
     },
     "37": {
       "id": 1638,
-      "name": "STR",
-      "icon": "Blessing of Fire II",
+      "name": "Blessing of Fire II",
       "Usage Cost": "195 MP",
       "Cast time": "2 sec",
       "Cooldown": "150",
@@ -464,8 +436,7 @@
     },
     "43": {
       "id": 1639,
-      "name": "STR",
-      "icon": "Blessing of Fire III",
+      "name": "Blessing of Fire III",
       "Usage Cost": "230 MP",
       "Cast time": "2 sec",
       "Cooldown": "150",
@@ -474,8 +445,7 @@
     },
     "49": {
       "id": 1640,
-      "name": "STR",
-      "icon": "Blessing of Fire IV",
+      "name": "Blessing of Fire IV",
       "Usage Cost": "256 MP",
       "Cast time": "2 sec",
       "Cooldown": "150",
@@ -484,8 +454,7 @@
     },
     "55": {
       "id": 2241,
-      "name": "STR",
-      "icon": "Blessing of Fire V",
+      "name": "Blessing of Fire V",
       "Usage Cost": "299 MP",
       "Cast time": "2 sec",
       "Cooldown": "150",
@@ -503,12 +472,11 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible"
+      "Can jumpshot"
     ],
     "55": {
       "id": 2012,
-      "name": "STR",
-      "icon": "Infernal Blight I",
+      "name": "Infernal Blight I",
       "Usage Cost": "588 MP",
       "Cast time": "1 sec",
       "Cooldown": "180",
@@ -528,13 +496,12 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Dégâts en PVP = 80%"
+      "Can jumpshot",
+      "Damage in PVP = 80%"
     ],
     "50": {
       "id": 1666,
-      "name": "STR",
-      "icon": "Infernal Pain I",
+      "name": "Infernal Pain I",
       "Usage Cost": "482 MP",
       "Cast time": "1.5 sec",
       "Cooldown": "30",
@@ -544,8 +511,7 @@
     },
     "53": {
       "id": 2230,
-      "name": "STR",
-      "icon": "Infernal Pain II",
+      "name": "Infernal Pain II",
       "Usage Cost": "512 MP",
       "Cast time": "1.5 sec",
       "Cooldown": "30",
@@ -567,15 +533,14 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "45": {
       "id": 1664,
-      "name": "STR",
-      "icon": "Magic Implosion I",
+      "name": "Magic Implosion I",
       "Usage Cost": "257 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "30",
       "Description": "Removes up to 3 buffs from the target, inflicts 400 damage for the first buff removed, and inflicts a further 400 damage per each additional buff removed. The target also receives 100 damage every 3 sec for 30 sec. It can be removed with Dispel Magical Buff or Dispel Magical Debuff skills.",
       "Abyss point": 13750,
@@ -583,10 +548,9 @@
     },
     "48": {
       "id": 2218,
-      "name": "STR",
-      "icon": "Magic Implosion II",
+      "name": "Magic Implosion II",
       "Usage Cost": "270 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "30",
       "Description": "Removes up to 3 buffs from the target, inflicts 427 damage for the first buff removed, and inflicts a further 427 damage per each additional buff removed. The target also receives 104 damage every 3 sec for 30 sec. It can be removed with Dispel Magical Buff or Dispel Magical Debuff skills.",
       "Abyss point": 26500,
@@ -594,10 +558,9 @@
     },
     "51": {
       "id": 2224,
-      "name": "STR",
-      "icon": "Magic Implosion III",
+      "name": "Magic Implosion III",
       "Usage Cost": "288 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "30",
       "Description": "Removes up to 3 buffs from the target, inflicts 452 damage for the first buff removed, and inflicts a further 452 damage per each additional buff removed. The target also receives 110 damage every 3 sec for 30 sec. It can be removed with Dispel Magical Buff or Dispel Magical Debuff skills.",
       "Abyss point": 34500,
@@ -605,10 +568,9 @@
     },
     "54": {
       "id": 2238,
-      "name": "STR",
-      "icon": "Magic Implosion IV",
+      "name": "Magic Implosion IV",
       "Usage Cost": "313 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "30",
       "Description": "Removes up to 3 buffs from the target, inflicts 491 damage for the first buff removed, and inflicts a further 491 damage per each additional buff removed. The target also receives 120 damage every 3 sec for 30 sec. It can be removed with Dispel Magical Buff or Dispel Magical Debuff skills.",
       "Abyss point": 45700,
@@ -625,12 +587,11 @@
     "Skill type": "Normal",
     "Target": "Pet",
     "Additional info": [
-      "Jumpshot Possible"
+      "Can jumpshot"
     ],
     "34": {
       "id": 1661,
-      "name": "STR",
-      "icon": "Spirit Wall of Protection I",
+      "name": "Spirit Wall of Protection I",
       "Usage Cost": "220 MP",
       "Cast time": "0.8 sec",
       "Cooldown": "120",
@@ -648,12 +609,11 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible"
+      "Can jumpshot"
     ],
     "55": {
       "id": 2011,
-      "name": "STR",
-      "icon": "Spirit Hypnosis I",
+      "name": "Spirit Hypnosis I",
       "Cast time": "1 sec",
       "Cooldown": "30",
       "Description": "Commands the spirit to use its debuff skills. The spirit possesses the target and puts it to sleep, reducing Attack Speed and increasing all elemental defense of the target before disappearing.",
@@ -671,15 +631,13 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement",
-      "Dissipation Impossible"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "48": {
       "id": 1794,
-      "name": "STR",
-      "icon": "Spirit Substitution I",
-      "Cast time": "Instantané",
+      "name": "Spirit Substitution I",
+      "Cast time": "Cast Instantly",
       "Cooldown": "600",
       "Description": "Commands the spirit to use its protection magic. The spirit receives all the damage in place of the caster.",
       "Shards cost": 144
@@ -695,13 +653,12 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Cibles Max = 1"
+      "Can jumpshot",
+      "Max targets = 1"
     ],
     "28": {
       "id": 1769,
-      "name": "STR",
-      "icon": "Sigil of Silence I",
+      "name": "Sigil of Silence I",
       "Usage Cost": "131 MP",
       "Cast time": "1 sec",
       "Cooldown": "20",
@@ -722,12 +679,11 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible"
+      "Can jumpshot"
     ],
     "45": {
       "id": 1642,
-      "name": "STR",
-      "icon": "Summon Cyclone Servant I (A)",
+      "name": "Summon Cyclone Servant I (A)",
       "Usage Cost": "295 MP",
       "Cast time": "1.5 sec",
       "Cooldown": "30",
@@ -737,8 +693,7 @@
     },
     "48": {
       "id": 2215,
-      "name": "STR",
-      "icon": "Summon Cyclone Servant II (A)",
+      "name": "Summon Cyclone Servant II (A)",
       "Usage Cost": "312 MP",
       "Cast time": "1.5 sec",
       "Cooldown": "30",
@@ -748,8 +703,7 @@
     },
     "51": {
       "id": 2221,
-      "name": "STR",
-      "icon": "Summon Cyclone Servant III (A)",
+      "name": "Summon Cyclone Servant III (A)",
       "Usage Cost": "333 MP",
       "Cast time": "1.5 sec",
       "Cooldown": "30",
@@ -759,8 +713,7 @@
     },
     "54": {
       "id": 2235,
-      "name": "STR",
-      "icon": "Summon Cyclone Servant IV (A)",
+      "name": "Summon Cyclone Servant IV (A)",
       "Usage Cost": "362 MP",
       "Cast time": "1.5 sec",
       "Cooldown": "30",
@@ -782,12 +735,11 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible"
+      "Can jumpshot"
     ],
     "45": {
       "id": 1641,
-      "name": "STR",
-      "icon": "Summon Cyclone Servant I (E)",
+      "name": "Summon Cyclone Servant I (E)",
       "Usage Cost": "295 MP",
       "Cast time": "1.5 sec",
       "Cooldown": "30",
@@ -797,8 +749,7 @@
     },
     "48": {
       "id": 2214,
-      "name": "STR",
-      "icon": "Summon Cyclone Servant II (E)",
+      "name": "Summon Cyclone Servant II (E)",
       "Usage Cost": "312 MP",
       "Cast time": "1.5 sec",
       "Cooldown": "30",
@@ -808,8 +759,7 @@
     },
     "51": {
       "id": 2220,
-      "name": "STR",
-      "icon": "Summon Cyclone Servant III (E)",
+      "name": "Summon Cyclone Servant III (E)",
       "Usage Cost": "333 MP",
       "Cast time": "1.5 sec",
       "Cooldown": "30",
@@ -819,8 +769,7 @@
     },
     "54": {
       "id": 2234,
-      "name": "STR",
-      "icon": "Summon Cyclone Servant IV (E)",
+      "name": "Summon Cyclone Servant IV (E)",
       "Usage Cost": "362 MP",
       "Cast time": "1.5 sec",
       "Cooldown": "30",
@@ -839,14 +788,12 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Temps d'incantation non modifiable",
-      "Durée en PVP = 25%"
+      "Can jumpshot",
+      "Duration in PVP = 25%"
     ],
     "52": {
       "id": 2006,
-      "name": "STR",
-      "icon": "Hand of Torpor I",
+      "name": "Hand of Torpor I",
       "Usage Cost": "335 MP",
       "Cast time": "2.5 sec",
       "Cooldown": "60",
@@ -865,12 +812,11 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible"
+      "Can jumpshot"
     ],
     "50": {
       "id": 1665,
-      "name": "STR",
-      "icon": "Spirit Ruinous Offensive I",
+      "name": "Spirit Ruinous Offensive I",
       "Usage Cost": "200 MP",
       "Cast time": "0.8 sec",
       "Cooldown": "60",
@@ -889,12 +835,11 @@
     "Skill type": "Normal",
     "Target": "Pet",
     "Additional info": [
-      "Jumpshot Possible"
+      "Can jumpshot"
     ],
     "45": {
       "id": 1601,
-      "name": "STR",
-      "icon": "Ancestral Spirit Flow I",
+      "name": "Ancestral Spirit Flow I",
       "Usage Cost": "440 MP",
       "Cast time": "2 sec",
       "Cooldown": "180",
@@ -912,12 +857,11 @@
     "Skill type": "Normal",
     "Target": "Pet",
     "Additional info": [
-      "Jumpshot Possible"
+      "Can jumpshot"
     ],
     "50": {
       "id": 1604,
-      "name": "STR",
-      "icon": "Spirit Burn-to-Ashes I",
+      "name": "Spirit Burn-to-Ashes I",
       "Usage Cost": "500 MP",
       "Cast time": "2 sec",
       "Cooldown": "180",
@@ -935,12 +879,11 @@
     "Skill type": "Normal",
     "Target": "Pet",
     "Additional info": [
-      "Jumpshot Possible"
+      "Can jumpshot"
     ],
     "45": {
       "id": 1602,
-      "name": "STR",
-      "icon": "Ancestral Spirit Self Destruct I",
+      "name": "Ancestral Spirit Self Destruct I",
       "Usage Cost": "440 MP",
       "Cast time": "2 sec",
       "Cooldown": "180",
@@ -958,12 +901,11 @@
     "Skill type": "Normal",
     "Target": "Pet",
     "Additional info": [
-      "Jumpshot Possible"
+      "Can jumpshot"
     ],
     "50": {
       "id": 1605,
-      "name": "STR",
-      "icon": "Spirit Explosion I",
+      "name": "Spirit Explosion I",
       "Usage Cost": "500 MP",
       "Cast time": "2 sec",
       "Cooldown": "180",
@@ -982,12 +924,11 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible"
+      "Can jumpshot"
     ],
     "45": {
       "id": 1603,
-      "name": "STR",
-      "icon": "Cyclone of Wrath I",
+      "name": "Cyclone of Wrath I",
       "Usage Cost": "246 MP",
       "Cast time": "2 sec",
       "Cooldown": "12",
@@ -996,8 +937,7 @@
     },
     "51": {
       "id": 2219,
-      "name": "STR",
-      "icon": "Cyclone of Wrath II",
+      "name": "Cyclone of Wrath II",
       "Usage Cost": "278 MP",
       "Cast time": "2 sec",
       "Cooldown": "12",
@@ -1015,15 +955,14 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "22": {
       "id": 1683,
-      "name": "STR",
-      "icon": "Enmity Swap I",
+      "name": "Enmity Swap I",
       "Usage Cost": "37 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "60",
       "Description": "You draw the Enmity of a target within 15m that is currently focused on your spirit.",
       "Shards cost": 66
@@ -1039,15 +978,13 @@
     "Skill type": "Normal",
     "Target": "Area within a Radius of Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Temps d'incantation non modifiable",
-      "Durée en PVP = 50%",
-      "Cibles Max = 6"
+      "Can jumpshot",
+      "Duration in PVP = 50%",
+      "Max targets = 6"
     ],
     "37": {
       "id": 1685,
-      "name": "STR",
-      "icon": "Fear Shriek I",
+      "name": "Fear Shriek I",
       "Usage Cost": "520 MP",
       "Cast time": "1.5 sec",
       "Cooldown": "60",

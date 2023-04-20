@@ -9,16 +9,15 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement",
-      "Cibles Max = 1"
+      "Can jumpshot",
+      "Can use while moving",
+      "Max targets = 1"
     ],
     "37": {
       "id": 1554,
-      "name": "STR",
-      "icon": "Vaizel's Wisdom I",
+      "name": "Vaizel's Wisdom I",
       "Usage Cost": "229 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "30",
       "Description": "Spell casting time decreased by 25% for 15s.",
       "Shards cost": 111
@@ -34,16 +33,15 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement",
-      "Cibles Max = 1"
+      "Can jumpshot",
+      "Can use while moving",
+      "Max targets = 1"
     ],
     "28": {
       "id": 1555,
-      "name": "STR",
-      "icon": "Zikel's Wisdom I",
+      "name": "Zikel's Wisdom I",
       "Usage Cost": "229 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "30",
       "Description": "Increases your Magic Boost by 300 for 15s.",
       "Shards cost": 84
@@ -59,15 +57,14 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement",
-      "Cibles Max = 1"
+      "Can jumpshot",
+      "Can use while moving",
+      "Max targets = 1"
     ],
     "20": {
       "id": 1556,
-      "name": "STR",
-      "icon": "Lumiel's Wisdom I",
-      "Cast time": "Instantané",
+      "name": "Lumiel's Wisdom I",
+      "Cast time": "Cast Instantly",
       "Cooldown": "30",
       "Description": "For 15s, you can use skills with only 50% of the required MP.",
       "Shards cost": 60
@@ -85,36 +82,33 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement",
-      "Cibles Max = 1"
+      "Can jumpshot",
+      "Can use while moving",
+      "Max targets = 1"
     ],
     "28": {
       "id": 1560,
-      "name": "STR",
-      "icon": "Curse of Weakness I",
+      "name": "Curse of Weakness I",
       "Usage Cost": "103 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "300",
       "Description": "Curses a target within 25m. For 1 min, each time they use magical skills, they take magic damage equal to 5% of their Max HP. This damage will not exceed 500.",
       "Shards cost": 84
     },
     "40": {
       "id": 1561,
-      "name": "STR",
-      "icon": "Curse of Weakness II",
+      "name": "Curse of Weakness II",
       "Usage Cost": "148 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "300",
       "Description": "Curses a target within 25m. For 1 min, each time they use magical skills, they take magic damage equal to 10% of their Max HP. This damage will not exceed 1000.",
       "Shards cost": 120
     },
     "52": {
       "id": 2196,
-      "name": "STR",
-      "icon": "Curse of Weakness III",
+      "name": "Curse of Weakness III",
       "Usage Cost": "190 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "300",
       "Description": "Curses a target within 25m. For 1 min, each time they use magical skills, they take magic damage equal to 12% of their Max HP. This damage will not exceed 1200.",
       "Shards cost": 156
@@ -130,14 +124,12 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Temps d'incantation non modifiable",
-      "Durée en PVP = 40%"
+      "Can jumpshot",
+      "Duration in PVP = 40%"
     ],
     "20": {
       "id": 1454,
-      "name": "STR",
-      "icon": "Curse of Roots I",
+      "name": "Curse of Roots I",
       "Usage Cost": "74 MP",
       "Cast time": "1.5 sec",
       "Cooldown": "30",
@@ -155,15 +147,14 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "52": {
       "id": 1426,
-      "name": "STR",
-      "icon": "Elemental Ward I",
+      "name": "Elemental Ward I",
       "Usage Cost": "270 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "Increases All Elemental Defense by 300 and Magic Resistance by 300 for 1m.",
       "Abyss point": 78800,
@@ -181,13 +172,12 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Dégâts en PVP = 70%"
+      "Can jumpshot",
+      "Damage in PVP = 70%"
     ],
     "50": {
       "id": 1444,
-      "name": "STR",
-      "icon": "Flame Spray I",
+      "name": "Flame Spray I",
       "Usage Cost": "895 MP",
       "Cast time": "3.5 sec",
       "Cooldown": "30",
@@ -197,8 +187,7 @@
     },
     "53": {
       "id": 2199,
-      "name": "STR",
-      "icon": "Flame Spray II",
+      "name": "Flame Spray II",
       "Usage Cost": "972 MP",
       "Cast time": "3.5 sec",
       "Cooldown": "30",
@@ -220,46 +209,42 @@
     "Skill type": "Normal",
     "Target": "Specified Location",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement",
-      "Cibles Max = 1"
+      "Can jumpshot",
+      "Can use while moving",
+      "Max targets = 1"
     ],
     "25": {
       "id": 1457,
-      "name": "STR",
-      "icon": "Ice Sheet I (A)",
+      "name": "Ice Sheet I (A)",
       "Usage Cost": "154 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "Inflicts Magical Water Damage on up to 6 enemies within a selected area and reduces their Movement Speed for 20 seconds.",
       "Shards cost": 75
     },
     "37": {
       "id": 1517,
-      "name": "STR",
-      "icon": "Ice Sheet II (A)",
+      "name": "Ice Sheet II (A)",
       "Usage Cost": "213 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "Inflicts Magical Water Damage on up to 6 enemies within a selected area and reduces their Movement Speed for 20 seconds.",
       "Shards cost": 111
     },
     "49": {
       "id": 1600,
-      "name": "STR",
-      "icon": "Ice Sheet III (A)",
+      "name": "Ice Sheet III (A)",
       "Usage Cost": "279 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "Inflicts Magical Water Damage on up to 6 enemies within a selected area and reduces their Movement Speed for 20 seconds.",
       "Shards cost": 147
     },
     "55": {
       "id": 2212,
-      "name": "STR",
-      "icon": "Ice Sheet IV (A)",
+      "name": "Ice Sheet IV (A)",
       "Usage Cost": "323 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "Inflicts Magical Water Damage on up to 6 enemies within a selected area and reduces their Movement Speed for 20 seconds.",
       "Shards cost": 165
@@ -278,46 +263,42 @@
     "Skill type": "Normal",
     "Target": "Specified Location",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement",
-      "Cibles Max = 1"
+      "Can jumpshot",
+      "Can use while moving",
+      "Max targets = 1"
     ],
     "25": {
       "id": 1481,
-      "name": "STR",
-      "icon": "Ice Sheet I (E)",
+      "name": "Ice Sheet I (E)",
       "Usage Cost": "154 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "Inflicts Magical Water Damage on up to 6 enemies within a selected area and reduces their Movement Speed for 20 seconds.",
       "Shards cost": 75
     },
     "37": {
       "id": 1516,
-      "name": "STR",
-      "icon": "Ice Sheet II (E)",
+      "name": "Ice Sheet II (E)",
       "Usage Cost": "213 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "Inflicts Magical Water Damage on up to 6 enemies within a selected area and reduces their Movement Speed for 20 seconds.",
       "Shards cost": 111
     },
     "49": {
       "id": 1599,
-      "name": "STR",
-      "icon": "Ice Sheet III (E)",
+      "name": "Ice Sheet III (E)",
       "Usage Cost": "279 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "Deals Magical Water Damage to up to 6 enemies within a selected area of effect and reduces their Movement Speeds for 20 seconds.",
       "Shards cost": 147
     },
     "55": {
       "id": 2211,
-      "name": "STR",
-      "icon": "Ice Sheet IV (E)",
+      "name": "Ice Sheet IV (E)",
       "Usage Cost": "323 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "Deals Magical Water Damage to up to 6 enemies within a selected area of effect and reduces their Movement Speeds for 20 seconds.",
       "Shards cost": 165
@@ -333,14 +314,13 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "54": {
       "id": 1431,
-      "name": "STR",
-      "icon": "Exchange Vitality I",
-      "Cast time": "Instantané",
+      "name": "Exchange Vitality I",
+      "Cast time": "Cast Instantly",
       "Cooldown": "600",
       "Description": "Exchanges your current HP with your MP.",
       "Shards cost": 162
@@ -356,12 +336,11 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Jumpshot Possible"
+      "Can jumpshot"
     ],
     "48": {
       "id": 1597,
-      "name": "STR",
-      "icon": "Barrier of Severance I",
+      "name": "Barrier of Severance I",
       "Usage Cost": "217 MP",
       "Cast time": "2 sec",
       "Cooldown": "300",
@@ -379,15 +358,14 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "55": {
       "id": 1433,
-      "name": "STR",
-      "icon": "Wintry Armor I",
+      "name": "Wintry Armor I",
       "Usage Cost": "749 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "300",
       "Description": "If an enemy within a 5m radius attacks you, you reflect 1000 damage to the enemy for 30s and slows its Movement Speed and Attack Speed for 2 sec.",
       "Abyss point": 152700,
@@ -404,15 +382,14 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "44": {
       "id": 1588,
-      "name": "STR",
-      "icon": "Boon of Quickness I",
+      "name": "Boon of Quickness I",
       "Usage Cost": "201 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "300",
       "Description": "Reduces the casting time of all your magic skills by 50% for 15s.",
       "Shards cost": 132
@@ -428,15 +405,14 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "44": {
       "id": 1587,
-      "name": "STR",
-      "icon": "Boon of Strength I",
+      "name": "Boon of Strength I",
       "Usage Cost": "201 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "300",
       "Description": "Increases your Magic Boost by 500 and Magic Accuracy by 500 for 15s.",
       "Shards cost": 132
@@ -452,15 +428,14 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "45": {
       "id": 1440,
-      "name": "STR",
-      "icon": "Illusion I",
+      "name": "Illusion I",
       "Usage Cost": "274 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "120",
       "Description": "Removes 1 physical debuff and allows the caster to evade 2 Physical Attacks for 10s.",
       "Abyss point": 13750,
@@ -480,16 +455,15 @@
     "Skill type": "Normal",
     "Target": "Area within a Radius of Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement",
-      "Cibles Max = 6"
+      "Can jumpshot",
+      "Can use while moving",
+      "Max targets = 6"
     ],
     "45": {
       "id": 1439,
-      "name": "STR",
-      "icon": "Illusion Storm I",
+      "name": "Illusion Storm I",
       "Usage Cost": "548 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "300",
       "Description": "Inflicts 579 fire damage on up to 6 targets within a 10m radius. Targets are stunned for 4s.",
       "Abyss point": 13750,
@@ -497,10 +471,9 @@
     },
     "48": {
       "id": 2184,
-      "name": "STR",
-      "icon": "Illusion Storm II",
+      "name": "Illusion Storm II",
       "Usage Cost": "578 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "300",
       "Description": "Inflicts 607 fire damage on up to 6 targets within a 10m radius. Targets are stunned for 4s.",
       "Abyss point": 26500,
@@ -508,10 +481,9 @@
     },
     "51": {
       "id": 2188,
-      "name": "STR",
-      "icon": "Illusion Storm III",
+      "name": "Illusion Storm III",
       "Usage Cost": "616 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "300",
       "Description": "Inflicts 649 fire damage on up to 6 targets within a 10m radius. Targets are stunned for 4s.",
       "Abyss point": 34500,
@@ -519,10 +491,9 @@
     },
     "54": {
       "id": 2205,
-      "name": "STR",
-      "icon": "Illusion Storm IV",
+      "name": "Illusion Storm IV",
       "Usage Cost": "669 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "300",
       "Description": "Inflicts 702 fire damage on up to 6 targets within a 10m radius. Targets are stunned for 4s.",
       "Abyss point": 45700,
@@ -541,13 +512,12 @@
     "Skill type": "Normal",
     "Target": "Area within a Radius of Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Cibles Max = 6"
+      "Can jumpshot",
+      "Max targets = 6"
     ],
     "34": {
       "id": 1484,
-      "name": "STR",
-      "icon": "Fire Burst I",
+      "name": "Fire Burst I",
       "Usage Cost": "181 MP",
       "Cast time": "2 sec",
       "Cooldown": "12",
@@ -556,8 +526,7 @@
     },
     "46": {
       "id": 1485,
-      "name": "STR",
-      "icon": "Fire Burst II",
+      "name": "Fire Burst II",
       "Usage Cost": "231 MP",
       "Cast time": "2 sec",
       "Cooldown": "12",
@@ -566,8 +535,7 @@
     },
     "52": {
       "id": 1486,
-      "name": "STR",
-      "icon": "Fire Burst III",
+      "name": "Fire Burst III",
       "Usage Cost": "261 MP",
       "Cast time": "2 sec",
       "Cooldown": "12",
@@ -588,16 +556,15 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement",
-      "Dégâts en PVP = 80%"
+      "Can jumpshot",
+      "Can use while moving",
+      "Damage in PVP = 80%"
     ],
     "45": {
       "id": 1441,
-      "name": "STR",
-      "icon": "Summon Rock I",
+      "name": "Summon Rock I",
       "Usage Cost": "412 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "120",
       "Description": "Inflicts 870 earth damage on a target within a 25m radius.",
       "Abyss point": 13750,
@@ -605,10 +572,9 @@
     },
     "48": {
       "id": 2186,
-      "name": "STR",
-      "icon": "Summon Rock II",
+      "name": "Summon Rock II",
       "Usage Cost": "433 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "120",
       "Description": "Inflicts 910 earth damage on a target within a 25m radius.",
       "Abyss point": 26500,
@@ -616,10 +582,9 @@
     },
     "51": {
       "id": 2190,
-      "name": "STR",
-      "icon": "Summon Rock III",
+      "name": "Summon Rock III",
       "Usage Cost": "462 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "120",
       "Description": "Inflicts 974 earth damage on a target within a 25m radius.",
       "Abyss point": 34500,
@@ -627,10 +592,9 @@
     },
     "54": {
       "id": 2207,
-      "name": "STR",
-      "icon": "Summon Rock IV",
+      "name": "Summon Rock IV",
       "Usage Cost": "502 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "120",
       "Description": "Inflicts 1053 earth damage on a target within a 25m radius.",
       "Abyss point": 45700,
@@ -647,15 +611,13 @@
     "Skill type": "Normal",
     "Target": "Area within a Radius of Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Temps d'incantation non modifiable",
-      "Durée en PVP = 40%",
-      "Cibles Max = 6"
+      "Can jumpshot",
+      "Duration in PVP = 40%",
+      "Max targets = 6"
     ],
     "50": {
       "id": 1443,
-      "name": "STR",
-      "icon": "Sleeping Storm I",
+      "name": "Sleeping Storm I",
       "Usage Cost": "522 MP",
       "Cast time": "1 sec",
       "Cooldown": "180",
@@ -674,15 +636,14 @@
     "Skill type": "Normal",
     "Target": "Self",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "45": {
       "id": 1442,
-      "name": "STR",
-      "icon": "Supplication of Focus I",
+      "name": "Supplication of Focus I",
       "Usage Cost": "136 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "120",
       "Description": "Increases Magic Accuracy by 1000 for 20s.",
       "Abyss point": 13750,
@@ -699,13 +660,12 @@
     "Skill type": "Normal",
     "Target": "Area within a Radius of Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Cibles Max = 6"
+      "Can jumpshot",
+      "Max targets = 6"
     ],
     "45": {
       "id": 1450,
-      "name": "STR",
-      "icon": "Ancestral Lava Tsunami I",
+      "name": "Ancestral Lava Tsunami I",
       "Usage Cost": "506 MP",
       "Cast time": "2 sec",
       "Cooldown": "60",
@@ -723,13 +683,12 @@
     "Skill type": "Normal",
     "Target": "Area within a Radius of Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Cibles Max = 6"
+      "Can jumpshot",
+      "Max targets = 6"
     ],
     "45": {
       "id": 1449,
-      "name": "STR",
-      "icon": "Ancestral Magma Eruption I",
+      "name": "Ancestral Magma Eruption I",
       "Usage Cost": "506 MP",
       "Cast time": "2 sec",
       "Cooldown": "60",
@@ -748,12 +707,11 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible"
+      "Can jumpshot"
     ],
     "45": {
       "id": 1446,
-      "name": "STR",
-      "icon": "Ice Harpoon I",
+      "name": "Ice Harpoon I",
       "Usage Cost": "284 MP",
       "Cast time": "2.5 sec",
       "Cooldown": "6",
@@ -762,8 +720,7 @@
     },
     "51": {
       "id": 2192,
-      "name": "STR",
-      "icon": "Ice Harpoon II",
+      "name": "Ice Harpoon II",
       "Usage Cost": "323 MP",
       "Cast time": "2.5 sec",
       "Cooldown": "6",
@@ -781,13 +738,12 @@
     "Skill type": "Normal",
     "Target": "Area within a Radius of Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Cibles Max = 6"
+      "Can jumpshot",
+      "Max targets = 6"
     ],
     "50": {
       "id": 1448,
-      "name": "STR",
-      "icon": "Lava Tempest I",
+      "name": "Lava Tempest I",
       "Usage Cost": "570 MP",
       "Cast time": "2 sec",
       "Cooldown": "60",
@@ -805,13 +761,12 @@
     "Skill type": "Normal",
     "Target": "Area within a Radius of Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Cibles Max = 6"
+      "Can jumpshot",
+      "Max targets = 6"
     ],
     "50": {
       "id": 1447,
-      "name": "STR",
-      "icon": "Big Magma Eruption I",
+      "name": "Big Magma Eruption I",
       "Usage Cost": "570 MP",
       "Cast time": "2 sec",
       "Cooldown": "60",
@@ -830,12 +785,11 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible"
+      "Can jumpshot"
     ],
     "52": {
       "id": 1428,
-      "name": "STR",
-      "icon": "Arcane Thunderbolt I",
+      "name": "Arcane Thunderbolt I",
       "Usage Cost": "405 MP",
       "Cast time": "1 sec",
       "Cooldown": "150",
@@ -845,8 +799,7 @@
     },
     "55": {
       "id": 1429,
-      "name": "STR",
-      "icon": "Arcane Thunderbolt II",
+      "name": "Arcane Thunderbolt II",
       "Usage Cost": "426 MP",
       "Cast time": "1 sec",
       "Cooldown": "150",
@@ -866,25 +819,23 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "43": {
       "id": 2292,
-      "name": "STR",
-      "icon": "Summon Whirlwind I (A)",
+      "name": "Summon Whirlwind I (A)",
       "Usage Cost": "658 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "Summons a tempest that inflicts continuous Magical Wind Damage to and stuns enemies within a 10m radius around the target within a 15m radius around you for 10 seconds.",
       "Shards cost": 129
     },
     "55": {
       "id": 2294,
-      "name": "STR",
-      "icon": "Summon Whirlwind II (A)",
+      "name": "Summon Whirlwind II (A)",
       "Usage Cost": "853 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "Summons a tempest that inflicts continuous Magical Wind Damage to and stuns enemies within a 10m radius around the target within a 15m radius around you for 10 seconds.",
       "Shards cost": 165
@@ -901,25 +852,23 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Utilisable en Mouvement"
+      "Can jumpshot",
+      "Can use while moving"
     ],
     "43": {
       "id": 2291,
-      "name": "STR",
-      "icon": "Summon Whirlwind I (E)",
+      "name": "Summon Whirlwind I (E)",
       "Usage Cost": "658 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "Summons a tempest that inflicts continuous Magical Wind Damage to and stuns enemies within a 10m radius around the target within a 15m radius around you for 10 seconds.",
       "Shards cost": 129
     },
     "55": {
       "id": 2293,
-      "name": "STR",
-      "icon": "Summon Whirlwind II (E)",
+      "name": "Summon Whirlwind II (E)",
       "Usage Cost": "853 MP",
-      "Cast time": "Instantané",
+      "Cast time": "Cast Instantly",
       "Cooldown": "180",
       "Description": "Summons a tempest that inflicts continuous Magical Wind Damage to and stuns enemies within a 10m radius around the target within a 15m radius around you for 10 seconds.",
       "Shards cost": 165
@@ -939,12 +888,11 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible"
+      "Can jumpshot"
     ],
     "31": {
       "id": 1435,
-      "name": "STR",
-      "icon": "Wind Cut Down I",
+      "name": "Wind Cut Down I",
       "Usage Cost": "200 MP",
       "Cast time": "1.5 sec",
       "Cooldown": "16",
@@ -953,8 +901,7 @@
     },
     "37": {
       "id": 1436,
-      "name": "STR",
-      "icon": "Wind Cut Down II",
+      "name": "Wind Cut Down II",
       "Usage Cost": "223 MP",
       "Cast time": "1.5 sec",
       "Cooldown": "16",
@@ -963,8 +910,7 @@
     },
     "43": {
       "id": 1437,
-      "name": "STR",
-      "icon": "Wind Cut Down III",
+      "name": "Wind Cut Down III",
       "Usage Cost": "262 MP",
       "Cast time": "1.5 sec",
       "Cooldown": "16",
@@ -973,8 +919,7 @@
     },
     "49": {
       "id": 1438,
-      "name": "STR",
-      "icon": "Wind Cut Down IV",
+      "name": "Wind Cut Down IV",
       "Usage Cost": "292 MP",
       "Cast time": "1.5 sec",
       "Cooldown": "16",
@@ -983,8 +928,7 @@
     },
     "55": {
       "id": 2213,
-      "name": "STR",
-      "icon": "Wind Cut Down V",
+      "name": "Wind Cut Down V",
       "Usage Cost": "341 MP",
       "Cast time": "1.5 sec",
       "Cooldown": "16",
@@ -1002,13 +946,12 @@
     "Skill type": "Normal",
     "Target": "Selected Target",
     "Additional info": [
-      "Jumpshot Possible",
-      "Dégâts en PVP = 65%"
+      "Can jumpshot",
+      "Damage in PVP = 65%"
     ],
     "55": {
       "id": 1434,
-      "name": "STR",
-      "icon": "Glacial Shard I",
+      "name": "Glacial Shard I",
       "Usage Cost": "1194 MP",
       "Cast time": "4 sec",
       "Cooldown": "60",
