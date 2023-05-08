@@ -70,10 +70,10 @@ export class Templar implements CharacterStigmas {
     graph.addDependency("kn_destructshield", "kn_destructwish");
     graph.addDependency("kn_destructshield", "kn_fortitudewave");
 
-    graph.addDependency("kn_sentinel", "kn_massiveprovoke");
-    graph.addDependency("kn_sentinel", "kn_grandprotection");
-
+    graph.addDependency("kn_recover", "kn_massiveprovoke");
     graph.addDependency("kn_recover", "kn_highprovoke");
+
+    graph.addDependency("kn_sentinel", "kn_grandprotection");
 
     graph.addDependency("kn_invinsibleshield", "kn_sentinel");
     graph.addDependency("kn_invinsibleshield", "kn_recover");
