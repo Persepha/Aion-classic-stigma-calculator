@@ -62,7 +62,7 @@ export class Templar implements CharacterStigmas {
     graph.addDependency("kn_powersink", "kn_holywrath");
 
     graph.addDependency("kn_destructwish", "kn_brainstorm");
-    graph.addDependency("kn_destructwish", "kn_holywrath");
+    graph.addDependency("kn_destructwish", "kn_powersink");
 
     graph.addDependency("kn_fortitudewave", "kn_breakpower");
     graph.addDependency("kn_fortitudewave", "kn_holywrath");
